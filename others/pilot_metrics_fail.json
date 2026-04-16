@@ -1,0 +1,1191 @@
+{
+  "run_at": "2026-04-16T16:21:42Z",
+  "total_files": 25,
+  "total_run_time_s": 1009.38,
+  "files": [
+    {
+      "input_file": "/home/ubuntu/veritas_project/batch6_input/6/F02010013_kuih_lapis_steamed_multi_layered_tapioca_and_coconut_milk_ku.json",
+      "final_decision": "PASS",
+      "iterations_used": 1,
+      "pass_iteration": 1,
+      "pass_llm": "claude",
+      "total_wall_time_s": 87.07,
+      "total_input_tokens": 13426,
+      "total_output_tokens": 4637,
+      "total_cost_usd": 0.109833,
+      "iterations": [
+        {
+          "iteration": 1,
+          "llm": "claude",
+          "wall_time_s": 87.05,
+          "input_tokens": 13426,
+          "output_tokens": 4637,
+          "cost_usd": 0.109833,
+          "decision": "PASS",
+          "score_total": 8,
+          "failure_reasons": []
+        }
+      ],
+      "error": null
+    },
+    {
+      "input_file": "/home/ubuntu/veritas_project/batch6_input/6/F02020001_bingsu_korean_shaved_ice_dessert_patbingsu_with_red_bean_moc.json",
+      "final_decision": "PASS",
+      "iterations_used": 1,
+      "pass_iteration": 1,
+      "pass_llm": "claude",
+      "total_wall_time_s": 93.71,
+      "total_input_tokens": 13218,
+      "total_output_tokens": 4914,
+      "total_cost_usd": 0.113364,
+      "iterations": [
+        {
+          "iteration": 1,
+          "llm": "claude",
+          "wall_time_s": 93.7,
+          "input_tokens": 13218,
+          "output_tokens": 4914,
+          "cost_usd": 0.113364,
+          "decision": "PASS",
+          "score_total": 8,
+          "failure_reasons": []
+        }
+      ],
+      "error": null
+    },
+    {
+      "input_file": "/home/ubuntu/veritas_project/batch6_input/6/F02010014_bengawan_solo_pandan_chiffon_cake_1_slice_80g_serving.json",
+      "final_decision": "PASS",
+      "iterations_used": 2,
+      "pass_iteration": 2,
+      "pass_llm": "gemini",
+      "total_wall_time_s": 121.41,
+      "total_input_tokens": 30671,
+      "total_output_tokens": 9573,
+      "total_cost_usd": 0.117239,
+      "iterations": [
+        {
+          "iteration": 1,
+          "llm": "claude",
+          "wall_time_s": 97.42,
+          "input_tokens": 12552,
+          "output_tokens": 4939,
+          "cost_usd": 0.111741,
+          "decision": "FAIL",
+          "score_total": 7,
+          "failure_reasons": [
+            "q8_aliases_and_multilingual_synonym_coverage: aliases_by_language entries missing from flat aliases"
+          ]
+        },
+        {
+          "iteration": 2,
+          "llm": "gemini",
+          "wall_time_s": 23.98,
+          "input_tokens": 18119,
+          "output_tokens": 4634,
+          "cost_usd": 0.005498,
+          "decision": "PASS",
+          "score_total": 8,
+          "failure_reasons": []
+        }
+      ],
+      "error": null
+    },
+    {
+      "input_file": "/home/ubuntu/veritas_project/batch6_input/6/F01080003_yogurt_plain_full_fat_natural_unsweetened_150g_serving.json",
+      "final_decision": "PASS",
+      "iterations_used": 2,
+      "pass_iteration": 2,
+      "pass_llm": "gemini",
+      "total_wall_time_s": 123.25,
+      "total_input_tokens": 34398,
+      "total_output_tokens": 9912,
+      "total_cost_usd": 0.124617,
+      "iterations": [
+        {
+          "iteration": 1,
+          "llm": "claude",
+          "wall_time_s": 96.48,
+          "input_tokens": 14363,
+          "output_tokens": 5040,
+          "cost_usd": 0.118689,
+          "decision": "FAIL",
+          "score_total": 7,
+          "failure_reasons": [
+            "q8_aliases_and_multilingual_synonym_coverage: aliases_by_language entries missing from flat aliases"
+          ]
+        },
+        {
+          "iteration": 2,
+          "llm": "gemini",
+          "wall_time_s": 26.75,
+          "input_tokens": 20035,
+          "output_tokens": 4872,
+          "cost_usd": 0.005928,
+          "decision": "PASS",
+          "score_total": 8,
+          "failure_reasons": []
+        }
+      ],
+      "error": null
+    },
+    {
+      "input_file": "/home/ubuntu/veritas_project/batch6_input/6/F02020005_ice_cream_vanilla_2_scoops_100g_standard_caf_scoop_full_fat_.json",
+      "final_decision": "PASS",
+      "iterations_used": 2,
+      "pass_iteration": 2,
+      "pass_llm": "gemini",
+      "total_wall_time_s": 115.26,
+      "total_input_tokens": 29434,
+      "total_output_tokens": 8232,
+      "total_cost_usd": 0.106431,
+      "iterations": [
+        {
+          "iteration": 1,
+          "llm": "claude",
+          "wall_time_s": 93.66,
+          "input_tokens": 12174,
+          "output_tokens": 4332,
+          "cost_usd": 0.101502,
+          "decision": "REJECT",
+          "score_total": 5,
+          "failure_reasons": [
+            "g6_multilingual_naming_compliance: mandatory local name missing for language: hindi",
+            "g6_multilingual_naming_compliance: mandatory local name missing for language: tamil",
+            "q1_food_identity: mandatory local-language identity is incomplete",
+            "q4_glycemic_completeness: gi_category 'medium' does not match glycemic_index 51 (expected low)",
+            "q8_aliases_and_multilingual_synonym_coverage: mandatory alias coverage missing for: hindi, tamil"
+          ]
+        },
+        {
+          "iteration": 2,
+          "llm": "gemini",
+          "wall_time_s": 21.6,
+          "input_tokens": 17260,
+          "output_tokens": 3900,
+          "cost_usd": 0.004929,
+          "decision": "PASS",
+          "score_total": 8,
+          "failure_reasons": []
+        }
+      ],
+      "error": null
+    },
+    {
+      "input_file": "/home/ubuntu/veritas_project/batch6_input/6/F02030009_mango_pudding_cantonese_agar_based_chilled_dessert.json",
+      "final_decision": "PASS",
+      "iterations_used": 1,
+      "pass_iteration": 1,
+      "pass_llm": "claude",
+      "total_wall_time_s": 82.24,
+      "total_input_tokens": 12412,
+      "total_output_tokens": 4469,
+      "total_cost_usd": 0.104271,
+      "iterations": [
+        {
+          "iteration": 1,
+          "llm": "claude",
+          "wall_time_s": 82.24,
+          "input_tokens": 12412,
+          "output_tokens": 4469,
+          "cost_usd": 0.104271,
+          "decision": "PASS",
+          "score_total": 8,
+          "failure_reasons": []
+        }
+      ],
+      "error": null
+    },
+    {
+      "input_file": "/home/ubuntu/veritas_project/batch6_input/6/F02020002_chendol_pandan_mung_bean_jelly_dessert_pandan_flavoured_mung.json",
+      "final_decision": "PASS",
+      "iterations_used": 3,
+      "pass_iteration": 3,
+      "pass_llm": "claude",
+      "total_wall_time_s": 208.33,
+      "total_input_tokens": 53110,
+      "total_output_tokens": 13928,
+      "total_cost_usd": 0.254844,
+      "iterations": [
+        {
+          "iteration": 1,
+          "llm": "claude",
+          "wall_time_s": 100.15,
+          "input_tokens": 14232,
+          "output_tokens": 5178,
+          "cost_usd": 0.120366,
+          "decision": "REJECT",
+          "score_total": 5,
+          "failure_reasons": [
+            "g6_multilingual_naming_compliance: mandatory local name missing for language: indonesian",
+            "q1_food_identity: mandatory local-language identity is incomplete",
+            "q4_glycemic_completeness: gi_category 'medium' does not match glycemic_index 55 (expected low)",
+            "q8_aliases_and_multilingual_synonym_coverage: mandatory alias coverage missing for: indonesian"
+          ]
+        },
+        {
+          "iteration": 2,
+          "llm": "gemini",
+          "wall_time_s": 25.96,
+          "input_tokens": 20142,
+          "output_tokens": 3889,
+          "cost_usd": 0.005355,
+          "decision": "REJECT",
+          "score_total": 8,
+          "failure_reasons": [
+            "g1_valid_json_and_template: missing top-level sections: veritas_qc"
+          ]
+        },
+        {
+          "iteration": 3,
+          "llm": "claude",
+          "wall_time_s": 82.19,
+          "input_tokens": 18736,
+          "output_tokens": 4861,
+          "cost_usd": 0.129123,
+          "decision": "PASS",
+          "score_total": 8,
+          "failure_reasons": []
+        }
+      ],
+      "error": null
+    },
+    {
+      "input_file": "/home/ubuntu/veritas_project/batch6_input/6/F02030006_grass_jelly_xiancao_black_herbal_jelly_made_from_platostoma_.json",
+      "final_decision": "PASS",
+      "iterations_used": 1,
+      "pass_iteration": 1,
+      "pass_llm": "claude",
+      "total_wall_time_s": 93.06,
+      "total_input_tokens": 12750,
+      "total_output_tokens": 4210,
+      "total_cost_usd": 0.1014,
+      "iterations": [
+        {
+          "iteration": 1,
+          "llm": "claude",
+          "wall_time_s": 93.05,
+          "input_tokens": 12750,
+          "output_tokens": 4210,
+          "cost_usd": 0.1014,
+          "decision": "PASS",
+          "score_total": 8,
+          "failure_reasons": []
+        }
+      ],
+      "error": null
+    },
+    {
+      "input_file": "/home/ubuntu/veritas_project/batch6_input/6/F02020015_singapore_ice_cream_wafer_sandwich_local_street_ice_cream_1_.json",
+      "final_decision": "PASS",
+      "iterations_used": 3,
+      "pass_iteration": 3,
+      "pass_llm": "claude",
+      "total_wall_time_s": 225.22,
+      "total_input_tokens": 45333,
+      "total_output_tokens": 11143,
+      "total_cost_usd": 0.212063,
+      "iterations": [
+        {
+          "iteration": 1,
+          "llm": "claude",
+          "wall_time_s": 116.08,
+          "input_tokens": 12324,
+          "output_tokens": 4344,
+          "cost_usd": 0.102132,
+          "decision": "REJECT",
+          "score_total": 0,
+          "failure_reasons": [
+            "invalid JSON: Unterminated string starting at: line 135 column 5 (char 17287)"
+          ]
+        },
+        {
+          "iteration": 2,
+          "llm": "gemini",
+          "wall_time_s": 22.26,
+          "input_tokens": 16942,
+          "output_tokens": 2972,
+          "cost_usd": 0.004325,
+          "decision": "REJECT",
+          "score_total": 5,
+          "failure_reasons": [
+            "g2_approved_source_compliance: gi_source: GI source is not from University of Sydney GI Database or a peer-reviewed journal",
+            "g2_approved_source_compliance: gi_source.source_match_type must be one of ['analogous_estimate', 'exact']",
+            "q2_core_macro_completeness_and_source_integrity: nutrient source is not compliant",
+            "q4_glycemic_completeness: GI source is not compliant",
+            "q8_aliases_and_multilingual_synonym_coverage: aliases_by_language entries missing from flat aliases"
+          ]
+        },
+        {
+          "iteration": 3,
+          "llm": "claude",
+          "wall_time_s": 86.87,
+          "input_tokens": 16067,
+          "output_tokens": 3827,
+          "cost_usd": 0.105606,
+          "decision": "PASS",
+          "score_total": 8,
+          "failure_reasons": []
+        }
+      ],
+      "error": null
+    },
+    {
+      "input_file": "/home/ubuntu/veritas_project/batch6_input/6/F02050003_black_sesame_soup_zhima_hu_thick_black_sesame_paste_dessert_.json",
+      "final_decision": "PASS",
+      "iterations_used": 2,
+      "pass_iteration": 2,
+      "pass_llm": "gemini",
+      "total_wall_time_s": 128.21,
+      "total_input_tokens": 32738,
+      "total_output_tokens": 10368,
+      "total_cost_usd": 0.124026,
+      "iterations": [
+        {
+          "iteration": 1,
+          "llm": "claude",
+          "wall_time_s": 102.58,
+          "input_tokens": 13480,
+          "output_tokens": 5172,
+          "cost_usd": 0.11802,
+          "decision": "FAIL",
+          "score_total": 7,
+          "failure_reasons": [
+            "q5_ontological_alignment: no ontology anchor present"
+          ]
+        },
+        {
+          "iteration": 2,
+          "llm": "gemini",
+          "wall_time_s": 25.63,
+          "input_tokens": 19258,
+          "output_tokens": 5196,
+          "cost_usd": 0.006006,
+          "decision": "PASS",
+          "score_total": 8,
+          "failure_reasons": []
+        }
+      ],
+      "error": null
+    },
+    {
+      "input_file": "/home/ubuntu/veritas_project/batch6_input/6/F02050005_bubur_kacang_mung_bean_dessert_soup_with_coconut_milk_and_gu.json",
+      "final_decision": "PASS",
+      "iterations_used": 1,
+      "pass_iteration": 1,
+      "pass_llm": "claude",
+      "total_wall_time_s": 98.09,
+      "total_input_tokens": 13578,
+      "total_output_tokens": 5079,
+      "total_cost_usd": 0.116919,
+      "iterations": [
+        {
+          "iteration": 1,
+          "llm": "claude",
+          "wall_time_s": 98.09,
+          "input_tokens": 13578,
+          "output_tokens": 5079,
+          "cost_usd": 0.116919,
+          "decision": "PASS",
+          "score_total": 8,
+          "failure_reasons": []
+        }
+      ],
+      "error": null
+    },
+    {
+      "input_file": "/home/ubuntu/veritas_project/batch6_input/6/F02040003_mango_sticky_rice_khao_niao_mamuang_1_serving_150g_glutinous.json",
+      "final_decision": "PASS",
+      "iterations_used": 3,
+      "pass_iteration": 3,
+      "pass_llm": "claude",
+      "total_wall_time_s": 214.73,
+      "total_input_tokens": 49921,
+      "total_output_tokens": 14819,
+      "total_cost_usd": 0.249351,
+      "iterations": [
+        {
+          "iteration": 1,
+          "llm": "claude",
+          "wall_time_s": 94.49,
+          "input_tokens": 12926,
+          "output_tokens": 5009,
+          "cost_usd": 0.113913,
+          "decision": "REJECT",
+          "score_total": 7,
+          "failure_reasons": [
+            "g3_numeric_hygiene: per_100g.water_g = -1 but missing-data basis is not documented",
+            "q8_aliases_and_multilingual_synonym_coverage: aliases_by_language entries missing from flat aliases"
+          ]
+        },
+        {
+          "iteration": 2,
+          "llm": "gemini",
+          "wall_time_s": 26.24,
+          "input_tokens": 18607,
+          "output_tokens": 4838,
+          "cost_usd": 0.005694,
+          "decision": "REJECT",
+          "score_total": 8,
+          "failure_reasons": [
+            "g3_numeric_hygiene: per_100g.water_g = -1 but missing-data basis is not documented"
+          ]
+        },
+        {
+          "iteration": 3,
+          "llm": "claude",
+          "wall_time_s": 94.0,
+          "input_tokens": 18388,
+          "output_tokens": 4972,
+          "cost_usd": 0.129744,
+          "decision": "PASS",
+          "score_total": 8,
+          "failure_reasons": []
+        }
+      ],
+      "error": null
+    },
+    {
+      "input_file": "/home/ubuntu/veritas_project/batch6_input/6/F02050004_bubur_cha_cha_mixed_yam_sweet_potato_sago_coconut_milk_desse.json",
+      "final_decision": "PASS",
+      "iterations_used": 3,
+      "pass_iteration": 3,
+      "pass_llm": "claude",
+      "total_wall_time_s": 218.72,
+      "total_input_tokens": 50722,
+      "total_output_tokens": 14957,
+      "total_cost_usd": 0.252877,
+      "iterations": [
+        {
+          "iteration": 1,
+          "llm": "claude",
+          "wall_time_s": 96.88,
+          "input_tokens": 13169,
+          "output_tokens": 5109,
+          "cost_usd": 0.116142,
+          "decision": "FAIL",
+          "score_total": 7,
+          "failure_reasons": [
+            "q8_aliases_and_multilingual_synonym_coverage: aliases_by_language entries missing from flat aliases"
+          ]
+        },
+        {
+          "iteration": 2,
+          "llm": "gemini",
+          "wall_time_s": 25.01,
+          "input_tokens": 18909,
+          "output_tokens": 4844,
+          "cost_usd": 0.005743,
+          "decision": "FAIL",
+          "score_total": 7,
+          "failure_reasons": [
+            "q8_aliases_and_multilingual_synonym_coverage: aliases_by_language entries missing from flat aliases"
+          ]
+        },
+        {
+          "iteration": 3,
+          "llm": "claude",
+          "wall_time_s": 96.83,
+          "input_tokens": 18644,
+          "output_tokens": 5004,
+          "cost_usd": 0.130992,
+          "decision": "PASS",
+          "score_total": 8,
+          "failure_reasons": []
+        }
+      ],
+      "error": null
+    },
+    {
+      "input_file": "/home/ubuntu/veritas_project/batch6_input/6/F02040001_a_a_bowl_singapore_caf_style_1_bowl_400g_frozen_a_a_pur_e_ba.json",
+      "final_decision": "FAIL",
+      "iterations_used": 3,
+      "pass_iteration": null,
+      "pass_llm": null,
+      "total_wall_time_s": 253.67,
+      "total_input_tokens": 50299,
+      "total_output_tokens": 15634,
+      "total_cost_usd": 0.259171,
+      "iterations": [
+        {
+          "iteration": 1,
+          "llm": "claude",
+          "wall_time_s": 107.93,
+          "input_tokens": 12843,
+          "output_tokens": 5405,
+          "cost_usd": 0.119604,
+          "decision": "REJECT",
+          "score_total": 7,
+          "failure_reasons": [
+            "g3_numeric_hygiene: per_100g.water_g = -1 but missing-data basis is not documented",
+            "q8_aliases_and_multilingual_synonym_coverage: aliases_by_language entries missing from flat aliases"
+          ]
+        },
+        {
+          "iteration": 2,
+          "llm": "gemini",
+          "wall_time_s": 26.96,
+          "input_tokens": 18919,
+          "output_tokens": 5022,
+          "cost_usd": 0.005851,
+          "decision": "REJECT",
+          "score_total": 7,
+          "failure_reasons": [
+            "g3_numeric_hygiene: per_100g.water_g = -1 but missing-data basis is not documented",
+            "q8_aliases_and_multilingual_synonym_coverage: aliases_by_language entries missing from flat aliases"
+          ]
+        },
+        {
+          "iteration": 3,
+          "llm": "claude",
+          "wall_time_s": 118.78,
+          "input_tokens": 18537,
+          "output_tokens": 5207,
+          "cost_usd": 0.133716,
+          "decision": "FAIL",
+          "score_total": 7,
+          "failure_reasons": [
+            "q8_aliases_and_multilingual_synonym_coverage: aliases_by_language entries missing from flat aliases"
+          ]
+        }
+      ],
+      "error": null
+    },
+    {
+      "input_file": "/home/ubuntu/veritas_project/batch6_input/6/F02050011_orh_nee_teochew_yam_paste_dessert_1_bowl_200g_steamed_yam_ma.json",
+      "final_decision": "PASS",
+      "iterations_used": 2,
+      "pass_iteration": 2,
+      "pass_llm": "gemini",
+      "total_wall_time_s": 114.55,
+      "total_input_tokens": 30256,
+      "total_output_tokens": 8947,
+      "total_cost_usd": 0.112042,
+      "iterations": [
+        {
+          "iteration": 1,
+          "llm": "claude",
+          "wall_time_s": 91.2,
+          "input_tokens": 12504,
+          "output_tokens": 4618,
+          "cost_usd": 0.106782,
+          "decision": "FAIL",
+          "score_total": 7,
+          "failure_reasons": [
+            "q8_aliases_and_multilingual_synonym_coverage: aliases_by_language entries missing from flat aliases"
+          ]
+        },
+        {
+          "iteration": 2,
+          "llm": "gemini",
+          "wall_time_s": 23.35,
+          "input_tokens": 17752,
+          "output_tokens": 4329,
+          "cost_usd": 0.00526,
+          "decision": "PASS",
+          "score_total": 8,
+          "failure_reasons": []
+        }
+      ],
+      "error": null
+    },
+    {
+      "input_file": "/home/ubuntu/veritas_project/batch6_input/6/F02050007_cheng_tng_teochew_clear_sweet_soup_longan_lotus_seeds_barley.json",
+      "final_decision": "PASS",
+      "iterations_used": 3,
+      "pass_iteration": 3,
+      "pass_llm": "claude",
+      "total_wall_time_s": 208.21,
+      "total_input_tokens": 52819,
+      "total_output_tokens": 13879,
+      "total_cost_usd": 0.245698,
+      "iterations": [
+        {
+          "iteration": 1,
+          "llm": "claude",
+          "wall_time_s": 92.28,
+          "input_tokens": 14055,
+          "output_tokens": 4807,
+          "cost_usd": 0.11427,
+          "decision": "FAIL",
+          "score_total": 6,
+          "failure_reasons": [
+            "q4_glycemic_completeness: gi_category 'medium' does not match glycemic_index 55 (expected low)",
+            "q8_aliases_and_multilingual_synonym_coverage: aliases_by_language entries missing from flat aliases"
+          ]
+        },
+        {
+          "iteration": 2,
+          "llm": "gemini",
+          "wall_time_s": 25.01,
+          "input_tokens": 19548,
+          "output_tokens": 4530,
+          "cost_usd": 0.00565,
+          "decision": "FAIL",
+          "score_total": 7,
+          "failure_reasons": [
+            "q8_aliases_and_multilingual_synonym_coverage: aliases_by_language entries missing from flat aliases"
+          ]
+        },
+        {
+          "iteration": 3,
+          "llm": "claude",
+          "wall_time_s": 90.91,
+          "input_tokens": 19216,
+          "output_tokens": 4542,
+          "cost_usd": 0.125778,
+          "decision": "PASS",
+          "score_total": 8,
+          "failure_reasons": []
+        }
+      ],
+      "error": null
+    },
+    {
+      "input_file": "/home/ubuntu/veritas_project/batch6_input/6/F02050015_pulut_hitam_black_glutinous_rice_pudding_with_coconut_milk_1.json",
+      "final_decision": "PASS",
+      "iterations_used": 2,
+      "pass_iteration": 2,
+      "pass_llm": "gemini",
+      "total_wall_time_s": 121.96,
+      "total_input_tokens": 33985,
+      "total_output_tokens": 9990,
+      "total_cost_usd": 0.12391,
+      "iterations": [
+        {
+          "iteration": 1,
+          "llm": "claude",
+          "wall_time_s": 96.05,
+          "input_tokens": 14105,
+          "output_tokens": 5043,
+          "cost_usd": 0.11796,
+          "decision": "REJECT",
+          "score_total": 5,
+          "failure_reasons": [
+            "g6_multilingual_naming_compliance: mandatory local name missing for language: thai",
+            "q1_food_identity: mandatory local-language identity is incomplete",
+            "q4_glycemic_completeness: gi_category 'medium' does not match glycemic_index 55 (expected low)",
+            "q8_aliases_and_multilingual_synonym_coverage: aliases_by_language entries missing from flat aliases"
+          ]
+        },
+        {
+          "iteration": 2,
+          "llm": "gemini",
+          "wall_time_s": 25.91,
+          "input_tokens": 19880,
+          "output_tokens": 4947,
+          "cost_usd": 0.00595,
+          "decision": "PASS",
+          "score_total": 8,
+          "failure_reasons": []
+        }
+      ],
+      "error": null
+    },
+    {
+      "input_file": "/home/ubuntu/veritas_project/batch6_input/6/F02050017_red_bean_soup_sweet_with_sago_rock_sugar_chinese_style.json",
+      "final_decision": "PASS",
+      "iterations_used": 1,
+      "pass_iteration": 1,
+      "pass_llm": "claude",
+      "total_wall_time_s": 105.67,
+      "total_input_tokens": 13727,
+      "total_output_tokens": 4812,
+      "total_cost_usd": 0.113361,
+      "iterations": [
+        {
+          "iteration": 1,
+          "llm": "claude",
+          "wall_time_s": 105.66,
+          "input_tokens": 13727,
+          "output_tokens": 4812,
+          "cost_usd": 0.113361,
+          "decision": "PASS",
+          "score_total": 8,
+          "failure_reasons": []
+        }
+      ],
+      "error": null
+    },
+    {
+      "input_file": "/home/ubuntu/veritas_project/batch6_input/6/F02050019_peanut_soup_huasheng_tang_cantonese_sweet_groundnut_dessert_.json",
+      "final_decision": "PASS",
+      "iterations_used": 3,
+      "pass_iteration": 3,
+      "pass_llm": "claude",
+      "total_wall_time_s": 227.14,
+      "total_input_tokens": 48167,
+      "total_output_tokens": 15223,
+      "total_cost_usd": 0.251326,
+      "iterations": [
+        {
+          "iteration": 1,
+          "llm": "claude",
+          "wall_time_s": 96.48,
+          "input_tokens": 12305,
+          "output_tokens": 5133,
+          "cost_usd": 0.11391,
+          "decision": "FAIL",
+          "score_total": 6,
+          "failure_reasons": [
+            "q5_ontological_alignment: no ontology anchor present",
+            "q8_aliases_and_multilingual_synonym_coverage: aliases_by_language entries missing from flat aliases"
+          ]
+        },
+        {
+          "iteration": 2,
+          "llm": "gemini",
+          "wall_time_s": 26.94,
+          "input_tokens": 18093,
+          "output_tokens": 4858,
+          "cost_usd": 0.005629,
+          "decision": "FAIL",
+          "score_total": 7,
+          "failure_reasons": [
+            "q5_ontological_alignment: no ontology anchor present"
+          ]
+        },
+        {
+          "iteration": 3,
+          "llm": "claude",
+          "wall_time_s": 103.71,
+          "input_tokens": 17769,
+          "output_tokens": 5232,
+          "cost_usd": 0.131787,
+          "decision": "PASS",
+          "score_total": 8,
+          "failure_reasons": []
+        }
+      ],
+      "error": null
+    },
+    {
+      "input_file": "/home/ubuntu/veritas_project/batch6_input/6/F02050021_tau_suan_split_mung_bean_sweet_soup_with_you_tiao_1_bowl_320.json",
+      "final_decision": "PASS",
+      "iterations_used": 3,
+      "pass_iteration": 3,
+      "pass_llm": "claude",
+      "total_wall_time_s": 233.25,
+      "total_input_tokens": 48978,
+      "total_output_tokens": 15572,
+      "total_cost_usd": 0.252839,
+      "iterations": [
+        {
+          "iteration": 1,
+          "llm": "claude",
+          "wall_time_s": 103.99,
+          "input_tokens": 12407,
+          "output_tokens": 5224,
+          "cost_usd": 0.115581,
+          "decision": "FAIL",
+          "score_total": 6,
+          "failure_reasons": [
+            "q5_ontological_alignment: no ontology anchor present",
+            "q8_aliases_and_multilingual_synonym_coverage: aliases_by_language entries missing from flat aliases"
+          ]
+        },
+        {
+          "iteration": 2,
+          "llm": "gemini",
+          "wall_time_s": 26.39,
+          "input_tokens": 18287,
+          "output_tokens": 5247,
+          "cost_usd": 0.005891,
+          "decision": "FAIL",
+          "score_total": 7,
+          "failure_reasons": [
+            "q8_aliases_and_multilingual_synonym_coverage: aliases_by_language entries missing from flat aliases"
+          ]
+        },
+        {
+          "iteration": 3,
+          "llm": "claude",
+          "wall_time_s": 102.87,
+          "input_tokens": 18284,
+          "output_tokens": 5101,
+          "cost_usd": 0.131367,
+          "decision": "PASS",
+          "score_total": 8,
+          "failure_reasons": []
+        }
+      ],
+      "error": null
+    },
+    {
+      "input_file": "/home/ubuntu/veritas_project/batch6_input/6/F03010002_salmon_sashimi_6_slices_6_slices_120g_raw_farmed_atlantic_sa.json",
+      "final_decision": "REJECT",
+      "iterations_used": 3,
+      "pass_iteration": null,
+      "pass_llm": null,
+      "total_wall_time_s": 223.65,
+      "total_input_tokens": 50139,
+      "total_output_tokens": 13980,
+      "total_cost_usd": 0.242405,
+      "iterations": [
+        {
+          "iteration": 1,
+          "llm": "claude",
+          "wall_time_s": 103.71,
+          "input_tokens": 13140,
+          "output_tokens": 4700,
+          "cost_usd": 0.10992,
+          "decision": "REJECT",
+          "score_total": 5,
+          "failure_reasons": [
+            "g2_approved_source_compliance: gi_source: GI source is not from University of Sydney GI Database or a peer-reviewed journal",
+            "g2_approved_source_compliance: gi_source.source_match_type must be one of ['analogous_estimate', 'exact']",
+            "q2_core_macro_completeness_and_source_integrity: nutrient source is not compliant",
+            "q4_glycemic_completeness: glycemic_index must be numeric",
+            "q8_aliases_and_multilingual_synonym_coverage: aliases_by_language entries missing from flat aliases"
+          ]
+        },
+        {
+          "iteration": 2,
+          "llm": "gemini",
+          "wall_time_s": 23.95,
+          "input_tokens": 18616,
+          "output_tokens": 4490,
+          "cost_usd": 0.005486,
+          "decision": "REJECT",
+          "score_total": 6,
+          "failure_reasons": [
+            "g2_approved_source_compliance: gi_source: GI source is not from University of Sydney GI Database or a peer-reviewed journal",
+            "g2_approved_source_compliance: gi_source.source_match_type must be one of ['analogous_estimate', 'exact']",
+            "q2_core_macro_completeness_and_source_integrity: nutrient source is not compliant",
+            "q4_glycemic_completeness: glycemic_index must be numeric"
+          ]
+        },
+        {
+          "iteration": 3,
+          "llm": "claude",
+          "wall_time_s": 95.98,
+          "input_tokens": 18383,
+          "output_tokens": 4790,
+          "cost_usd": 0.126999,
+          "decision": "REJECT",
+          "score_total": 6,
+          "failure_reasons": [
+            "g2_approved_source_compliance: gi_source: GI source is not from University of Sydney GI Database or a peer-reviewed journal",
+            "q2_core_macro_completeness_and_source_integrity: nutrient source is not compliant",
+            "q4_glycemic_completeness: glycemic_index must be numeric"
+          ]
+        }
+      ],
+      "error": null
+    },
+    {
+      "input_file": "/home/ubuntu/veritas_project/batch6_input/6/F03010001_dried_anchovies_ikan_bilis_fried_crispy_stolephorus_spp_3_tb.json",
+      "final_decision": "PASS",
+      "iterations_used": 3,
+      "pass_iteration": 3,
+      "pass_llm": "claude",
+      "total_wall_time_s": 256.98,
+      "total_input_tokens": 55767,
+      "total_output_tokens": 17046,
+      "total_cost_usd": 0.284955,
+      "iterations": [
+        {
+          "iteration": 1,
+          "llm": "claude",
+          "wall_time_s": 112.54,
+          "input_tokens": 14428,
+          "output_tokens": 5749,
+          "cost_usd": 0.129519,
+          "decision": "FAIL",
+          "score_total": 7,
+          "failure_reasons": [
+            "q8_aliases_and_multilingual_synonym_coverage: aliases_by_language entries missing from flat aliases"
+          ]
+        },
+        {
+          "iteration": 2,
+          "llm": "gemini",
+          "wall_time_s": 28.28,
+          "input_tokens": 20811,
+          "output_tokens": 5467,
+          "cost_usd": 0.006402,
+          "decision": "FAIL",
+          "score_total": 7,
+          "failure_reasons": [
+            "q8_aliases_and_multilingual_synonym_coverage: aliases_by_language entries missing from flat aliases"
+          ]
+        },
+        {
+          "iteration": 3,
+          "llm": "claude",
+          "wall_time_s": 116.17,
+          "input_tokens": 20528,
+          "output_tokens": 5830,
+          "cost_usd": 0.149034,
+          "decision": "PASS",
+          "score_total": 8,
+          "failure_reasons": []
+        }
+      ],
+      "error": null
+    },
+    {
+      "input_file": "/home/ubuntu/veritas_project/batch6_input/6/F02050010_mango_pomelo_sago_hong_kong_cold_dessert_fresh_mango_puree_w.json",
+      "final_decision": "PASS",
+      "iterations_used": 3,
+      "pass_iteration": 3,
+      "pass_llm": "claude",
+      "total_wall_time_s": 450.06,
+      "total_input_tokens": 43956,
+      "total_output_tokens": 6630,
+      "total_cost_usd": 0.15093,
+      "iterations": [
+        {
+          "iteration": 1,
+          "llm": "claude",
+          "wall_time_s": 364.97,
+          "input_tokens": 13366,
+          "output_tokens": 1,
+          "cost_usd": 0.040113,
+          "decision": "REJECT",
+          "score_total": 0,
+          "failure_reasons": [
+            "invalid JSON: Expecting value: line 1 column 1 (char 0)"
+          ]
+        },
+        {
+          "iteration": 2,
+          "llm": "gemini",
+          "wall_time_s": 20.21,
+          "input_tokens": 13574,
+          "output_tokens": 2896,
+          "cost_usd": 0.003774,
+          "decision": "REJECT",
+          "score_total": 7,
+          "failure_reasons": [
+            "g3_numeric_hygiene: per_100g.monounsaturated_fat_g = -1 but missing-data basis is not documented",
+            "g3_numeric_hygiene: per_100g.polyunsaturated_fat_g = -1 but missing-data basis is not documented",
+            "g3_numeric_hygiene: per_100g.water_g = -1 but missing-data basis is not documented",
+            "q4_glycemic_completeness: gi_category 'medium' does not match glycemic_index 55 (expected low)"
+          ]
+        },
+        {
+          "iteration": 3,
+          "llm": "claude",
+          "wall_time_s": 64.88,
+          "input_tokens": 17016,
+          "output_tokens": 3733,
+          "cost_usd": 0.107043,
+          "decision": "PASS",
+          "score_total": 8,
+          "failure_reasons": []
+        }
+      ],
+      "error": null
+    },
+    {
+      "input_file": "/home/ubuntu/veritas_project/batch6_input/6/F03010003_baked_salmon_fillet_atlantic_salmon_lemon_herb_or_butter_pre.json",
+      "final_decision": "FAIL",
+      "iterations_used": 3,
+      "pass_iteration": null,
+      "pass_llm": null,
+      "total_wall_time_s": 188.01,
+      "total_input_tokens": 49859,
+      "total_output_tokens": 14293,
+      "total_cost_usd": 0.244958,
+      "iterations": [
+        {
+          "iteration": 1,
+          "llm": "claude",
+          "wall_time_s": 88.46,
+          "input_tokens": 13041,
+          "output_tokens": 4926,
+          "cost_usd": 0.113013,
+          "decision": "FAIL",
+          "score_total": 7,
+          "failure_reasons": [
+            "q4_glycemic_completeness: glycemic_index must be numeric"
+          ]
+        },
+        {
+          "iteration": 2,
+          "llm": "gemini",
+          "wall_time_s": 26.01,
+          "input_tokens": 18578,
+          "output_tokens": 4588,
+          "cost_usd": 0.00554,
+          "decision": "FAIL",
+          "score_total": 7,
+          "failure_reasons": [
+            "q4_glycemic_completeness: glycemic_index must be numeric"
+          ]
+        },
+        {
+          "iteration": 3,
+          "llm": "claude",
+          "wall_time_s": 73.54,
+          "input_tokens": 18240,
+          "output_tokens": 4779,
+          "cost_usd": 0.126405,
+          "decision": "FAIL",
+          "score_total": 7,
+          "failure_reasons": [
+            "q4_glycemic_completeness: glycemic_index must be greater than zero"
+          ]
+        }
+      ],
+      "error": null
+    },
+    {
+      "input_file": "/home/ubuntu/veritas_project/batch6_input/6/F03010004_grilled_salmon_fillet_singapore_restaurant_style_farmed_atla.json",
+      "final_decision": "FAIL",
+      "iterations_used": 3,
+      "pass_iteration": null,
+      "pass_llm": null,
+      "total_wall_time_s": 231.37,
+      "total_input_tokens": 47154,
+      "total_output_tokens": 14724,
+      "total_cost_usd": 0.246134,
+      "iterations": [
+        {
+          "iteration": 1,
+          "llm": "claude",
+          "wall_time_s": 91.82,
+          "input_tokens": 12057,
+          "output_tokens": 4917,
+          "cost_usd": 0.109926,
+          "decision": "REJECT",
+          "score_total": 5,
+          "failure_reasons": [
+            "g2_approved_source_compliance: gi_source: GI source is not from University of Sydney GI Database or a peer-reviewed journal",
+            "g5_ontology_honesty: ontology.foodex2_match_type must be one of ['closest_parent', 'exact', 'none']",
+            "q2_core_macro_completeness_and_source_integrity: nutrient source is not compliant",
+            "q4_glycemic_completeness: glycemic_index must be numeric",
+            "q8_aliases_and_multilingual_synonym_coverage: aliases_by_language entries missing from flat aliases"
+          ]
+        },
+        {
+          "iteration": 2,
+          "llm": "gemini",
+          "wall_time_s": 23.46,
+          "input_tokens": 17748,
+          "output_tokens": 4556,
+          "cost_usd": 0.005396,
+          "decision": "REJECT",
+          "score_total": 5,
+          "failure_reasons": [
+            "g2_approved_source_compliance: gi_source: GI source is not from University of Sydney GI Database or a peer-reviewed journal",
+            "q2_core_macro_completeness_and_source_integrity: nutrient source is not compliant",
+            "q4_glycemic_completeness: glycemic_index must be numeric",
+            "q8_aliases_and_multilingual_synonym_coverage: aliases_by_language entries missing from flat aliases"
+          ]
+        },
+        {
+          "iteration": 3,
+          "llm": "claude",
+          "wall_time_s": 116.09,
+          "input_tokens": 17349,
+          "output_tokens": 5251,
+          "cost_usd": 0.130812,
+          "decision": "FAIL",
+          "score_total": 7,
+          "failure_reasons": [
+            "q4_glycemic_completeness: glycemic_index must be numeric"
+          ]
+        }
+      ],
+      "error": null
+    }
+  ],
+  "veritas_meta": {
+    "generated_at": "2026-04-16T16:22:20Z",
+    "output_status": "fail",
+    "output_file_path": "/home/ubuntu/veritas_project/batch6_output/pilot_metrics_fail.json"
+  },
+  "veritas_qc": {
+    "final_decision": "REJECT",
+    "hard_gates": {
+      "g1_valid_json_and_template": false,
+      "g2_approved_source_compliance": false,
+      "g3_numeric_hygiene": false,
+      "g4_core_macro_sanity": false,
+      "g5_ontology_honesty": false,
+      "g6_multilingual_naming_compliance": false
+    },
+    "score_total": 0,
+    "score_max": 8,
+    "criteria": {
+      "q1_food_identity": {
+        "pass": false,
+        "notes": "food_name is missing"
+      },
+      "q2_core_macro_completeness_and_source_integrity": {
+        "pass": false,
+        "notes": "core macros are incomplete or invalid"
+      },
+      "q3_secondary_nutrient_completeness": {
+        "pass": false,
+        "notes": "per_100g missing"
+      },
+      "q4_glycemic_completeness": {
+        "pass": false,
+        "notes": "glycemic_index must be numeric"
+      },
+      "q5_ontological_alignment": {
+        "pass": false,
+        "notes": "ontology missing"
+      },
+      "q6_llm_ready_semantics": {
+        "pass": false,
+        "notes": "llm_training missing"
+      },
+      "q7_health_context": {
+        "pass": false,
+        "notes": "health_context missing"
+      },
+      "q8_aliases_and_multilingual_synonym_coverage": {
+        "pass": false,
+        "notes": "aliases must contain at least 2 non-empty items"
+      }
+    },
+    "failure_reasons": [
+      "g1_valid_json_and_template: missing top-level sections: veritas_meta, food_name, local_names, aliases, aliases_by_language, cuisine, region_of_origin, food_group, food_subgroup, ontology, classification, serving, nutrient_source, per_100g, glycemic_index, gi_category, glycemic_load_per_serving, gi_source, health_context, llm_training, confidence, confidence_reason, notes, veritas_qc",
+      "g1_valid_json_and_template: local_names must be an object",
+      "g1_valid_json_and_template: aliases must be an array",
+      "g1_valid_json_and_template: aliases_by_language must be an object",
+      "g1_valid_json_and_template: ontology must be an object",
+      "g1_valid_json_and_template: classification must be an object",
+      "g1_valid_json_and_template: serving must be an object",
+      "g1_valid_json_and_template: nutrient_source must be an object",
+      "g1_valid_json_and_template: per_100g must be an object",
+      "g1_valid_json_and_template: gi_source must be an object",
+      "g1_valid_json_and_template: health_context must be an object",
+      "g1_valid_json_and_template: llm_training must be an object",
+      "g2_approved_source_compliance: nutrient_source: source block is missing or empty",
+      "g2_approved_source_compliance: gi_source: source block is missing or empty",
+      "g2_approved_source_compliance: nutrient_source.title is missing or empty",
+      "g2_approved_source_compliance: nutrient_source.organization is missing or empty",
+      "g2_approved_source_compliance: nutrient_source.url is missing or empty",
+      "g2_approved_source_compliance: nutrient_source.accessed_date is missing or empty",
+      "g2_approved_source_compliance: nutrient_source.source_match_type is missing or empty",
+      "g2_approved_source_compliance: nutrient_source.source_match_notes is missing or empty",
+      "g2_approved_source_compliance: gi_source.title is missing or empty",
+      "g2_approved_source_compliance: gi_source.organization is missing or empty",
+      "g2_approved_source_compliance: gi_source.url is missing or empty",
+      "g2_approved_source_compliance: gi_source.accessed_date is missing or empty",
+      "g2_approved_source_compliance: gi_source.source_match_type is missing or empty",
+      "g2_approved_source_compliance: gi_source.source_match_notes is missing or empty",
+      "g3_numeric_hygiene: per_100g missing or not an object",
+      "g4_core_macro_sanity: per_100g missing or not an object",
+      "g5_ontology_honesty: ontology missing or not an object",
+      "g6_multilingual_naming_compliance: food_name is missing for required English identity",
+      "q1_food_identity: food_name is missing",
+      "q2_core_macro_completeness_and_source_integrity: core macros are incomplete or invalid",
+      "q3_secondary_nutrient_completeness: per_100g missing",
+      "q4_glycemic_completeness: glycemic_index must be numeric",
+      "q5_ontological_alignment: ontology missing",
+      "q6_llm_ready_semantics: llm_training missing",
+      "q7_health_context: health_context missing",
+      "q8_aliases_and_multilingual_synonym_coverage: aliases must contain at least 2 non-empty items"
+    ],
+    "improvement_actions_taken": [
+      "Validated against VERITAS_SCORING_MODEL_v2.md"
+    ],
+    "reviewer_summary": "REJECT — one or more hard gates failed. Primary issues: g1_valid_json_and_template: missing top-level sections: veritas_meta, food_name, local_names, aliases, aliases_by_language, cuisine, region_of_origin, food_group, food_subgroup, ontology, classification, serving, nutrient_source, per_100g, glycemic_index, gi_category, glycemic_load_per_serving, gi_source, health_context, llm_training, confidence, confidence_reason, notes, veritas_qc; g1_valid_json_and_template: local_names must be an object; g1_valid_json_and_template: aliases must be an array."
+  }
+}

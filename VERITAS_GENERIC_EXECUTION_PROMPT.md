@@ -62,6 +62,49 @@ If there is any ambiguity:
   - all hard gates pass, and
   - score_total = 8
 
+## Zero-macro justification rule (CRITICAL — g4)
+If any core macro field (`protein_g`, `fat_g`, `carbohydrates_g`) is 0, you MUST include a justification phrase in the `notes` field. Use one of the following:
+- `"naturally zero"` — the food inherently contains none of that nutrient
+- `"contains no protein"` / `"contains no fat"` — processed product, 0g by formulation
+- `"confirmed zero"` — an approved source explicitly reports 0
+- `"trace"` — below detection threshold
+Example: `"protein_g is naturally zero as this is a carbohydrate-electrolyte beverage. Fat_g is naturally zero by product formulation. Confirmed zero per USDA FoodData Central."`
+Failing to include this justification will cause a g4 gate failure.
+
+## Aliases consistency rule (CRITICAL — q8)
+Every string value in `aliases_by_language` MUST appear verbatim as an entry in the flat `aliases` array.
+Before outputting, perform this self-check:
+1. Collect every string value from every language key in `aliases_by_language`.
+2. Verify each one exists as an exact string in the flat `aliases` array.
+3. Add any missing values to `aliases` before outputting.
+Failing this check will cause a q8 gate failure.
+
+## Glycemic index for low/zero-carbohydrate foods (CRITICAL — q4)
+For foods with negligible carbohydrates (pure fats, hard cheeses, eggs, proteins):
+- Set `glycemic_index: null` (NOT 0 — zero will fail the q4 gate)
+- Set `gi_category: "not_applicable"`
+- Set `gi_source: "N/A — food contains negligible carbohydrates"`
+- Note: "[Food type]; glycemic index is not applicable as this food contains negligible carbohydrates."
+Affected food types: ghee, butter, coconut oil, lard, sesame oil, cheddar, parmesan, mozzarella, fried egg, hard-boiled egg, scrambled eggs, century egg, salted egg, yogurt (plain, full-fat), cream, cream cheese.
+Setting `glycemic_index=0` will cause a q4 gate failure.
+
+## Negative sentinel values (CRITICAL — g3)
+If any per_100g field is set to -1 (data not available), you MUST document this in `notes`:
+- List every field set to -1
+- State the reason data is unavailable (e.g., "limited published data for traditional preparation")
+- Cite the source consulted that confirmed unavailability
+Example: `"monounsaturated_fat_g, polyunsaturated_fat_g, water_g set to -1: detailed fatty acid and moisture data for alkaline-cured century egg not available in USDA FoodData Central or Singapore HPB database as of 2024."`
+Failing to document -1 values will cause a g3 gate failure.
+
+## Approved nutrient sources (CRITICAL — g2)
+ALWAYS use only sources from the approved list in `PROJECT_VERITAS_Ver2.md`.
+For Japanese foods: use USDA FoodData Central or the closest equivalent approved source.
+For Korean foods: use USDA FoodData Central or the closest equivalent approved source.
+For desserts and sweets: use USDA FoodData Central or Singapore HPB database.
+NEVER cite: Japanese food composition databases, recipe websites, food blogs, or any source not explicitly listed as approved.
+If no approved source has the exact food, use the closest approved-source equivalent and document the substitution in `notes`.
+Failing to use an approved source will cause a g2 gate failure.
+
 ## Output contract
 Return only the final RESULT JSON object.
 
