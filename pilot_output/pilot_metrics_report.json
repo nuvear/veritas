@@ -1,0 +1,351 @@
+{
+  "generated_at": "2026-04-16T08:49:10.124086",
+  "pilot_summary": {
+    "total_files": 26,
+    "pass": 20,
+    "fail": 0,
+    "reject": 6,
+    "pass_rate_pct": 76.9
+  },
+  "iteration_breakdown": {
+    "passed_on_iter_1_claude": 11,
+    "passed_on_iter_2_gemini": 2,
+    "passed_on_iter_3_claude_final": 7,
+    "did_not_pass": 6,
+    "files_needing_1_iter": 11,
+    "files_needing_2_iters": 2,
+    "files_needing_3_iters": 13
+  },
+  "time_seconds": {
+    "min": 0.0,
+    "max": 0.0,
+    "avg": 0.0,
+    "median": 0.0,
+    "total_pilot": 0.0
+  },
+  "input_tokens": {
+    "min": 11582,
+    "max": 48502,
+    "avg": 29228,
+    "total": 759920
+  },
+  "output_tokens": {
+    "min": 2543,
+    "max": 15843,
+    "avg": 7361,
+    "total": 191377
+  },
+  "cost_usd": {
+    "min": 0.0835,
+    "max": 0.2553,
+    "avg": 0.1398,
+    "total_pilot": 3.6338,
+    "estimated_per_100_files": 13.98,
+    "estimated_per_1000_files": 139.76,
+    "estimated_per_6600_files": 922.42
+  },
+  "top_failure_reasons": [
+    {
+      "reason": "invalid JSON: Expecting value: line 1 column 1 (char 0)",
+      "count": 10
+    },
+    {
+      "reason": "g4_core_macro_sanity: per_100g.protein_g is zero without documented justification",
+      "count": 5
+    },
+    {
+      "reason": "g4_core_macro_sanity: per_100g.fat_g is zero without documented justification",
+      "count": 5
+    },
+    {
+      "reason": "q2_core_macro_completeness_and_source_integrity: core macros are incomplete or invalid",
+      "count": 5
+    },
+    {
+      "reason": "g2_approved_source_compliance: nutrient_source: nutrient source is not from an approved source list",
+      "count": 4
+    },
+    {
+      "reason": "q4_glycemic_completeness: GI source is not compliant",
+      "count": 4
+    },
+    {
+      "reason": "q6_llm_ready_semantics: natural_language_description lacks enough preparation/sensory/clinical/cultural coverage",
+      "count": 2
+    },
+    {
+      "reason": "q2_core_macro_completeness_and_source_integrity: nutrient source is not compliant",
+      "count": 2
+    },
+    {
+      "reason": "g3_numeric_hygiene: per_100g.monounsaturated_fat_g = -1 but missing-data basis is not documented",
+      "count": 1
+    },
+    {
+      "reason": "g3_numeric_hygiene: per_100g.polyunsaturated_fat_g = -1 but missing-data basis is not documented",
+      "count": 1
+    }
+  ],
+  "per_file_results": [
+    {
+      "file": "D05020008_gatorade_thirst_quencher_500ml_bottle_orange_flavo",
+      "decision": "REJECT",
+      "iterations": 3,
+      "pass_llm": null,
+      "time_s": 0.0,
+      "cost_usd": 0.0844,
+      "input_tokens": 38860,
+      "output_tokens": 2899
+    },
+    {
+      "file": "D05020009_monster_energy_drink_original_green_500ml_can_sing",
+      "decision": "REJECT",
+      "iterations": 3,
+      "pass_llm": null,
+      "time_s": 0.0,
+      "cost_usd": 0.086,
+      "input_tokens": 39441,
+      "output_tokens": 3175
+    },
+    {
+      "file": "D05020011_red_bull_energy_drink_250ml_can_standard_singapore",
+      "decision": "REJECT",
+      "iterations": 3,
+      "pass_llm": null,
+      "time_s": 0.0,
+      "cost_usd": 0.0839,
+      "input_tokens": 38617,
+      "output_tokens": 2881
+    },
+    {
+      "file": "D06020001_sprite_1_can_330ml",
+      "decision": "REJECT",
+      "iterations": 3,
+      "pass_llm": null,
+      "time_s": 0.0,
+      "cost_usd": 0.0835,
+      "input_tokens": 38585,
+      "output_tokens": 2543
+    },
+    {
+      "file": "D06020019_f_n_ice_cream_soda_1_can_325ml",
+      "decision": "REJECT",
+      "iterations": 3,
+      "pass_llm": null,
+      "time_s": 0.0,
+      "cost_usd": 0.084,
+      "input_tokens": 38677,
+      "output_tokens": 2826
+    },
+    {
+      "file": "D08010001_brown_sugar_fresh_milk_with_tapioca_pearls_tiger_s",
+      "decision": "PASS",
+      "iterations": 1,
+      "pass_llm": "claude",
+      "time_s": 0.0,
+      "cost_usd": 0.1108,
+      "input_tokens": 12449,
+      "output_tokens": 4896
+    },
+    {
+      "file": "D08010007_classic_milk_tea_with_tapioca_pearls_ceylon_black_",
+      "decision": "PASS",
+      "iterations": 3,
+      "pass_llm": "claude_final",
+      "time_s": 0.0,
+      "cost_usd": 0.2553,
+      "input_tokens": 48502,
+      "output_tokens": 15843
+    },
+    {
+      "file": "D09010025_espresso_single_shot_30ml_7_9g_ground_arabica_coff",
+      "decision": "PASS",
+      "iterations": 3,
+      "pass_llm": "claude_final",
+      "time_s": 0.0,
+      "cost_usd": 0.2162,
+      "input_tokens": 44787,
+      "output_tokens": 12534
+    },
+    {
+      "file": "D09010035_kopi_singapore_coffee_with_sweetened_condensed_mil",
+      "decision": "PASS",
+      "iterations": 1,
+      "pass_llm": "claude",
+      "time_s": 0.0,
+      "cost_usd": 0.1048,
+      "input_tokens": 12613,
+      "output_tokens": 4462
+    },
+    {
+      "file": "D09010036_kopi_c_singapore_coffee_with_evaporated_milk_and_s",
+      "decision": "PASS",
+      "iterations": 3,
+      "pass_llm": "claude_final",
+      "time_s": 0.0,
+      "cost_usd": 0.2206,
+      "input_tokens": 46113,
+      "output_tokens": 12850
+    },
+    {
+      "file": "D09010039_kopi_o_traditional_singapore_malaysia_kopitiam_bla",
+      "decision": "PASS",
+      "iterations": 2,
+      "pass_llm": "gemini",
+      "time_s": 0.0,
+      "cost_usd": 0.108,
+      "input_tokens": 29334,
+      "output_tokens": 8905
+    },
+    {
+      "file": "D09020041_green_tea_brewed_200ml_loose_leaf_or_teabag_steepe",
+      "decision": "PASS",
+      "iterations": 3,
+      "pass_llm": "claude_final",
+      "time_s": 0.0,
+      "cost_usd": 0.2122,
+      "input_tokens": 44935,
+      "output_tokens": 11990
+    },
+    {
+      "file": "D09020060_pokka_milk_tea_1_bottle_500ml",
+      "decision": "PASS",
+      "iterations": 1,
+      "pass_llm": "claude",
+      "time_s": 0.0,
+      "cost_usd": 0.0981,
+      "input_tokens": 11582,
+      "output_tokens": 4225
+    },
+    {
+      "file": "D09020066_teh_singapore_tea_with_sweetened_condensed_milk_ho",
+      "decision": "PASS",
+      "iterations": 1,
+      "pass_llm": "claude",
+      "time_s": 0.0,
+      "cost_usd": 0.1028,
+      "input_tokens": 12353,
+      "output_tokens": 4384
+    },
+    {
+      "file": "D09020067_teh_c_singapore_tea_with_evaporated_milk_and_sugar",
+      "decision": "PASS",
+      "iterations": 1,
+      "pass_llm": "claude",
+      "time_s": 0.0,
+      "cost_usd": 0.0961,
+      "input_tokens": 11881,
+      "output_tokens": 4031
+    },
+    {
+      "file": "D09020071_teh_o_singapore_black_tea_with_sugar_no_milk_hot_s",
+      "decision": "PASS",
+      "iterations": 1,
+      "pass_llm": "claude",
+      "time_s": 0.0,
+      "cost_usd": 0.1073,
+      "input_tokens": 11994,
+      "output_tokens": 4757
+    },
+    {
+      "file": "D09020075_teh_tarik_pulled_milk_tea_300ml_cup_strong_ceylon_",
+      "decision": "PASS",
+      "iterations": 1,
+      "pass_llm": "claude",
+      "time_s": 0.0,
+      "cost_usd": 0.0998,
+      "input_tokens": 11929,
+      "output_tokens": 4266
+    },
+    {
+      "file": "D09020078_cha_yen_thai_iced_milk_tea_sweetened_condensed_mil",
+      "decision": "PASS",
+      "iterations": 1,
+      "pass_llm": "claude",
+      "time_s": 0.0,
+      "cost_usd": 0.1057,
+      "input_tokens": 12314,
+      "output_tokens": 4586
+    },
+    {
+      "file": "EC000007_barley_water_traditional_singapore_malay_preparatio",
+      "decision": "PASS",
+      "iterations": 1,
+      "pass_llm": "claude",
+      "time_s": 0.0,
+      "cost_usd": 0.1023,
+      "input_tokens": 12069,
+      "output_tokens": 4407
+    },
+    {
+      "file": "EC000035_dark_soy_sauce_caramelised_thick_kwong_woh_hing_or_",
+      "decision": "PASS",
+      "iterations": 3,
+      "pass_llm": "claude_final",
+      "time_s": 0.0,
+      "cost_usd": 0.246,
+      "input_tokens": 47067,
+      "output_tokens": 14996
+    },
+    {
+      "file": "EC000040_egg_drop_soup_chinese_style_beaten_eggs_drizzled_in",
+      "decision": "PASS",
+      "iterations": 1,
+      "pass_llm": "claude",
+      "time_s": 0.0,
+      "cost_usd": 0.1019,
+      "input_tokens": 11923,
+      "output_tokens": 4410
+    },
+    {
+      "file": "EC000045_fried_wonton_deep_fried_pork_and_prawn_wonton",
+      "decision": "PASS",
+      "iterations": 1,
+      "pass_llm": "claude",
+      "time_s": 0.0,
+      "cost_usd": 0.0996,
+      "input_tokens": 11903,
+      "output_tokens": 4262
+    },
+    {
+      "file": "EC000051_guilinggao_chinese_herbal_jelly_with_honey_topping_",
+      "decision": "PASS",
+      "iterations": 3,
+      "pass_llm": "claude_final",
+      "time_s": 0.0,
+      "cost_usd": 0.2187,
+      "input_tokens": 45307,
+      "output_tokens": 12623
+    },
+    {
+      "file": "EC000055_har_gau_steamed_shrimp_dumpling_4_pieces_1_basket_6",
+      "decision": "PASS",
+      "iterations": 3,
+      "pass_llm": "claude_final",
+      "time_s": 0.0,
+      "cost_usd": 0.2508,
+      "input_tokens": 47902,
+      "output_tokens": 15525
+    },
+    {
+      "file": "EC000060_heaven_and_earth_jasmine_green_tea_1_bottle_500ml",
+      "decision": "REJECT",
+      "iterations": 3,
+      "pass_llm": null,
+      "time_s": 0.0,
+      "cost_usd": 0.2547,
+      "input_tokens": 48118,
+      "output_tokens": 15637
+    },
+    {
+      "file": "EC000063_kombucha_commercial_bottled_250ml_serving_raw_unpas",
+      "decision": "PASS",
+      "iterations": 2,
+      "pass_llm": "gemini",
+      "time_s": 0.0,
+      "cost_usd": 0.1003,
+      "input_tokens": 30665,
+      "output_tokens": 7464
+    }
+  ]
+}

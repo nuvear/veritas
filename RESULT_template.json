@@ -1,0 +1,231 @@
+{
+  "veritas_meta": {
+    "project_name": "Project Veritas v2",
+    "project_version": "2.0",
+    "template_version": "2.0",
+    "input_file_path": "input_folder_name/input_filename.json",
+    "output_file_path": "input_folder_name/input_filename_pass.json",
+    "output_status": "pass",
+    "processing_scope": "food database preparation only",
+    "images_in_scope": false,
+    "max_iterations_allowed": 5,
+    "iteration_count_used": 1,
+    "generated_at": "YYYY-MM-DDTHH:MM:SSZ"
+  },
+
+  "food_name": "Canonical English food name",
+
+  "local_names": {
+    "chinese_simplified": null,
+    "chinese_traditional": null,
+    "malay": null,
+    "tamil": null,
+    "hindi": null,
+    "japanese": null,
+    "korean": null,
+    "indonesian": null,
+    "thai": null,
+    "vietnamese": null,
+    "romanized_local": null
+  },
+
+  "aliases": [
+    "Alternate English name",
+    "Regional spelling variant",
+    "Local-language alias",
+    "Romanized alias"
+  ],
+
+  "aliases_by_language": {
+    "english": [],
+    "chinese": [],
+    "malay": [],
+    "tamil": [],
+    "hindi": [],
+    "japanese": [],
+    "korean": [],
+    "indonesian": [],
+    "thai": [],
+    "vietnamese": [],
+    "romanized": []
+  },
+
+  "cuisine": "Cuisine type",
+  "region_of_origin": "Country or region",
+  "food_group": "Grains and staples | Meat and alternatives | Fish and seafood | Vegetables | Dairy and eggs | Mixed | Desserts | Beverages | Snacks | Oils, seasonings and condiments",
+  "food_subgroup": "Specific subgroup description",
+
+  "ontology": {
+    "foodon_uri": null,
+    "foodon_label": null,
+    "foodon_match_type": "exact",
+    "foodon_gap_note": null,
+    "foodex2_code": null,
+    "foodex2_description": null,
+    "foodex2_match_type": "exact",
+    "foodex2_gap_note": null,
+    "snomed_ct_code": null,
+    "snomed_ct_description": null,
+    "snomed_ct_match_type": "none",
+    "snomed_ct_gap_note": null
+  },
+
+  "classification": {
+    "preparation_method": [],
+    "processing_level": "raw | minimally processed | processed | ultra-processed",
+    "main_ingredients": [],
+    "allergens": [],
+    "dietary_flags": {
+      "is_vegetarian": false,
+      "is_vegan": false,
+      "is_halal": false,
+      "is_kosher": false,
+      "is_gluten_free": false,
+      "is_dairy_free": false
+    }
+  },
+
+  "serving": {
+    "description": "e.g. 1 plate",
+    "size_g": 0,
+    "natural_language_portion": "One realistic human-serving sentence."
+  },
+
+  "nutrient_source": {
+    "title": "Exact source entry title",
+    "organization": "Source organization",
+    "url": "Direct URL or source homepage",
+    "accessed_date": "YYYY-MM-DD",
+    "source_match_type": "exact | adapted | estimated",
+    "source_match_notes": "Explain adaptation or estimation if any."
+  },
+
+  "per_100g": {
+    "energy_kcal": 0.0,
+    "protein_g": 0.0,
+    "fat_g": 0.0,
+    "saturated_fat_g": 0.0,
+    "monounsaturated_fat_g": -1.0,
+    "polyunsaturated_fat_g": -1.0,
+    "trans_fat_g": -1.0,
+    "carbohydrate_g": 0.0,
+    "sugar_g": 0.0,
+    "dietary_fibre_g": 0.0,
+    "sodium_mg": 0.0,
+    "potassium_mg": -1.0,
+    "calcium_mg": -1.0,
+    "iron_mg": -1.0,
+    "cholesterol_mg": -1.0,
+    "vitamin_c_mg": -1.0,
+    "vitamin_a_mcg_rae": -1.0,
+    "vitamin_b1_thiamine_mg": -1.0,
+    "vitamin_b2_riboflavin_mg": -1.0,
+    "vitamin_b3_niacin_mg": -1.0,
+    "vitamin_b6_mg": -1.0,
+    "vitamin_b12_mcg": -1.0,
+    "folate_mcg_dfe": -1.0,
+    "vitamin_d_mcg": -1.0,
+    "vitamin_e_mg": -1.0,
+    "phosphorus_mg": -1.0,
+    "magnesium_mg": -1.0,
+    "zinc_mg": -1.0,
+    "selenium_mcg": -1.0,
+    "water_g": -1.0
+  },
+
+  "glycemic_index": 0,
+  "gi_category": "low | medium | high",
+  "glycemic_load_per_serving": 0.0,
+  "gi_source": {
+    "title": "GI source title or analogous-food evidence title",
+    "organization": "University of Sydney GI Database | Journal name",
+    "url": "URL",
+    "accessed_date": "YYYY-MM-DD",
+    "source_match_type": "exact | analogous_estimate",
+    "source_match_notes": "Explain direct match or analogous estimate basis."
+  },
+
+  "health_context": {
+    "hypertension": {
+      "human_condition_name": "Hypertension",
+      "concern_level": "low | moderate | high",
+      "key_factor": "Specific clinical factor",
+      "guidance": "One specific clinical sentence."
+    },
+    "type2_diabetes": {
+      "human_condition_name": "Type 2 Diabetes",
+      "concern_level": "low | moderate | high",
+      "key_factor": "Specific clinical factor",
+      "guidance": "One specific clinical sentence."
+    },
+    "cardiovascular_disease": {
+      "human_condition_name": "Cardiovascular Disease",
+      "concern_level": "low | moderate | high",
+      "key_factor": "Specific clinical factor",
+      "guidance": "One specific clinical sentence."
+    },
+    "additional_conditions": {}
+  },
+
+  "llm_training": {
+    "natural_language_description": "Minimum 200 characters. Explain what the food is, how it is prepared, taste / texture, cultural context, clinical relevance, and key nutrients.",
+    "common_user_queries": [],
+    "meal_context": [],
+    "ingredient_synonyms": {}
+  },
+
+  "confidence": "high | medium | low",
+  "confidence_reason": "Why this confidence level is justified.",
+  "notes": "Remaining caveats, limitations, and follow-up notes.",
+
+  "veritas_qc": {
+    "final_decision": "PASS | FAIL | REJECT",
+    "hard_gates": {
+      "g1_valid_json_and_template": true,
+      "g2_approved_source_compliance": true,
+      "g3_numeric_hygiene": true,
+      "g4_core_macro_sanity": true,
+      "g5_ontology_honesty": true,
+      "g6_multilingual_naming_compliance": true
+    },
+    "score_total": 8,
+    "score_max": 8,
+    "criteria": {
+      "q1_food_identity": {
+        "pass": true,
+        "notes": ""
+      },
+      "q2_core_macro_completeness_and_source_integrity": {
+        "pass": true,
+        "notes": ""
+      },
+      "q3_secondary_nutrient_completeness": {
+        "pass": true,
+        "notes": ""
+      },
+      "q4_glycemic_completeness": {
+        "pass": true,
+        "notes": ""
+      },
+      "q5_ontological_alignment": {
+        "pass": true,
+        "notes": ""
+      },
+      "q6_llm_ready_semantics": {
+        "pass": true,
+        "notes": ""
+      },
+      "q7_health_context": {
+        "pass": true,
+        "notes": ""
+      },
+      "q8_aliases_and_multilingual_synonym_coverage": {
+        "pass": true,
+        "notes": ""
+      }
+    },
+    "failure_reasons": [],
+    "improvement_actions_taken": [],
+    "reviewer_summary": "Short summary of why the record passed or failed."
+  }
+}
