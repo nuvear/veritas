@@ -85,7 +85,7 @@ For foods with negligible carbohydrates (pure fats, hard cheeses, eggs, proteins
 - Set `gi_category: "not_applicable"`
 - Set `gi_source: "N/A — food contains negligible carbohydrates"`
 - Note: "[Food type]; glycemic index is not applicable as this food contains negligible carbohydrates."
-Affected food types: ghee, butter, coconut oil, lard, sesame oil, cheddar, parmesan, mozzarella, fried egg, hard-boiled egg, scrambled eggs, century egg, salted egg, yogurt (plain, full-fat), cream, cream cheese.
+Affected food types: ghee, butter, coconut oil, lard, sesame oil, cheddar, parmesan, mozzarella, fried egg, hard-boiled egg, scrambled eggs, century egg, salted egg, yogurt (plain, full-fat), cream, cream cheese, salmon (raw/baked/grilled/sashimi), tuna, cod, tilapia, sea bass, and all other fish and seafood with negligible carbohydrates.
 Setting `glycemic_index=0` will cause a q4 gate failure.
 
 ## Negative sentinel values (CRITICAL — g3)
