@@ -76,6 +76,18 @@ Example for Gatorade (protein_g=0, fat_g=0):
 
 Failure to include a zero justification phrase will cause a hard gate failure (`g4_core_macro_sanity`).
 
+## Aliases consistency rule (CRITICAL — q8)
+The `aliases_by_language` object and the flat `aliases` list must be **perfectly consistent**. Every string value that appears in `aliases_by_language` (under any language key) **must also appear verbatim** in the flat `aliases` list.
+
+Before finalising the JSON, perform this check:
+1. Collect every string value from every language key in `aliases_by_language`.
+2. Verify each one exists as an exact string in the flat `aliases` array.
+3. If any value is missing from `aliases`, add it to `aliases` before outputting.
+
+Common failure pattern: a Hindi or Tamil entry in `aliases_by_language` uses a mixed-script string (e.g., Devanagari mixed with Tamil characters). Ensure the **exact same string** — character for character — appears in `aliases`.
+
+Failure to maintain this consistency will cause a q8 gate failure (`aliases_by_language entries missing from flat aliases`).
+
 ## Output contract
 Return only the final RESULT JSON object.
 
