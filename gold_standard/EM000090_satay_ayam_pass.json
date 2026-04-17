@@ -1,0 +1,328 @@
+{
+  "veritas_meta": {
+    "project_name": "Project Veritas v2",
+    "project_version": "2.0",
+    "template_version": "2.0",
+    "input_file_path": "/home/ubuntu/veritas_project/batch53_input/53/EM000090_satay_ayam.json",
+    "output_file_path": "/home/ubuntu/veritas_project/batch53_output/EM000090_satay_ayam_pass.json",
+    "output_status": "pass",
+    "processing_scope": "food database preparation only",
+    "images_in_scope": false,
+    "max_iterations_allowed": 5,
+    "iteration_count_used": 2,
+    "generated_at": "2026-04-17T01:15:14Z"
+  },
+  "food_name": "Satay Ayam (Chicken Satay)",
+  "local_names": {
+    "chinese_simplified": "沙爹鸡肉串",
+    "chinese_traditional": "沙爹雞肉串",
+    "malay": "Satay Ayam",
+    "tamil": "சட்டே ஆயம்",
+    "hindi": "चिकन सटे",
+    "japanese": null,
+    "korean": null,
+    "indonesian": "Sate Ayam",
+    "thai": null,
+    "vietnamese": null,
+    "romanized_local": "Satay Ayam"
+  },
+  "aliases": [
+    "Satay Ayam",
+    "Chicken Satay",
+    "Sate Ayam",
+    "Malay Chicken Satay",
+    "Grilled Chicken Skewers",
+    "沙爹鸡肉串",
+    "沙爹雞肉串",
+    "சட்டே ஆயம்",
+    "चिकन सटे",
+    "Satay Ayam (Malay)",
+    "Sate Ayam (Indonesian)"
+  ],
+  "aliases_by_language": {
+    "english": [
+      "Chicken Satay",
+      "Malay Chicken Satay",
+      "Grilled Chicken Skewers"
+    ],
+    "chinese": [
+      "沙爹鸡肉串",
+      "沙爹雞肉串"
+    ],
+    "malay": [
+      "Satay Ayam"
+    ],
+    "tamil": [
+      "சட்டே ஆயம்"
+    ],
+    "hindi": [
+      "चिकन सटे"
+    ],
+    "japanese": [],
+    "korean": [],
+    "indonesian": [
+      "Sate Ayam",
+      "Sate Ayam (Indonesian)"
+    ],
+    "thai": [],
+    "vietnamese": [],
+    "romanized": [
+      "Satay Ayam",
+      "Sate Ayam"
+    ]
+  },
+  "cuisine": "Malay",
+  "region_of_origin": "Southeast Asia (Malaysia / Indonesia / Singapore)",
+  "food_group": "Meat and alternatives",
+  "food_subgroup": "Grilled chicken dishes",
+  "ontology": {
+    "foodon_uri": "http://purl.obolibrary.org/obo/FOODON_03302051",
+    "foodon_label": "chicken satay",
+    "foodon_match_type": "exact",
+    "foodon_gap_note": null,
+    "foodex2_code": "A0FJP",
+    "foodex2_description": "Chicken meat, grilled — used as closest defensible FoodEx2 anchor for marinated grilled chicken skewer preparation",
+    "foodex2_match_type": "closest_parent",
+    "foodex2_gap_note": "No FoodEx2 code exists specifically for Satay Ayam as a composite dish; A0FJP (grilled chicken) used as the primary anchor. Peanut sauce component not separately coded.",
+    "snomed_ct_code": null,
+    "snomed_ct_description": null,
+    "snomed_ct_match_type": "none",
+    "snomed_ct_gap_note": "No SNOMED CT code identified for Satay Ayam as a specific food concept."
+  },
+  "classification": {
+    "preparation_method": [
+      "marinated",
+      "skewered",
+      "charcoal-grilled"
+    ],
+    "processing_level": "minimally processed",
+    "main_ingredients": [
+      "chicken",
+      "lemongrass",
+      "turmeric",
+      "galangal",
+      "shallots",
+      "garlic",
+      "coriander seeds",
+      "peanut sauce",
+      "ketupat (compressed rice cake)",
+      "cucumber",
+      "raw onion"
+    ],
+    "allergens": [
+      "peanuts",
+      "gluten (possible from soy sauce in marinade)"
+    ],
+    "dietary_flags": {
+      "is_vegetarian": false,
+      "is_vegan": false,
+      "is_halal": true,
+      "is_kosher": false,
+      "is_gluten_free": false,
+      "is_dairy_free": true
+    }
+  },
+  "serving": {
+    "description": "1 serving (approximately 5 skewers with peanut sauce and accompaniments)",
+    "size_g": 250,
+    "natural_language_portion": "A typical serving of Satay Ayam consists of approximately 5 chicken skewers (around 150–170 g of chicken) served with peanut sauce, ketupat, sliced cucumber, and raw onion, totalling approximately 250 g."
+  },
+  "nutrient_source": {
+    "title": "Satay, chicken — HPB Singapore Foodo / IMR Malaysia MyFCD composite reference for grilled marinated chicken with peanut sauce",
+    "organization": "Health Promotion Board (HPB) Singapore; Institute for Medical Research (IMR) Malaysia MyFCD",
+    "url": "https://foodo.hpb.gov.sg; https://myfcd.moh.gov.my",
+    "accessed_date": "2026-04-16",
+    "source_match_type": "adapted",
+    "source_match_notes": "Satay Ayam values cross-referenced between HPB Singapore Foodo (chicken satay entry) and IMR Malaysia MyFCD (sate ayam entry). Input AI-generated values were validated against these two primary regional sources. Core macros and micronutrients are consistent with HPB/MyFCD data for grilled marinated chicken satay with peanut sauce at approximately 185 kcal per 100 g. Saturated fat estimated from HPB chicken satay entry. Monounsaturated, polyunsaturated, trans fat, cholesterol, and water data not separately reported in these sources and set to -1."
+  },
+  "per_100g": {
+    "energy_kcal": 185.0,
+    "protein_g": 14.5,
+    "fat_g": 11.2,
+    "saturated_fat_g": 3.1,
+    "monounsaturated_fat_g": -1.0,
+    "polyunsaturated_fat_g": -1.0,
+    "trans_fat_g": -1.0,
+    "carbohydrate_g": 6.8,
+    "sugar_g": 4.5,
+    "dietary_fibre_g": 1.2,
+    "sodium_mg": 320.0,
+    "potassium_mg": 280.0,
+    "calcium_mg": 25.0,
+    "iron_mg": 1.2,
+    "cholesterol_mg": -1.0,
+    "vitamin_c_mg": 2.0,
+    "vitamin_a_mcg_rae": 15.0,
+    "vitamin_b1_thiamine_mg": 0.08,
+    "vitamin_b2_riboflavin_mg": 0.12,
+    "vitamin_b3_niacin_mg": 5.5,
+    "vitamin_b6_mg": 0.35,
+    "vitamin_b12_mcg": 0.5,
+    "folate_mcg_dfe": 25.0,
+    "vitamin_d_mcg": 0.2,
+    "vitamin_e_mg": 2.5,
+    "phosphorus_mg": 180.0,
+    "magnesium_mg": 35.0,
+    "zinc_mg": 1.5,
+    "selenium_mcg": 12.5,
+    "water_g": -1.0
+  },
+  "glycemic_index": 45,
+  "gi_category": "low",
+  "glycemic_load_per_serving": 7.7,
+  "gi_source": {
+    "title": "International tables of glycemic index and glycemic load values — chicken satay / grilled marinated chicken with peanut sauce analogous estimate",
+    "organization": "University of Sydney GI Database; Atkinson FS, Foster-Powell K, Brand-Miller JC. Diabetes Care 2008",
+    "url": "https://glycemicindex.com",
+    "accessed_date": "2026-04-16",
+    "source_match_type": "analogous_estimate",
+    "source_match_notes": "No direct GI measurement for Satay Ayam exists in the University of Sydney GI Database. GI of 45 (low) is an analogous estimate based on: (1) grilled marinated chicken has negligible GI contribution; (2) peanut sauce GI ~14 (peanuts, University of Sydney GI Database); (3) ketupat (compressed rice) GI ~65 but constitutes a minor fraction of the composite dish as served. Composite dish GI estimated at 45 (low), consistent with high protein and fat content moderating glycaemic response. GL per serving = (GI × carbohydrate_g per serving) / 100 = (45 × 17.0) / 100 = 7.65 ≈ 7.7. Carbohydrate per 250 g serving = 6.8 × 2.5 = 17.0 g."
+  },
+  "health_context": {
+    "hypertension": {
+      "human_condition_name": "Hypertension",
+      "concern_level": "moderate",
+      "key_factor": "Sodium content 320 mg per 100 g; a 250 g serving delivers approximately 800 mg sodium, representing about 35% of the 2300 mg daily limit.",
+      "guidance": "Individuals with hypertension should limit portion size to 2–3 skewers and request reduced peanut sauce, as the marinade and sauce together contribute the majority of sodium in this dish."
+    },
+    "type2_diabetes": {
+      "human_condition_name": "Type 2 Diabetes",
+      "concern_level": "low",
+      "key_factor": "Low glycemic index (estimated GI 45) and moderate carbohydrate content (6.8 g per 100 g); high protein (14.5 g) and fat (11.2 g) further blunt postprandial glucose response.",
+      "guidance": "Satay Ayam is generally suitable for individuals with Type 2 Diabetes when ketupat portion is controlled; the peanut sauce contains 4.5 g sugar per 100 g and should be used in moderation to avoid cumulative sugar load."
+    },
+    "cardiovascular_disease": {
+      "human_condition_name": "Cardiovascular Disease",
+      "concern_level": "moderate",
+      "key_factor": "Saturated fat approximately 3.1 g per 100 g and sodium 320 mg per 100 g; charcoal grilling may produce heterocyclic amines (HCAs) and polycyclic aromatic hydrocarbons (PAHs) at high temperatures.",
+      "guidance": "Individuals with cardiovascular disease should moderate portion size, choose lean chicken breast skewers where possible, limit peanut sauce quantity, and be aware that frequent consumption of charcoal-grilled meats is associated with increased cardiovascular risk due to HCA and PAH formation."
+    },
+    "additional_conditions": {
+      "peanut_allergy": {
+        "human_condition_name": "Peanut Allergy",
+        "concern_level": "high",
+        "key_factor": "Peanut sauce (kuah kacang) is a core component of the dish.",
+        "guidance": "Satay Ayam must be avoided entirely by individuals with peanut allergy; cross-contamination risk is high in street food settings."
+      },
+      "rheumatoid_arthritis": {
+        "human_condition_name": "Rheumatoid Arthritis",
+        "concern_level": "low",
+        "key_factor": "Marinade contains turmeric (curcumin) and galangal with documented anti-inflammatory properties.",
+        "guidance": "Satay Ayam may be consumed by individuals with rheumatoid arthritis; turmeric and galangal in the marinade provide anti-inflammatory benefit, though frequent charcoal-grilled meat consumption should be moderated due to AGE formation."
+      }
+    }
+  },
+  "llm_training": {
+    "natural_language_description": "Satay Ayam (Chicken Satay) is one of the most iconic dishes of Malay, Indonesian, and Singaporean cuisine. It consists of small pieces of chicken — typically thigh or breast meat — marinated in a fragrant spice blend of lemongrass, turmeric, galangal, shallots, garlic, and coriander seeds, then threaded onto bamboo skewers and grilled over a charcoal fire. The charcoal grilling imparts a characteristic smoky, slightly charred flavour to the tender, juicy chicken. The dish is traditionally served with kuah kacang (a rich, spicy peanut sauce made from ground roasted peanuts, coconut milk, lemongrass, galangal, and palm sugar), ketupat (compressed rice cakes wrapped in woven palm leaves), sliced fresh cucumber, and raw shallots or onion rings. Satay Ayam is widely consumed as a street food snack, party appetiser, or main meal component across Malaysia, Singapore, and Indonesia. Nutritionally, a 100 g serving provides approximately 185 kcal, 14.5 g protein, 11.2 g fat, and 6.8 g carbohydrate, making it a protein-rich, moderate-fat dish with a low glycaemic index (estimated GI 45). The sodium content of 320 mg per 100 g warrants attention for individuals managing hypertension. The dish is halal and dairy-free but contains peanuts (major allergen). Clinically, it is suitable for Type 2 Diabetes management when ketupat and peanut sauce portions are controlled, and is moderate concern for cardiovascular disease due to saturated fat and sodium from the sauce and marinade.",
+    "common_user_queries": [
+      "What is satay ayam?",
+      "How many calories in chicken satay?",
+      "Is satay ayam healthy?",
+      "Is chicken satay good for diabetics?",
+      "What is the glycemic index of satay?",
+      "Is satay ayam halal?",
+      "What sauce comes with satay ayam?",
+      "How is satay ayam made?",
+      "Satay ayam nutrition per 100g",
+      "Can I eat satay if I have high blood pressure?"
+    ],
+    "meal_context": [
+      "street food snack",
+      "party appetiser",
+      "family dinner main dish",
+      "lunch",
+      "dinner",
+      "festive occasion food",
+      "hawker centre dish"
+    ],
+    "ingredient_synonyms": {
+      "lemongrass": [
+        "serai",
+        "sereh",
+        "citronella grass"
+      ],
+      "galangal": [
+        "lengkuas",
+        "blue ginger",
+        "laos"
+      ],
+      "turmeric": [
+        "kunyit",
+        "haldi"
+      ],
+      "peanut sauce": [
+        "kuah kacang",
+        "satay sauce",
+        "groundnut sauce"
+      ],
+      "ketupat": [
+        "compressed rice cake",
+        "rice dumpling",
+        "nasi himpit"
+      ],
+      "shallots": [
+        "bawang merah",
+        "small red onions"
+      ],
+      "coriander seeds": [
+        "ketumbar"
+      ]
+    }
+  },
+  "confidence": "medium",
+  "confidence_reason": "Core macros and micronutrients validated against HPB Singapore Foodo and IMR Malaysia MyFCD regional primary sources for grilled chicken satay. Values are consistent with the input AI-generated record. Saturated fat estimated from HPB entry. GI is an analogous estimate (no direct measurement in University of Sydney GI Database for Satay Ayam as a composite dish). Monounsaturated fat, polyunsaturated fat, trans fat, cholesterol, and water data not available in primary sources consulted.",
+  "notes": "1. monounsaturated_fat_g, polyunsaturated_fat_g, trans_fat_g, cholesterol_mg, and water_g are set to -1: detailed fatty acid profile and moisture data for Satay Ayam as a composite grilled dish are not separately reported in HPB Singapore Foodo or IMR Malaysia MyFCD as of April 2026. 2. Saturated fat (3.1 g per 100 g) estimated from HPB Singapore Foodo chicken satay entry. 3. GI of 45 is an analogous estimate based on University of Sydney GI Database peanut and grilled chicken data; no direct GI measurement for Satay Ayam exists in approved GI sources. 4. Glycemic load per serving calculated as (45 × 17.0 g carbohydrate per 250 g serving) / 100 = 7.7. 5. The dish is widely attributed to both Indonesian and Malay culinary traditions; country_of_origin is noted as Southeast Asia broadly. 6. Peanut allergy is a significant concern; this dish should never be served to individuals with peanut allergy. 7. All core macros (protein_g 14.5, fat_g 11.2, carbohydrate_g 6.8) are non-zero and nutritionally consistent with a grilled marinated chicken dish with peanut sauce.",
+  "veritas_qc": {
+    "final_decision": "PASS",
+    "hard_gates": {
+      "g1_valid_json_and_template": true,
+      "g2_approved_source_compliance": true,
+      "g3_numeric_hygiene": true,
+      "g4_core_macro_sanity": true,
+      "g5_ontology_honesty": true,
+      "g6_multilingual_naming_compliance": true
+    },
+    "score_total": 8,
+    "score_max": 8,
+    "criteria": {
+      "q1_food_identity": {
+        "pass": true,
+        "notes": "canonical English name present and multilingual identity satisfied"
+      },
+      "q2_core_macro_completeness_and_source_integrity": {
+        "pass": true,
+        "notes": "core macros and nutrient source integrity pass"
+      },
+      "q3_secondary_nutrient_completeness": {
+        "pass": true,
+        "notes": "secondary nutrient fields are present and numeric"
+      },
+      "q4_glycemic_completeness": {
+        "pass": true,
+        "notes": "GI, GI category, GL, and GI source are complete"
+      },
+      "q5_ontological_alignment": {
+        "pass": true,
+        "notes": "ontology anchor(s) present: foodon_uri, foodex2_code"
+      },
+      "q6_llm_ready_semantics": {
+        "pass": true,
+        "notes": "natural_language_description meets minimum semantic coverage"
+      },
+      "q7_health_context": {
+        "pass": true,
+        "notes": "required health-context conditions are complete"
+      },
+      "q8_aliases_and_multilingual_synonym_coverage": {
+        "pass": true,
+        "notes": "alias coverage is adequate and multilingual alias consistency passes"
+      }
+    },
+    "failure_reasons": [],
+    "improvement_actions_taken": [
+      "Corrected `ontology.foodex2_match_type` from 'adapted' to 'closest_parent' to align with allowed values in `VERITAS_SCORING_MODEL_v2.md`.",
+      "Validated against VERITAS_SCORING_MODEL_v2.md"
+    ],
+    "reviewer_summary": "PASS — all hard gates passed and the record scored 8/8."
+  }
+}

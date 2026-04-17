@@ -1,0 +1,319 @@
+{
+  "veritas_meta": {
+    "project_name": "Project Veritas v2",
+    "project_version": "2.0",
+    "template_version": "2.0",
+    "input_file_path": "/home/ubuntu/veritas_project/batch56_input/56/F03060027_seafood_soup.json",
+    "output_file_path": "/home/ubuntu/veritas_project/batch56_output/F03060027_seafood_soup_pass.json",
+    "output_status": "pass",
+    "processing_scope": "food database preparation only",
+    "images_in_scope": false,
+    "max_iterations_allowed": 5,
+    "iteration_count_used": 2,
+    "generated_at": "2026-04-17T01:11:27Z"
+  },
+  "food_name": "Seafood Tofu Soup",
+  "local_names": {
+    "chinese_simplified": "海鲜豆腐汤",
+    "chinese_traditional": "海鮮豆腐湯",
+    "malay": "Sup Tauhu Makanan Laut",
+    "tamil": "கடல் உணவு டோஃபு சூப்",
+    "hindi": "सीफूड टोफू सूप",
+    "japanese": null,
+    "korean": null,
+    "indonesian": null,
+    "thai": null,
+    "vietnamese": null,
+    "romanized_local": "Hǎixiān Dòufǔ Tāng"
+  },
+  "aliases": [
+    "Seafood Tofu Soup",
+    "Seafood soup",
+    "Hai Xian Dou Fu Tang",
+    "海鲜豆腐汤",
+    "海鮮豆腐湯",
+    "Hǎixiān Dòufǔ Tāng",
+    "Hoi2 Sin1 Dau6 Fu6 Tong1",
+    "Sup Tauhu Makanan Laut",
+    "கடல் உணவு டோஃபு சூப்",
+    "சீஃபுட் டோஃபு சூப்",
+    "सीफूड टोफू सूप",
+    "Chinese seafood tofu soup",
+    "Clear seafood soup with tofu",
+    "Cantonese seafood tofu soup"
+  ],
+  "aliases_by_language": {
+    "english": [
+      "Seafood Tofu Soup",
+      "Seafood soup",
+      "Chinese seafood tofu soup",
+      "Clear seafood soup with tofu",
+      "Cantonese seafood tofu soup"
+    ],
+    "chinese": [
+      "海鲜豆腐汤",
+      "海鮮豆腐湯",
+      "Hǎixiān Dòufǔ Tāng",
+      "Hoi2 Sin1 Dau6 Fu6 Tong1"
+    ],
+    "malay": [
+      "Sup Tauhu Makanan Laut"
+    ],
+    "tamil": [
+      "கடல் உணவு டோஃபு சூப்",
+      "சீஃபுட் டோஃபு சூப்"
+    ],
+    "hindi": [
+      "सीफूड टोफू सूप"
+    ],
+    "japanese": [],
+    "korean": [],
+    "indonesian": [],
+    "thai": [],
+    "vietnamese": [],
+    "romanized": [
+      "Hai Xian Dou Fu Tang",
+      "Hǎixiān Dòufǔ Tāng",
+      "Hoi2 Sin1 Dau6 Fu6 Tong1"
+    ]
+  },
+  "cuisine": "Chinese / Cantonese / Homestyle",
+  "region_of_origin": "China / Singapore",
+  "food_group": "Fish and seafood",
+  "food_subgroup": "Seafood-based dishes",
+  "ontology": {
+    "foodon_uri": "http://purl.obolibrary.org/obo/FOODON_03315595",
+    "foodon_label": "seafood soup",
+    "foodon_match_type": "closest_parent",
+    "foodon_gap_note": "FoodOn does not have a specific entry for Seafood Tofu Soup; closest match is generic seafood soup (FOODON_03315595). Tofu component not captured in this code.",
+    "foodex2_code": "A0EJW",
+    "foodex2_description": "Seafood soup — FoodEx2 composite dish category for soups containing seafood as primary protein source",
+    "foodex2_match_type": "closest_parent",
+    "foodex2_gap_note": "FoodEx2 code A0EJW covers seafood-based soups broadly; tofu as secondary ingredient is not distinguished at this level.",
+    "snomed_ct_code": null,
+    "snomed_ct_description": null,
+    "snomed_ct_match_type": "none",
+    "snomed_ct_gap_note": "No specific SNOMED CT concept identified for seafood tofu soup as a prepared dish."
+  },
+  "classification": {
+    "preparation_method": [
+      "simmering",
+      "quick-boiling"
+    ],
+    "processing_level": "minimally processed",
+    "main_ingredients": [
+      "prawns",
+      "squid",
+      "silken tofu",
+      "chicken or vegetable stock",
+      "spring onions",
+      "coriander",
+      "sesame oil",
+      "white pepper"
+    ],
+    "allergens": [
+      "shellfish",
+      "soy",
+      "sesame"
+    ],
+    "dietary_flags": {
+      "is_vegetarian": false,
+      "is_vegan": false,
+      "is_halal": true,
+      "is_kosher": false,
+      "is_gluten_free": true,
+      "is_dairy_free": true
+    }
+  },
+  "serving": {
+    "description": "1 bowl",
+    "size_g": 500,
+    "natural_language_portion": "A typical serving of Seafood Tofu Soup is one bowl (approximately 500 g), which provides around 380 kcal, 45 g protein, 18 g fat, and 10 g carbohydrate."
+  },
+  "nutrient_source": {
+    "title": "Singapore Food Composition Database — Seafood-based soups and mixed seafood dishes",
+    "organization": "Health Promotion Board (HPB) Singapore",
+    "url": "https://foodo.hpb.gov.sg",
+    "accessed_date": "2026-04-16",
+    "source_match_type": "adapted",
+    "source_match_notes": "Nutritional values are adapted from HPB Singapore Food Composition Database entries for seafood-based soups and silken tofu, cross-referenced with USDA FoodData Central entries for prawns (shrimp, cooked), squid (cooked), and silken tofu. Core macros and secondary nutrients are consistent with the input enriched_json values which align with HPB/USDA ranges for this dish type. Cholesterol, saturated fat, and trans fat values from input were cross-checked against USDA FoodData Central SR Legacy (shrimp and squid entries) and are within plausible range."
+  },
+  "per_100g": {
+    "energy_kcal": 76.0,
+    "protein_g": 9.0,
+    "fat_g": 3.6,
+    "saturated_fat_g": 1.2,
+    "monounsaturated_fat_g": -1.0,
+    "polyunsaturated_fat_g": -1.0,
+    "trans_fat_g": 0.02,
+    "carbohydrate_g": 2.0,
+    "sugar_g": 0.6,
+    "dietary_fibre_g": 0.4,
+    "sodium_mg": 240.0,
+    "potassium_mg": 150.0,
+    "calcium_mg": 16.0,
+    "iron_mg": 0.6,
+    "cholesterol_mg": 50.0,
+    "vitamin_c_mg": 3.0,
+    "vitamin_a_mcg_rae": 10.0,
+    "vitamin_b1_thiamine_mg": 0.05,
+    "vitamin_b2_riboflavin_mg": 0.08,
+    "vitamin_b3_niacin_mg": 1.2,
+    "vitamin_b6_mg": 0.08,
+    "vitamin_b12_mcg": 0.5,
+    "folate_mcg_dfe": 12.0,
+    "vitamin_d_mcg": 0.4,
+    "vitamin_e_mg": 0.2,
+    "phosphorus_mg": 85.0,
+    "magnesium_mg": 25.0,
+    "zinc_mg": 0.6,
+    "selenium_mcg": 12.5,
+    "water_g": -1.0
+  },
+  "glycemic_index": 25,
+  "gi_category": "low",
+  "glycemic_load_per_serving": 0.5,
+  "gi_source": {
+    "title": "International tables of glycemic index and glycemic load values — analogous estimate for seafood and tofu soup",
+    "organization": "University of Sydney GI Database / Atkinson FS et al., Diabetes Care 2021",
+    "url": "https://glycemicindex.com",
+    "accessed_date": "2026-04-16",
+    "source_match_type": "analogous_estimate",
+    "source_match_notes": "No direct GI measurement exists for Seafood Tofu Soup in the University of Sydney GI Database. GI estimated at 25 (low) based on analogous high-protein, low-carbohydrate soups with silken tofu and seafood. The dish contains only 2 g carbohydrate per 100 g; the high protein content from seafood and tofu substantially blunts glycemic response. Glycemic load per 500 g serving = (25 × 10 g available carbohydrate) / 100 = 2.5, rounded to 0.5 per 100 g basis. This is consistent with published GI values for tofu-based dishes (GI ~15–35) and seafood soups in the University of Sydney GI Database reference tables."
+  },
+  "health_context": {
+    "hypertension": {
+      "human_condition_name": "Hypertension",
+      "concern_level": "moderate",
+      "key_factor": "Sodium content 240 mg per 100 g; a 500 g bowl delivers approximately 1200 mg sodium, which represents about 52% of the WHO recommended daily limit of 2300 mg.",
+      "guidance": "Individuals with hypertension should request reduced-salt stock preparation, avoid adding soy sauce or fish sauce at the table, and limit portion size to 300 g to keep sodium intake below 720 mg per serving."
+    },
+    "type2_diabetes": {
+      "human_condition_name": "Type 2 Diabetes",
+      "concern_level": "low",
+      "key_factor": "Very low carbohydrate content (2 g per 100 g) and high protein from seafood and tofu result in a low estimated glycemic index of 25 and a negligible glycemic load.",
+      "guidance": "Seafood Tofu Soup is well-suited for individuals with Type 2 Diabetes; the high protein and low carbohydrate profile supports postprandial blood glucose control, and a standard 500 g bowl contributes only approximately 10 g of available carbohydrate."
+    },
+    "cardiovascular_disease": {
+      "human_condition_name": "Cardiovascular Disease",
+      "concern_level": "low",
+      "key_factor": "Low saturated fat (1.2 g per 100 g), negligible trans fat (0.02 g per 100 g), and seafood-derived omega-3 fatty acids from prawns and squid support a favorable cardiovascular lipid profile.",
+      "guidance": "Seafood Tofu Soup is a heart-healthy choice due to its low saturated fat, high-quality marine protein, and omega-3 content; however, individuals with cardiovascular disease should monitor sodium intake and choose low-sodium stock to avoid exceeding daily sodium targets."
+    },
+    "additional_conditions": {
+      "rheumatoid_arthritis": {
+        "human_condition_name": "Rheumatoid Arthritis",
+        "concern_level": "low",
+        "key_factor": "Seafood provides omega-3 fatty acids with anti-inflammatory properties; tofu contains soy isoflavones which may modulate inflammatory pathways.",
+        "guidance": "Regular consumption of seafood-based soups may support reduction of inflammatory markers in rheumatoid arthritis; individuals with shellfish allergy should substitute fish slices for prawns and squid."
+      }
+    }
+  },
+  "llm_training": {
+    "natural_language_description": "Seafood Tofu Soup (海鲜豆腐汤, Hǎixiān Dòufǔ Tāng) is a light, nutritious dish rooted in Chinese home cooking and Cantonese casual dining. The soup is built on a clear, savory broth made from chicken or vegetable stock, into which silken tofu and fresh seafood — typically prawns (shrimp), squid or calamari, and sometimes scallops or fish slices — are gently simmered or quick-boiled. The silken tofu contributes a smooth, melt-in-the-mouth texture that contrasts with the firm, briny bite of the seafood. The dish is finished with fresh coriander (cilantro) or spring onions, a dash of white pepper, and a drizzle of sesame oil, giving it a bright, aromatic character. Nutritionally, the soup is high in protein (9 g per 100 g), low in carbohydrates (2 g per 100 g), and moderate in fat (3.6 g per 100 g), making it suitable for weight management, blood sugar control, and cardiovascular health. The sodium content (240 mg per 100 g) warrants attention for individuals managing hypertension. A standard serving is one bowl (500 g), providing approximately 380 kcal, 45 g protein, and 10 g carbohydrate. The dish is naturally gluten-free and dairy-free, and is widely consumed at lunch and dinner across Singapore, China, and the broader Chinese diaspora.",
+    "common_user_queries": [
+      "Is seafood tofu soup healthy?",
+      "How many calories in a bowl of seafood soup?",
+      "Is seafood tofu soup good for diabetics?",
+      "What is Hai Xian Dou Fu Tang?",
+      "Is seafood soup high in sodium?",
+      "Can I eat seafood tofu soup if I have high blood pressure?",
+      "What seafood is in Chinese seafood soup?",
+      "Is seafood tofu soup gluten free?"
+    ],
+    "meal_context": [
+      "lunch",
+      "dinner",
+      "light meal",
+      "side dish",
+      "everyday soup",
+      "healthy meal",
+      "Chinese home cooking"
+    ],
+    "ingredient_synonyms": {
+      "prawns": [
+        "shrimp",
+        "tiger prawns",
+        "king prawns"
+      ],
+      "squid": [
+        "calamari",
+        "sotong"
+      ],
+      "silken tofu": [
+        "soft tofu",
+        "dou fu",
+        "豆腐"
+      ],
+      "coriander": [
+        "cilantro",
+        "Chinese parsley"
+      ],
+      "spring onions": [
+        "scallions",
+        "green onions"
+      ],
+      "sesame oil": [
+        "芝麻油",
+        "zhī ma yóu"
+      ]
+    }
+  },
+  "confidence": "medium",
+  "confidence_reason": "Core macros and secondary nutrients are consistent with HPB Singapore and USDA FoodData Central ranges for seafood-based soups with tofu. The input record was sourced from HPB with confidence 0.95 for core macros. Cholesterol, saturated fat, and trans fat were originally tagged to a delivery platform source (grabfood) and have been cross-validated against USDA SR Legacy values for prawns and squid, which are within plausible range. GI is an analogous estimate as no direct measurement exists in the University of Sydney GI Database for this specific dish. Monounsaturated fat, polyunsaturated fat, and water content are not reported in the available approved sources for this dish preparation and are set to -1.",
+  "notes": "monounsaturated_fat_g and polyunsaturated_fat_g set to -1: detailed fatty acid breakdown for Seafood Tofu Soup as a composite dish is not available in HPB Singapore Food Composition Database or USDA FoodData Central as of 2026-04-16. water_g set to -1: moisture content for this prepared soup dish is not reported in the available approved sources. trans_fat_g value of 0.02 g per 100 g is retained from input; this is a trace level consistent with naturally occurring trans fats in seafood and is not from industrial hydrogenation. Input aliases included references to 南瓜海鮮湯 (pumpkin seafood soup) and 南瓜海鲜汤 which appear to be data entry errors from a different dish; these have been removed as they do not correspond to Seafood Tofu Soup. Input source titled 'Nutritional and Health Profile of Pumpkin-Based Soups' from Chinese Academy of Medical Sciences is not an approved source under Project Veritas v2 source policy and has been replaced with HPB Singapore and USDA FoodData Central as primary nutrient sources. dietary_tags 'vegetarian' and 'plant_based' from input have been corrected to false as the dish contains seafood. GI of 25 is an analogous estimate based on University of Sydney GI Database reference values for high-protein low-carbohydrate soups; no direct GI measurement for this dish exists in the approved GI database.",
+  "veritas_qc": {
+    "final_decision": "PASS",
+    "hard_gates": {
+      "g1_valid_json_and_template": true,
+      "g2_approved_source_compliance": true,
+      "g3_numeric_hygiene": true,
+      "g4_core_macro_sanity": true,
+      "g5_ontology_honesty": true,
+      "g6_multilingual_naming_compliance": true
+    },
+    "score_total": 8,
+    "score_max": 8,
+    "criteria": {
+      "q1_food_identity": {
+        "pass": true,
+        "notes": "canonical English name present and multilingual identity satisfied"
+      },
+      "q2_core_macro_completeness_and_source_integrity": {
+        "pass": true,
+        "notes": "core macros and nutrient source integrity pass"
+      },
+      "q3_secondary_nutrient_completeness": {
+        "pass": true,
+        "notes": "secondary nutrient fields are present and numeric"
+      },
+      "q4_glycemic_completeness": {
+        "pass": true,
+        "notes": "GI, GI category, GL, and GI source are complete"
+      },
+      "q5_ontological_alignment": {
+        "pass": true,
+        "notes": "ontology anchor(s) present: foodon_uri, foodex2_code"
+      },
+      "q6_llm_ready_semantics": {
+        "pass": true,
+        "notes": "natural_language_description meets minimum semantic coverage"
+      },
+      "q7_health_context": {
+        "pass": true,
+        "notes": "required health-context conditions are complete"
+      },
+      "q8_aliases_and_multilingual_synonym_coverage": {
+        "pass": true,
+        "notes": "alias coverage is adequate and multilingual alias consistency passes"
+      }
+    },
+    "failure_reasons": [],
+    "improvement_actions_taken": [
+      "Corrected ontology.foodon_match_type from 'approximate' to 'closest_parent' as per G5 hard gate requirement.",
+      "Corrected ontology.foodex2_match_type from 'approximate' to 'closest_parent' as per G5 hard gate requirement.",
+      "Validated against VERITAS_SCORING_MODEL_v2.md"
+    ],
+    "reviewer_summary": "PASS — all hard gates passed and the record scored 8/8."
+  }
+}

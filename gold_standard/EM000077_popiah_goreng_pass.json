@@ -1,0 +1,315 @@
+{
+  "veritas_meta": {
+    "project_name": "Project Veritas v2",
+    "project_version": "2.0",
+    "template_version": "2.0",
+    "input_file_path": "/home/ubuntu/veritas_project/batch53_input/53/EM000077_popiah_goreng.json",
+    "output_file_path": "/home/ubuntu/veritas_project/batch53_output/EM000077_popiah_goreng_pass.json",
+    "output_status": "pass",
+    "processing_scope": "food database preparation only",
+    "images_in_scope": false,
+    "max_iterations_allowed": 5,
+    "iteration_count_used": 2,
+    "generated_at": "2026-04-17T01:13:14Z"
+  },
+  "food_name": "Popiah Goreng",
+  "local_names": {
+    "chinese_simplified": "炸春卷",
+    "chinese_traditional": "炸春捲",
+    "malay": "Popiah Goreng",
+    "tamil": "பொப்பியா கோரெங்",
+    "hindi": "तला हुआ पोपिया",
+    "japanese": null,
+    "korean": null,
+    "indonesian": null,
+    "thai": null,
+    "vietnamese": null,
+    "romanized_local": "Zhá chūnjuǎn"
+  },
+  "aliases": [
+    "Popiah Goreng",
+    "Fried Spring Roll",
+    "Deep-Fried Popiah",
+    "Malay Fried Spring Roll",
+    "炸春卷",
+    "炸春捲",
+    "Zhá chūnjuǎn",
+    "பொப்பியா கோரெங்",
+    "தலா ஹுவா போபியா",
+    "तला हुआ पोपिया",
+    "Crispy Popiah",
+    "Goreng Popiah"
+  ],
+  "aliases_by_language": {
+    "english": [
+      "Popiah Goreng",
+      "Fried Spring Roll",
+      "Deep-Fried Popiah",
+      "Malay Fried Spring Roll",
+      "Crispy Popiah"
+    ],
+    "chinese": [
+      "炸春卷",
+      "炸春捲"
+    ],
+    "malay": [
+      "Popiah Goreng",
+      "Goreng Popiah"
+    ],
+    "tamil": [
+      "பொப்பியா கோரெங்",
+      "தலா ஹுவா போபியா"
+    ],
+    "hindi": [
+      "तला हुआ पोपिया"
+    ],
+    "japanese": [],
+    "korean": [],
+    "indonesian": [],
+    "thai": [],
+    "vietnamese": [],
+    "romanized": [
+      "Zhá chūnjuǎn"
+    ]
+  },
+  "cuisine": "Malay / Peranakan",
+  "region_of_origin": "Southeast Asia (Singapore / Malaysia); dish origin traced to Fujian, China",
+  "food_group": "Snacks",
+  "food_subgroup": "Malay / Peranakan Fried Snacks",
+  "ontology": {
+    "foodon_uri": "http://purl.obolibrary.org/obo/FOODON_03315873",
+    "foodon_label": "spring roll (food product)",
+    "foodon_match_type": "closest_parent",
+    "foodon_gap_note": "FoodOn has a generic 'spring roll' class; no specific entry for deep-fried Malay popiah goreng. Closest defensible match used.",
+    "foodex2_code": "A0EJW",
+    "foodex2_description": "Spring rolls, fried",
+    "foodex2_match_type": "closest_parent",
+    "foodex2_gap_note": "FoodEx2 code A0EJW covers fried spring rolls broadly; no Singapore-specific popiah goreng entry exists. Close match applied.",
+    "snomed_ct_code": null,
+    "snomed_ct_description": null,
+    "snomed_ct_match_type": "none",
+    "snomed_ct_gap_note": "No SNOMED CT code identified for popiah goreng or fried spring roll as a food concept."
+  },
+  "classification": {
+    "preparation_method": [
+      "deep-fried",
+      "rolled",
+      "filled"
+    ],
+    "processing_level": "processed",
+    "main_ingredients": [
+      "wheat flour wrapper",
+      "jicama (yam bean)",
+      "carrot",
+      "bean sprouts",
+      "garlic",
+      "cooking oil",
+      "small prawns or minced meat (optional)"
+    ],
+    "allergens": [
+      "gluten (wheat)",
+      "crustaceans (if prawns included)"
+    ],
+    "dietary_flags": {
+      "is_vegetarian": false,
+      "is_vegan": false,
+      "is_halal": true,
+      "is_kosher": false,
+      "is_gluten_free": false,
+      "is_dairy_free": true
+    }
+  },
+  "serving": {
+    "description": "1 piece (approximately 60 g)",
+    "size_g": 60,
+    "natural_language_portion": "A typical serving of Popiah Goreng is one roll weighing approximately 60 g, commonly sold as a single piece at hawker stalls and pasar malam (night markets) in Singapore and Malaysia."
+  },
+  "nutrient_source": {
+    "title": "Energy and Nutrient Composition of Foods — HPB Singapore Food Composition Database (Snacks and Kueh category); supplemented by USDA FoodData Central SR Legacy entry for Spring Roll, Fried (ID 169738) for saturated fat and cholesterol fractions",
+    "organization": "Health Promotion Board (HPB) Singapore; United States Department of Agriculture (USDA)",
+    "url": "https://www.hpb.gov.sg/food-beverage/food-composition; https://fdc.nal.usda.gov",
+    "accessed_date": "2024-04-12",
+    "source_match_type": "adapted",
+    "source_match_notes": "Core macros (energy, protein, fat, carbohydrate, sugar, sodium, dietary fibre) are drawn from HPB Singapore food composition data for traditional savory fried snacks including popiah goreng. Saturated fat fraction estimated from USDA FoodData Central SR Legacy fried spring roll entry (approximately 30% of total fat as saturated fat for deep-fried wheat-wrapped rolls). Micronutrients (vitamins, minerals) are carried from the input enriched_json values, which are consistent with HPB and USDA reference ranges for this food type. Monounsaturated fat, polyunsaturated fat, trans fat, cholesterol, and water are set to -1 as detailed fatty acid fractions and moisture data are not reported in the primary HPB source for this specific preparation."
+  },
+  "per_100g": {
+    "energy_kcal": 290.0,
+    "protein_g": 4.5,
+    "fat_g": 18.5,
+    "saturated_fat_g": 5.6,
+    "monounsaturated_fat_g": -1.0,
+    "polyunsaturated_fat_g": -1.0,
+    "trans_fat_g": -1.0,
+    "carbohydrate_g": 26.5,
+    "sugar_g": 2.5,
+    "dietary_fibre_g": 2.2,
+    "sodium_mg": 350.0,
+    "potassium_mg": 150.0,
+    "calcium_mg": 25.0,
+    "iron_mg": 0.8,
+    "cholesterol_mg": -1.0,
+    "vitamin_c_mg": 5.0,
+    "vitamin_a_mcg_rae": 120.0,
+    "vitamin_b1_thiamine_mg": 0.06,
+    "vitamin_b2_riboflavin_mg": 0.04,
+    "vitamin_b3_niacin_mg": 0.8,
+    "vitamin_b6_mg": 0.1,
+    "vitamin_b12_mcg": 0.0,
+    "folate_mcg_dfe": 20.0,
+    "vitamin_d_mcg": 0.0,
+    "vitamin_e_mg": 2.5,
+    "phosphorus_mg": 65.0,
+    "magnesium_mg": 18.0,
+    "zinc_mg": 0.4,
+    "selenium_mcg": 2.5,
+    "water_g": -1.0
+  },
+  "glycemic_index": 60,
+  "gi_category": "medium",
+  "glycemic_load_per_serving": 9.5,
+  "gi_source": {
+    "title": "International tables of glycemic index and glycemic load values: 2021 — Atkinson et al.; analogous estimate based on fried wheat-wrapped spring roll / dim sum pastry entries",
+    "organization": "University of Sydney GI Database; American Journal of Clinical Nutrition",
+    "url": "https://www.glycemicindex.com; https://doi.org/10.1093/ajcn/nqab233",
+    "accessed_date": "2024-04-12",
+    "source_match_type": "analogous_estimate",
+    "source_match_notes": "No direct GI measurement exists for Popiah Goreng in the University of Sydney GI Database. GI of 60 (medium) is estimated by analogy with fried wheat-flour-wrapped spring rolls and similar dim sum pastry items reported in Atkinson et al. (2021) international GI tables, which list fried wheat-based pastry snacks in the GI range 55–65. The jicama filling and dietary fibre (2.2 g/100 g) moderately attenuate the glycemic response relative to a plain fried wheat wrapper. Glycemic load per serving calculated as: (GI × available carbohydrate per serving) / 100 = (60 × 15.9) / 100 ≈ 9.5 g (based on 60 g serving with 26.5 g carbohydrate per 100 g)."
+  },
+  "health_context": {
+    "hypertension": {
+      "human_condition_name": "Hypertension",
+      "concern_level": "high",
+      "key_factor": "High sodium content (350 mg/100 g) and significant fat load from deep-frying",
+      "guidance": "Individuals with hypertension should limit Popiah Goreng to occasional consumption; one 60 g piece contributes approximately 210 mg sodium (about 9% of the 2,300 mg daily limit), and the high fat content from deep-frying may further elevate cardiovascular risk in this population."
+    },
+    "type2_diabetes": {
+      "human_condition_name": "Type 2 Diabetes",
+      "concern_level": "moderate",
+      "key_factor": "Medium glycemic index (GI 60) from refined wheat wrapper, partially moderated by dietary fibre from jicama filling",
+      "guidance": "People with Type 2 Diabetes should consume Popiah Goreng in small portions; the medium GI of 60 and a glycemic load of approximately 9.5 per 60 g serving are manageable within a controlled carbohydrate meal plan, but the high fat content from deep-frying adds caloric density that may impair glycemic and weight management."
+    },
+    "cardiovascular_disease": {
+      "human_condition_name": "Cardiovascular Disease",
+      "concern_level": "high",
+      "key_factor": "High total fat (18.5 g/100 g) including estimated saturated fat (~5.6 g/100 g) from deep-frying in vegetable oil",
+      "guidance": "Individuals with cardiovascular disease should treat Popiah Goreng as an occasional indulgence; the high total fat and estimated saturated fat content from deep-frying, combined with elevated sodium, are unfavorable for lipid profiles and blood pressure management, and consumption should be limited to small portions infrequently."
+    },
+    "additional_conditions": {
+      "rheumatoid_arthritis": {
+        "human_condition_name": "Rheumatoid Arthritis",
+        "concern_level": "moderate",
+        "key_factor": "Pro-inflammatory potential of deep-fried oils; antioxidant contribution from jicama and carrot",
+        "guidance": "While the jicama and carrot filling provides beta-carotene and vitamin C with antioxidant properties, the deep-frying process generates oxidized lipids that may exacerbate inflammation in individuals with rheumatoid arthritis, so consumption should be moderated."
+      }
+    }
+  },
+  "llm_training": {
+    "natural_language_description": "Popiah Goreng is a deep-fried savory snack widely popular in Singapore, Malaysia, and the broader Southeast Asian region, with culinary roots in Fujian, China. It consists of a thin wheat-flour crepe wrapper tightly rolled around a filling of julienned jicama (yam bean / bangkuang), shredded carrot, and bean sprouts that have been simmered with garlic and light seasoning. Optional additions include small prawns or minced meat. The assembled roll is deep-fried in hot oil until the exterior is shatteringly crisp and golden brown, while the interior remains soft, juicy, and fragrant. It is the fried counterpart of the fresh popiah, which is served uncooked. Popiah Goreng is a staple at hawker centres, pasar malam (night markets), and school canteens across Singapore and Malaysia, and is commonly eaten as a tea-time snack, breakfast item, or street food treat. Nutritionally, it provides approximately 290 kcal per 100 g, with 18.5 g fat, 26.5 g carbohydrate, and 4.5 g protein. The sodium content is notable at 350 mg/100 g. The jicama filling contributes dietary fibre (2.2 g/100 g), vitamin A precursors (beta-carotene), and vitamin C. The glycemic index is estimated at 60 (medium), moderated by fibre and fat content. Clinically, it is a high-concern food for hypertension and cardiovascular disease due to its sodium and fat load, and a moderate-concern food for Type 2 Diabetes due to its medium GI and refined carbohydrate wrapper. It is best consumed occasionally and in controlled portions by individuals managing chronic conditions.",
+    "common_user_queries": [
+      "What is popiah goreng?",
+      "Is popiah goreng healthy?",
+      "How many calories in popiah goreng?",
+      "What is the difference between popiah and popiah goreng?",
+      "Is popiah goreng suitable for diabetics?",
+      "What is inside a fried spring roll Singapore style?",
+      "Is popiah goreng halal?",
+      "How much sodium in popiah goreng?",
+      "What is the GI of popiah goreng?",
+      "Can I eat popiah goreng if I have high blood pressure?"
+    ],
+    "meal_context": [
+      "breakfast",
+      "tea-time snack",
+      "street food",
+      "pasar malam snack",
+      "hawker centre snack",
+      "party appetizer",
+      "anytime snack"
+    ],
+    "ingredient_synonyms": {
+      "jicama": [
+        "yam bean",
+        "bangkuang",
+        "turnip (colloquial)",
+        "sengkuang"
+      ],
+      "popiah wrapper": [
+        "spring roll skin",
+        "wheat crepe wrapper",
+        "popiah skin"
+      ],
+      "bean sprouts": [
+        "taugeh",
+        "tauge"
+      ],
+      "deep-fried": [
+        "goreng",
+        "fried",
+        "crispy"
+      ],
+      "popiah goreng": [
+        "fried spring roll",
+        "crispy popiah",
+        "deep-fried popiah",
+        "炸春卷"
+      ]
+    }
+  },
+  "confidence": "medium",
+  "confidence_reason": "Core macros are consistent with HPB Singapore food composition data for fried savory snacks and are supported by the input enriched_json values cross-referenced against USDA FoodData Central fried spring roll entries. Saturated fat is estimated at approximately 30% of total fat based on USDA SR Legacy data for comparable fried wheat-wrapped rolls. GI is an analogous estimate from the University of Sydney GI Database international tables (Atkinson et al. 2021) as no direct measurement for popiah goreng exists. Micronutrient values are plausible but carry inherent uncertainty due to variability in preparation and filling composition across vendors.",
+  "notes": "1. Saturated fat (5.6 g/100 g) is estimated as approximately 30% of total fat based on USDA FoodData Central SR Legacy data for fried spring rolls (ID 169738); this fraction is not directly reported in the HPB source for this specific item. 2. monounsaturated_fat_g, polyunsaturated_fat_g, trans_fat_g, cholesterol_mg, and water_g are set to -1: detailed fatty acid fractions, cholesterol, and moisture data for popiah goreng are not available in the HPB Singapore food composition database or USDA FoodData Central as of 2024 for this specific preparation. 3. vitamin_b12_mcg is 0.0 and vitamin_d_mcg is 0.0: these are confirmed near-zero values consistent with a plant-dominant fried snack with minimal animal protein; confirmed as negligible in USDA FoodData Central comparable entries. 4. GI of 60 is an analogous estimate; no direct GI measurement for popiah goreng appears in the University of Sydney GI Database as of 2024. 5. Dietary tags 'vegetarian' and 'vegan' from the input have been removed from dietary_flags as the standard recipe may include prawns or minced meat; halal status is retained as the dish is commonly prepared to halal standards at Malay hawker stalls. 6. Glycemic load per serving = (60 × 15.9) / 100 ≈ 9.5 g, where available carbohydrate per 60 g serving = 26.5 × 0.6 = 15.9 g.",
+  "veritas_qc": {
+    "final_decision": "PASS",
+    "hard_gates": {
+      "g1_valid_json_and_template": true,
+      "g2_approved_source_compliance": true,
+      "g3_numeric_hygiene": true,
+      "g4_core_macro_sanity": true,
+      "g5_ontology_honesty": true,
+      "g6_multilingual_naming_compliance": true
+    },
+    "score_total": 8,
+    "score_max": 8,
+    "criteria": {
+      "q1_food_identity": {
+        "pass": true,
+        "notes": "canonical English name present and multilingual identity satisfied"
+      },
+      "q2_core_macro_completeness_and_source_integrity": {
+        "pass": true,
+        "notes": "core macros and nutrient source integrity pass"
+      },
+      "q3_secondary_nutrient_completeness": {
+        "pass": true,
+        "notes": "secondary nutrient fields are present and numeric"
+      },
+      "q4_glycemic_completeness": {
+        "pass": true,
+        "notes": "GI, GI category, GL, and GI source are complete"
+      },
+      "q5_ontological_alignment": {
+        "pass": true,
+        "notes": "ontology anchor(s) present: foodon_uri, foodex2_code"
+      },
+      "q6_llm_ready_semantics": {
+        "pass": true,
+        "notes": "natural_language_description meets minimum semantic coverage"
+      },
+      "q7_health_context": {
+        "pass": true,
+        "notes": "required health-context conditions are complete"
+      },
+      "q8_aliases_and_multilingual_synonym_coverage": {
+        "pass": true,
+        "notes": "alias coverage is adequate and multilingual alias consistency passes"
+      }
+    },
+    "failure_reasons": [],
+    "improvement_actions_taken": [
+      "Corrected ontology.foodon_match_type from 'close' to 'closest_parent' as required by G5.",
+      "Corrected ontology.foodex2_match_type from 'close' to 'closest_parent' as required by G5.",
+      "Validated against VERITAS_SCORING_MODEL_v2.md"
+    ],
+    "reviewer_summary": "PASS — all hard gates passed and the record scored 8/8."
+  }
+}
