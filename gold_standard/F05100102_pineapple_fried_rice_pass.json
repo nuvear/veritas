@@ -1,0 +1,314 @@
+{
+  "veritas_meta": {
+    "project_name": "Project Veritas v2",
+    "project_version": "2.0",
+    "template_version": "2.0",
+    "input_file_path": "/home/ubuntu/veritas_project/batch60_input/60/F05100102_pineapple_fried_rice.json",
+    "output_file_path": "/home/ubuntu/veritas_project/batch60_output/F05100102_pineapple_fried_rice_pass.json",
+    "output_status": "pass",
+    "processing_scope": "food database preparation only",
+    "images_in_scope": false,
+    "max_iterations_allowed": 5,
+    "iteration_count_used": 2,
+    "generated_at": "2026-04-17T01:04:50Z"
+  },
+  "food_name": "Pineapple Fried Rice",
+  "local_names": {
+    "chinese_simplified": "菠萝炒饭",
+    "chinese_traditional": "菠蘿炒飯",
+    "malay": null,
+    "tamil": null,
+    "hindi": null,
+    "japanese": null,
+    "korean": null,
+    "indonesian": null,
+    "thai": "ข้าวผัดสับปะรด",
+    "vietnamese": null,
+    "romanized_local": "Khao Phat Sapparot (Thai); Bōluó chǎofàn (Chinese)"
+  },
+  "aliases": [
+    "Pineapple Fried Rice",
+    "Pineapple fried rice",
+    "菠萝炒饭",
+    "菠蘿炒飯",
+    "ข้าวผัดสับปะรด",
+    "Khao Phat Sapparot",
+    "Bōluó chǎofàn",
+    "Thai pineapple fried rice",
+    "Cantonese pineapple fried rice",
+    "Pineapple rice"
+  ],
+  "aliases_by_language": {
+    "english": [
+      "Pineapple Fried Rice",
+      "Pineapple fried rice",
+      "Thai pineapple fried rice",
+      "Cantonese pineapple fried rice",
+      "Pineapple rice"
+    ],
+    "chinese": [
+      "菠萝炒饭",
+      "菠蘿炒飯",
+      "Bōluó chǎofàn"
+    ],
+    "malay": [],
+    "tamil": [],
+    "hindi": [],
+    "japanese": [],
+    "korean": [],
+    "indonesian": [],
+    "thai": [
+      "ข้าวผัดสับปะรด",
+      "Khao Phat Sapparot"
+    ],
+    "vietnamese": [],
+    "romanized": [
+      "Khao Phat Sapparot",
+      "Bōluó chǎofàn"
+    ]
+  },
+  "cuisine": "Thai / Cantonese",
+  "region_of_origin": "Thailand / Southern China",
+  "food_group": "Grains and staples",
+  "food_subgroup": "Rice-based dishes",
+  "ontology": {
+    "foodon_uri": "http://purl.obolibrary.org/obo/FOODON_00002694",
+    "foodon_label": "fried rice food product",
+    "foodon_match_type": "closest_parent",
+    "foodon_gap_note": "No FoodOn term specific to pineapple fried rice exists; mapped to the broader 'fried rice food product' class as the closest defensible ancestor.",
+    "foodex2_code": "A0FKP",
+    "foodex2_description": "Fried rice",
+    "foodex2_match_type": "closest_parent",
+    "foodex2_gap_note": "FoodEx2 code A0FKP covers fried rice as a category; no pineapple-specific fried rice code exists in the FoodEx2 hierarchy as of 2024.",
+    "snomed_ct_code": null,
+    "snomed_ct_description": null,
+    "snomed_ct_match_type": "none",
+    "snomed_ct_gap_note": "No SNOMED CT concept for pineapple fried rice identified; left null to preserve ontology honesty."
+  },
+  "classification": {
+    "preparation_method": [
+      "wok-frying",
+      "stir-frying"
+    ],
+    "processing_level": "processed",
+    "main_ingredients": [
+      "cooked white rice",
+      "pineapple chunks",
+      "egg",
+      "shrimp or chicken or ham",
+      "cashew nuts",
+      "raisins",
+      "vegetable oil",
+      "fish sauce or soy sauce",
+      "turmeric powder",
+      "onion",
+      "garlic"
+    ],
+    "allergens": [
+      "crustaceans (shrimp)",
+      "eggs",
+      "tree nuts (cashews)",
+      "fish (fish sauce)",
+      "soy (soy sauce)",
+      "gluten (soy sauce)"
+    ],
+    "dietary_flags": {
+      "is_vegetarian": false,
+      "is_vegan": false,
+      "is_halal": false,
+      "is_kosher": false,
+      "is_gluten_free": false,
+      "is_dairy_free": true
+    }
+  },
+  "serving": {
+    "description": "1 plate / 1 serving",
+    "size_g": 350,
+    "natural_language_portion": "One standard serving of pineapple fried rice is approximately 350 g, equivalent to a single restaurant plate or a generous home-cooked portion."
+  },
+  "nutrient_source": {
+    "title": "Singapore HPB Foodo — Fried Rice (generic) and component ingredient data",
+    "organization": "Health Promotion Board (HPB), Singapore",
+    "url": "https://foodo.hpb.gov.sg",
+    "accessed_date": "2026-04-16",
+    "source_match_type": "adapted",
+    "source_match_notes": "HPB Foodo does not carry a dedicated pineapple fried rice entry. Values are adapted from HPB fried rice (generic) as the primary anchor, cross-referenced with USDA FoodData Central component data for pineapple, cashews, raisins, and shrimp to account for the distinctive ingredient profile. The input record's per_100g values (energy 165 kcal, protein 5.8 g, fat 6.2 g, carbohydrate 21.5 g) are consistent with this adapted composite and are retained. Saturated fat estimated at 1.2 g per 100 g based on USDA SR Legacy data for comparable stir-fried rice dishes with mixed protein and vegetable oil."
+  },
+  "per_100g": {
+    "energy_kcal": 165.0,
+    "protein_g": 5.8,
+    "fat_g": 6.2,
+    "saturated_fat_g": 1.2,
+    "monounsaturated_fat_g": -1.0,
+    "polyunsaturated_fat_g": -1.0,
+    "trans_fat_g": -1.0,
+    "carbohydrate_g": 21.5,
+    "sugar_g": 3.5,
+    "dietary_fibre_g": 1.2,
+    "sodium_mg": 280.0,
+    "potassium_mg": 160.0,
+    "calcium_mg": 22.0,
+    "iron_mg": 1.1,
+    "cholesterol_mg": -1.0,
+    "vitamin_c_mg": 12.0,
+    "vitamin_a_mcg_rae": 45.0,
+    "vitamin_b1_thiamine_mg": 0.1,
+    "vitamin_b2_riboflavin_mg": 0.06,
+    "vitamin_b3_niacin_mg": 1.5,
+    "vitamin_b6_mg": 0.18,
+    "vitamin_b12_mcg": 0.35,
+    "folate_mcg_dfe": 15.0,
+    "vitamin_d_mcg": 0.0,
+    "vitamin_e_mg": 0.8,
+    "phosphorus_mg": 85.0,
+    "magnesium_mg": 25.0,
+    "zinc_mg": 0.7,
+    "selenium_mcg": 8.5,
+    "water_g": -1.0
+  },
+  "glycemic_index": 60,
+  "gi_category": "medium",
+  "glycemic_load_per_serving": 22.7,
+  "gi_source": {
+    "title": "International tables of glycemic index and glycemic load values — white rice and mixed rice dishes",
+    "organization": "University of Sydney GI Database / Atkinson FS et al., Diabetes Care 2021",
+    "url": "https://glycemicindex.com",
+    "accessed_date": "2026-04-16",
+    "source_match_type": "analogous_estimate",
+    "source_match_notes": "No direct GI measurement for pineapple fried rice exists in the University of Sydney GI Database. GI of 60 (medium) is estimated by analogy with white rice-based mixed fried rice dishes (GI range 55–65) from the University of Sydney GI Database. The presence of pineapple (GI ~59) and raisins (GI ~64) is partially offset by protein (shrimp, egg), fat (cashews, oil), and dietary fibre, which moderate postprandial glucose response. Glycemic load per 350 g serving = (60 × 21.5 × 3.5) / 100 ≈ 22.7 g, classified as high GL. Confidence: 0.75 (estimated)."
+  },
+  "health_context": {
+    "hypertension": {
+      "human_condition_name": "Hypertension",
+      "concern_level": "high",
+      "key_factor": "High sodium content (280 mg per 100 g; ~980 mg per 350 g serving) from fish sauce, soy sauce, and added seasonings",
+      "guidance": "Individuals with hypertension should limit portion size to no more than 200 g, request low-sodium soy sauce, and avoid additional table salt or fish sauce to keep sodium intake within the recommended 2000 mg/day ceiling."
+    },
+    "type2_diabetes": {
+      "human_condition_name": "Type 2 Diabetes",
+      "concern_level": "moderate",
+      "key_factor": "Medium glycemic index (GI 60) with a high glycemic load per serving (~22.7 g GL) driven by white rice, pineapple, and raisins",
+      "guidance": "People with type 2 diabetes should restrict serving size to approximately 150–200 g, pair the dish with additional non-starchy vegetables and lean protein to lower the overall glycemic response, and monitor postprandial blood glucose closely."
+    },
+    "cardiovascular_disease": {
+      "human_condition_name": "Cardiovascular Disease",
+      "concern_level": "moderate",
+      "key_factor": "Moderate fat content (6.2 g per 100 g) with estimated saturated fat of 1.2 g per 100 g; high sodium per serving poses additional cardiovascular risk",
+      "guidance": "Individuals with cardiovascular disease should choose preparations using minimal vegetable oil, avoid ham or processed meat additions, and limit portion size to control both saturated fat and sodium intake in line with AHA dietary guidelines."
+    },
+    "additional_conditions": {
+      "rheumatoid_arthritis": {
+        "human_condition_name": "Rheumatoid Arthritis",
+        "concern_level": "low",
+        "key_factor": "Pineapple contains bromelain (a proteolytic enzyme with potential anti-inflammatory properties); turmeric provides curcumin with documented anti-inflammatory effects",
+        "guidance": "Pineapple fried rice may be consumed in moderation by individuals with rheumatoid arthritis; however, preparations containing processed meats (ham) or excessive oil should be avoided as these may promote systemic inflammation."
+      }
+    }
+  },
+  "llm_training": {
+    "natural_language_description": "Pineapple Fried Rice (菠萝炒饭 in Chinese; ข้าวผัดสับปะรด in Thai) is a vibrant stir-fried rice dish popular across Thai and Cantonese cuisines. It is prepared by wok-frying day-old cooked white rice at high heat with fresh or canned pineapple chunks, egg, mixed proteins (commonly shrimp, chicken, or ham), cashew nuts, raisins, onion, and garlic. The dish is seasoned with fish sauce or soy sauce and coloured with turmeric powder, which imparts a characteristic golden-yellow hue. A signature restaurant presentation involves serving the finished rice inside a hollowed-out pineapple shell. The flavour profile is a balance of sweet (pineapple, raisins), savoury (soy sauce, fish sauce), and nutty (cashews), with contrasting textures from tender rice, juicy fruit, and crunchy nuts. Per 100 g, the dish provides approximately 165 kcal, 5.8 g protein, 6.2 g fat, and 21.5 g carbohydrate, with 280 mg sodium. The medium glycemic index (~60) and high glycemic load per serving (~22.7 g) make portion control important for individuals managing type 2 diabetes. The high sodium content per serving (~980 mg per 350 g plate) is a concern for hypertension. Pineapple contributes vitamin C (12 mg/100 g) and bromelain, while turmeric provides curcumin with potential anti-inflammatory benefits. The dish is not suitable for strict low-carbohydrate or low-sodium diets without significant modification.",
+    "common_user_queries": [
+      "Is pineapple fried rice healthy?",
+      "How many calories in pineapple fried rice?",
+      "Is pineapple fried rice good for diabetics?",
+      "What is the GI of pineapple fried rice?",
+      "How much sodium is in pineapple fried rice?",
+      "What are the ingredients in Thai pineapple fried rice?",
+      "Is pineapple fried rice gluten-free?",
+      "Can I eat pineapple fried rice if I have high blood pressure?"
+    ],
+    "meal_context": [
+      "lunch",
+      "dinner",
+      "restaurant main course",
+      "festive or tropical-themed meal",
+      "one-pot meal"
+    ],
+    "ingredient_synonyms": {
+      "pineapple": [
+        "ananas",
+        "菠萝",
+        "สับปะรด"
+      ],
+      "fried rice": [
+        "炒饭",
+        "ข้าวผัด",
+        "chǎofàn"
+      ],
+      "fish sauce": [
+        "น้ำปลา",
+        "nước mắm"
+      ],
+      "cashew nuts": [
+        "腰果",
+        "เม็ดมะม่วงหิมพานต์"
+      ],
+      "turmeric": [
+        "姜黄",
+        "ขมิ้น",
+        "haldi"
+      ],
+      "soy sauce": [
+        "酱油",
+        "ซีอิ๊ว"
+      ]
+    }
+  },
+  "confidence": "medium",
+  "confidence_reason": "No exact pineapple fried rice entry exists in HPB Foodo or USDA FoodData Central. Nutrient values are adapted from HPB generic fried rice as the primary anchor with USDA component cross-referencing. The input record values are internally consistent and plausible for this dish type. GI is an analogous estimate from University of Sydney GI Database data for comparable white rice dishes. Confidence is therefore medium rather than high.",
+  "notes": "1. monounsaturated_fat_g, polyunsaturated_fat_g, trans_fat_g, cholesterol_mg, and water_g are set to -1: detailed fatty acid fractionation and moisture data for pineapple fried rice are not available as a discrete entry in HPB Foodo or USDA FoodData Central as of 2026-04-16. 2. vitamin_d_mcg is reported as 0.0 (confirmed negligible/zero): white rice, pineapple, and the typical ingredients of this dish contain negligible vitamin D; this is consistent with USDA FoodData Central component data. 3. Saturated fat (1.2 g/100 g) is estimated from USDA SR Legacy data for comparable stir-fried rice dishes and is not directly measured. 4. The dish is not inherently halal-certified as it commonly contains shrimp and may contain pork-derived ham; halal status depends on preparation. 5. The portions array in the input contained a duplicate entry (two identical 350 g servings); only one default serving of 350 g is retained. 6. GI source is an analogous estimate; a direct GI measurement for pineapple fried rice has not been published in the University of Sydney GI Database as of 2026-04-16. 7. This dish is classified as Thai / Cantonese fusion and does not fall under the Singaporean multilingual requirement; Thai native-script and Chinese-script names are provided as the primary mandatory local-language forms.",
+  "veritas_qc": {
+    "final_decision": "PASS",
+    "hard_gates": {
+      "g1_valid_json_and_template": true,
+      "g2_approved_source_compliance": true,
+      "g3_numeric_hygiene": true,
+      "g4_core_macro_sanity": true,
+      "g5_ontology_honesty": true,
+      "g6_multilingual_naming_compliance": true
+    },
+    "score_total": 8,
+    "score_max": 8,
+    "criteria": {
+      "q1_food_identity": {
+        "pass": true,
+        "notes": "canonical English name present and multilingual identity satisfied"
+      },
+      "q2_core_macro_completeness_and_source_integrity": {
+        "pass": true,
+        "notes": "core macros and nutrient source integrity pass"
+      },
+      "q3_secondary_nutrient_completeness": {
+        "pass": true,
+        "notes": "secondary nutrient fields are present and numeric"
+      },
+      "q4_glycemic_completeness": {
+        "pass": true,
+        "notes": "GI, GI category, GL, and GI source are complete"
+      },
+      "q5_ontological_alignment": {
+        "pass": true,
+        "notes": "ontology anchor(s) present: foodon_uri, foodex2_code"
+      },
+      "q6_llm_ready_semantics": {
+        "pass": true,
+        "notes": "natural_language_description meets minimum semantic coverage"
+      },
+      "q7_health_context": {
+        "pass": true,
+        "notes": "required health-context conditions are complete"
+      },
+      "q8_aliases_and_multilingual_synonym_coverage": {
+        "pass": true,
+        "notes": "alias coverage is adequate and multilingual alias consistency passes"
+      }
+    },
+    "failure_reasons": [],
+    "improvement_actions_taken": [
+      "Corrected ontology.foodon_match_type from 'broader' to 'closest_parent' as per VERITAS_SCORING_MODEL_v2.md requirements.",
+      "Corrected ontology.foodex2_match_type from 'broader' to 'closest_parent' as per VERITAS_SCORING_MODEL_v2.md requirements.",
+      "Validated against VERITAS_SCORING_MODEL_v2.md"
+    ],
+    "reviewer_summary": "PASS — all hard gates passed and the record scored 8/8."
+  }
+}
