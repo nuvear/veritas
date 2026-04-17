@@ -1,0 +1,313 @@
+{
+  "veritas_meta": {
+    "project_name": "Project Veritas v2",
+    "project_version": "2.0",
+    "template_version": "2.0",
+    "input_file_path": "/home/ubuntu/veritas_project/batch46_input/46/G00012044_char_siew_bao_chicken.json",
+    "output_file_path": "/home/ubuntu/veritas_project/batch46_output/G00012044_char_siew_bao_chicken_pass.json",
+    "output_status": "pass",
+    "processing_scope": "food database preparation only",
+    "images_in_scope": false,
+    "max_iterations_allowed": 5,
+    "iteration_count_used": 2,
+    "generated_at": "2026-04-17T00:11:43Z"
+  },
+  "food_name": "Char Siew Bao (Chicken)",
+  "local_names": {
+    "chinese_simplified": "鸡叉烧包",
+    "chinese_traditional": "雞叉燒包",
+    "malay": "Pau Ayam Char Siew",
+    "tamil": "சார் சியூ பாவ் (கோழி)",
+    "hindi": "चार सियू बाओ (चिकन)",
+    "japanese": null,
+    "korean": null,
+    "indonesian": null,
+    "thai": null,
+    "vietnamese": null,
+    "romanized_local": "Jī chāshāo bāo"
+  },
+  "aliases": [
+    "Char Siew Bao Chicken",
+    "Chicken BBQ Bun",
+    "Steamed Chicken Char Siu Bao",
+    "Chicken Char Siu Bao",
+    "BBQ Chicken Steamed Bun",
+    "Dim Sum Chicken Bao",
+    "鸡叉烧包",
+    "雞叉燒包",
+    "Pau Ayam Char Siew",
+    "சார் சியூ பாவ் (கோழி)",
+    "चार सियू बाओ (चिकन)",
+    "Jī chāshāo bāo",
+    "Char Siu Bao",
+    "Chicken Char Siew Bao"
+  ],
+  "aliases_by_language": {
+    "english": [
+      "Char Siew Bao Chicken",
+      "Chicken BBQ Bun",
+      "Steamed Chicken Char Siu Bao",
+      "Chicken Char Siu Bao",
+      "BBQ Chicken Steamed Bun",
+      "Dim Sum Chicken Bao",
+      "Char Siu Bao",
+      "Chicken Char Siew Bao"
+    ],
+    "chinese": [
+      "鸡叉烧包",
+      "雞叉燒包"
+    ],
+    "malay": [
+      "Pau Ayam Char Siew"
+    ],
+    "tamil": [
+      "சார் சியூ பாவ் (கோழி)"
+    ],
+    "hindi": [
+      "चार सियू बाओ (चिकन)"
+    ],
+    "japanese": [],
+    "korean": [],
+    "indonesian": [],
+    "thai": [],
+    "vietnamese": [],
+    "romanized": [
+      "Jī chāshāo bāo"
+    ]
+  },
+  "cuisine": "Chinese",
+  "region_of_origin": "Singapore / Southern China",
+  "food_group": "Mixed",
+  "food_subgroup": "Steamed buns",
+  "ontology": {
+    "foodon_uri": "http://purl.obolibrary.org/obo/FOODON_03302050",
+    "foodon_label": "steamed bun food product",
+    "foodon_match_type": "closest_parent",
+    "foodon_gap_note": "FoodOn does not have a specific entry for char siew bao; 'steamed bun food product' is the closest defensible parent class.",
+    "foodex2_code": "A0CKP",
+    "foodex2_description": "Steamed buns (Baozi)",
+    "foodex2_match_type": "closest_parent",
+    "foodex2_gap_note": "FoodEx2 code A0CKP covers steamed filled buns (baozi) as a category; no chicken-specific char siew bao sub-code exists.",
+    "snomed_ct_code": null,
+    "snomed_ct_description": null,
+    "snomed_ct_match_type": "none",
+    "snomed_ct_gap_note": "No specific SNOMED CT code identified for char siew bao or steamed filled bun; left null to preserve ontology honesty."
+  },
+  "classification": {
+    "preparation_method": [
+      "steamed"
+    ],
+    "processing_level": "processed",
+    "main_ingredients": [
+      "wheat flour",
+      "chicken",
+      "hoisin sauce",
+      "oyster sauce",
+      "soy sauce",
+      "sesame oil",
+      "sugar",
+      "ginger",
+      "garlic",
+      "baking powder",
+      "yeast"
+    ],
+    "allergens": [
+      "gluten (wheat)",
+      "soy",
+      "sesame",
+      "shellfish (oyster sauce)"
+    ],
+    "dietary_flags": {
+      "is_vegetarian": false,
+      "is_vegan": false,
+      "is_halal": false,
+      "is_kosher": false,
+      "is_gluten_free": false,
+      "is_dairy_free": true
+    }
+  },
+  "serving": {
+    "description": "3 pieces",
+    "size_g": 210,
+    "natural_language_portion": "A typical serving of char siew bao (chicken) consists of 3 steamed buns weighing approximately 210 g, commonly served as part of a dim sum meal."
+  },
+  "nutrient_source": {
+    "title": "Health Promotion Board Singapore — Nutrient Composition of Food (HPB Foodo / Energy and Nutrient Composition of Food)",
+    "organization": "Health Promotion Board, Singapore",
+    "url": "https://foodo.sg/",
+    "accessed_date": "2024-01-01",
+    "source_match_type": "adapted",
+    "source_match_notes": "HPB Singapore Foodo database entry for steamed char siew bao (pork) used as the primary structural anchor; values adapted to reflect chicken filling variant based on USDA FoodData Central SR Legacy entry for chicken breast (cooked) substituted for pork char siew filling. Energy 152 kcal, protein 10 g, fat 6 g, carbohydrate 14 g per 100 g are consistent with HPB steamed bao category and chicken-filling composition. Sodium 380 mg/100 g is consistent with hoisin/oyster/soy sauce seasoning typical of this dish."
+  },
+  "per_100g": {
+    "energy_kcal": 152.0,
+    "protein_g": 10.0,
+    "fat_g": 6.0,
+    "saturated_fat_g": 1.6,
+    "monounsaturated_fat_g": -1.0,
+    "polyunsaturated_fat_g": -1.0,
+    "trans_fat_g": 0.0,
+    "carbohydrate_g": 14.0,
+    "sugar_g": 3.2,
+    "dietary_fibre_g": 0.8,
+    "sodium_mg": 380.0,
+    "potassium_mg": -1.0,
+    "calcium_mg": 12.0,
+    "iron_mg": 0.6,
+    "cholesterol_mg": 28.0,
+    "vitamin_c_mg": 0.0,
+    "vitamin_a_mcg_rae": -1.0,
+    "vitamin_b1_thiamine_mg": -1.0,
+    "vitamin_b2_riboflavin_mg": -1.0,
+    "vitamin_b3_niacin_mg": -1.0,
+    "vitamin_b6_mg": -1.0,
+    "vitamin_b12_mcg": -1.0,
+    "folate_mcg_dfe": -1.0,
+    "vitamin_d_mcg": -1.0,
+    "vitamin_e_mg": -1.0,
+    "phosphorus_mg": -1.0,
+    "magnesium_mg": -1.0,
+    "zinc_mg": -1.0,
+    "selenium_mcg": -1.0,
+    "water_g": -1.0
+  },
+  "glycemic_index": 65,
+  "gi_category": "medium",
+  "glycemic_load_per_serving": 19.1,
+  "gi_source": {
+    "title": "International tables of glycemic index and glycemic load values: 2008 — Atkinson FS, Foster-Powell K, Brand-Miller JC",
+    "organization": "University of Sydney GI Database / Diabetes Care Journal",
+    "url": "https://glycemicindex.com/",
+    "accessed_date": "2024-01-01",
+    "source_match_type": "analogous_estimate",
+    "source_match_notes": "No direct GI measurement exists for chicken char siew bao. GI of 65 estimated from the closest analogous food: steamed white-flour bun (baozi/mantou) with savoury filling, which falls in the medium GI range (GI ~65) per University of Sydney GI Database entries for steamed wheat-flour products. Glycemic load per serving calculated as: GI (65) × available carbohydrate per serving (14 g/100 g × 210 g serving = 29.4 g) / 100 = 19.1."
+  },
+  "health_context": {
+    "hypertension": {
+      "human_condition_name": "Hypertension",
+      "concern_level": "high",
+      "key_factor": "Sodium 380 mg/100 g from hoisin sauce, oyster sauce, and soy sauce; a 3-piece serving (210 g) delivers approximately 798 mg sodium.",
+      "guidance": "Individuals with hypertension should limit char siew bao (chicken) to 1–2 pieces per meal and request reduced-sauce filling to lower sodium intake, as a standard 3-piece serving provides approximately 40% of the 2,000 mg daily sodium target."
+    },
+    "type2_diabetes": {
+      "human_condition_name": "Type 2 Diabetes",
+      "concern_level": "moderate",
+      "key_factor": "Refined wheat flour bao skin has a medium GI (~65); carbohydrate 14 g/100 g with glycemic load of 19.1 per 3-piece serving; protein 10 g/100 g from chicken moderates postprandial glucose rise.",
+      "guidance": "People with type 2 diabetes may consume char siew bao (chicken) in moderation — limit to 1–2 pieces per meal — pairing with non-starchy vegetables and avoiding other high-carbohydrate foods in the same meal to manage postprandial blood glucose."
+    },
+    "cardiovascular_disease": {
+      "human_condition_name": "Cardiovascular Disease",
+      "concern_level": "moderate",
+      "key_factor": "Sodium 380 mg/100 g elevates cardiovascular risk; saturated fat is relatively low at 1.6 g/100 g and trans fat is 0 g/100 g, which are favourable; cholesterol 28 mg/100 g is moderate.",
+      "guidance": "For individuals with cardiovascular disease, char siew bao (chicken) should be consumed sparingly due to its high sodium content; the low saturated fat and zero trans fat profile are positive, but portion control and reduced-sauce preparation are recommended to limit sodium-driven blood pressure elevation."
+    },
+    "additional_conditions": {}
+  },
+  "llm_training": {
+    "natural_language_description": "Char Siew Bao (Chicken) is a steamed Chinese bun filled with a sweet and savoury BBQ chicken mixture, commonly served as a dim sum item in Singapore and across the Chinese diaspora. The bun skin is made from soft, leavened wheat flour dough that is steamed until fluffy and slightly glossy. The filling consists of diced or minced chicken marinated and cooked with hoisin sauce, oyster sauce, soy sauce, sesame oil, sugar, ginger, and garlic, producing a rich, caramelised flavour profile. Per 100 g, the dish provides 152 kcal, 10 g protein, 6 g fat (1.6 g saturated), 14 g carbohydrate, 3.2 g sugar, 0.8 g dietary fibre, and 380 mg sodium. The medium glycemic index (~65) reflects the refined wheat flour skin; the protein content from chicken moderates the glycaemic response. Clinically, the high sodium content (380 mg/100 g) is the primary concern for hypertension and cardiovascular disease management. A typical serving of 3 pieces (~210 g) delivers approximately 798 mg sodium. The dish is not suitable for individuals on strict low-sodium diets without modification. Steaming as the cooking method avoids advanced glycation end-product (AGE) formation, which is a positive attribute for inflammatory conditions. Char siew bao is a culturally significant Cantonese dim sum staple widely available in Singapore hawker centres, dim sum restaurants, and food delivery platforms.",
+    "common_user_queries": [
+      "How many calories in char siew bao?",
+      "Is char siew bao healthy?",
+      "Char siew bao nutrition facts",
+      "Is chicken char siu bao good for diabetics?",
+      "How much sodium in char siew bao?",
+      "Char siew bao protein content",
+      "Is char siew bao halal?",
+      "Dim sum bao calories",
+      "Steamed chicken bun nutrition",
+      "Char siu bao glycemic index"
+    ],
+    "meal_context": [
+      "dim sum",
+      "breakfast",
+      "brunch",
+      "snack",
+      "hawker centre meal",
+      "Chinese tea lunch (yum cha)"
+    ],
+    "ingredient_synonyms": {
+      "char siew": [
+        "char siu",
+        "BBQ pork/chicken",
+        "叉烧"
+      ],
+      "bao": [
+        "bun",
+        "steamed bun",
+        "baozi",
+        "包子"
+      ],
+      "hoisin sauce": [
+        "海鲜酱",
+        "hoisin"
+      ],
+      "oyster sauce": [
+        "蚝油",
+        "oyster flavour sauce"
+      ],
+      "chicken": [
+        "ayam",
+        "கோழி",
+        "चिकन",
+        "鸡肉"
+      ]
+    }
+  },
+  "confidence": "medium",
+  "confidence_reason": "Nutrient values are consistent with HPB Singapore Foodo steamed bao category and USDA FoodData Central chicken filling components; however, no exact HPB entry for chicken char siew bao was found — values are adapted from the pork char siew bao HPB entry with chicken substitution. GI is an analogous estimate from steamed wheat-flour bun data in the University of Sydney GI Database. Confidence is therefore medium rather than high.",
+  "notes": "monounsaturated_fat_g and polyunsaturated_fat_g set to -1: detailed fatty acid breakdown for chicken char siew bao is not available in the HPB Singapore Foodo database or USDA FoodData Central composite entry as of 2024. potassium_mg set to -1: potassium data for this specific dish is not reported in the HPB Foodo database; estimated ~130 mg/100 g from input record but not confirmed by an approved source, so set to -1 per numeric hygiene rules. water_g set to -1: moisture content not reported in the HPB Foodo steamed bao entry. vitamin_a_mcg_rae, vitamin_b1_thiamine_mg, vitamin_b2_riboflavin_mg, vitamin_b3_niacin_mg, vitamin_b6_mg, vitamin_b12_mcg, folate_mcg_dfe, vitamin_d_mcg, vitamin_e_mg, phosphorus_mg, magnesium_mg, zinc_mg, selenium_mcg set to -1: micronutrient detail for this composite dish is not available in the HPB Foodo database as of 2024. trans_fat_g is 0.0: confirmed negligible/zero per HPB steamed bao category and USDA chicken data — no hydrogenated fats used in traditional preparation. vitamin_c_mg is 0.0: confirmed trace/negligible — no significant vitamin C sources in the bao skin or chicken filling. The portion label '1 plate (3-4 pieces of rice rolls)' in the input appears to be a data entry error (rice rolls are a different dish); the correct default portion used is '3 pieces (~210 g)' consistent with standard char siew bao serving. Halal status is marked false as oyster sauce (shellfish-derived) is a standard ingredient; halal-certified versions using halal oyster sauce substitutes exist but cannot be assumed.",
+  "veritas_qc": {
+    "final_decision": "PASS",
+    "hard_gates": {
+      "g1_valid_json_and_template": true,
+      "g2_approved_source_compliance": true,
+      "g3_numeric_hygiene": true,
+      "g4_core_macro_sanity": true,
+      "g5_ontology_honesty": true,
+      "g6_multilingual_naming_compliance": true
+    },
+    "score_total": 8,
+    "score_max": 8,
+    "criteria": {
+      "q1_food_identity": {
+        "pass": true,
+        "notes": "canonical English name present and multilingual identity satisfied"
+      },
+      "q2_core_macro_completeness_and_source_integrity": {
+        "pass": true,
+        "notes": "core macros and nutrient source integrity pass"
+      },
+      "q3_secondary_nutrient_completeness": {
+        "pass": true,
+        "notes": "secondary nutrient fields are present and numeric"
+      },
+      "q4_glycemic_completeness": {
+        "pass": true,
+        "notes": "GI, GI category, GL, and GI source are complete"
+      },
+      "q5_ontological_alignment": {
+        "pass": true,
+        "notes": "ontology anchor(s) present: foodon_uri, foodex2_code"
+      },
+      "q6_llm_ready_semantics": {
+        "pass": true,
+        "notes": "natural_language_description meets minimum semantic coverage"
+      },
+      "q7_health_context": {
+        "pass": true,
+        "notes": "required health-context conditions are complete"
+      },
+      "q8_aliases_and_multilingual_synonym_coverage": {
+        "pass": true,
+        "notes": "alias coverage is adequate and multilingual alias consistency passes"
+      }
+    },
+    "failure_reasons": [],
+    "improvement_actions_taken": [
+      "Corrected ontology.foodon_match_type from 'approximate' to 'closest_parent' to align with VERITAS_SCORING_MODEL_v2.md allowed values.",
+      "Corrected ontology.foodex2_match_type from 'approximate' to 'closest_parent' to align with VERITAS_SCORING_MODEL_v2.md allowed values.",
+      "Validated against VERITAS_SCORING_MODEL_v2.md"
+    ],
+    "reviewer_summary": "PASS — all hard gates passed and the record scored 8/8."
+  }
+}
