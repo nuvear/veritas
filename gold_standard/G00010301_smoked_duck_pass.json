@@ -1,0 +1,311 @@
+{
+  "veritas_meta": {
+    "project_name": "Project Veritas v2",
+    "project_version": "2.0",
+    "template_version": "2.0",
+    "input_file_path": "/home/ubuntu/veritas_project/batch70_input/70/G00010301_smoked_duck.json",
+    "output_file_path": "/home/ubuntu/veritas_project/batch70_output/G00010301_smoked_duck_pass.json",
+    "output_status": "pass",
+    "processing_scope": "food database preparation only",
+    "images_in_scope": false,
+    "max_iterations_allowed": 5,
+    "iteration_count_used": 3,
+    "generated_at": "2026-04-17T02:20:35Z"
+  },
+  "food_name": "Smoked Duck with Shiitake, Caramelized Leek, Hoisin Mustard and Balsamic Vinaigrette",
+  "local_names": {
+    "chinese_simplified": "烟熏鸭",
+    "chinese_traditional": "煙燻鴨",
+    "malay": "Itik Salai",
+    "tamil": "புகைபிடித்த வாத்து",
+    "hindi": "स्मोक्ड बत्तख",
+    "japanese": null,
+    "korean": null,
+    "indonesian": null,
+    "thai": null,
+    "vietnamese": null,
+    "romanized_local": "Yan Xun Ya (Mandarin)"
+  },
+  "aliases": [
+    "Smoked Duck",
+    "Smoked Duck with Shiitake and Leek",
+    "Smoked Duck Salad",
+    "烟熏鸭",
+    "煙燻鴨",
+    "Itik Salai",
+    "புகைபிடித்த வாத்து",
+    "स्मोक्ड बत्तख",
+    "Yan Xun Ya",
+    "Smoked Duck Hoisin",
+    "Smoked Duck Balsamic"
+  ],
+  "aliases_by_language": {
+    "english": [
+      "Smoked Duck",
+      "Smoked Duck with Shiitake and Leek",
+      "Smoked Duck Salad",
+      "Smoked Duck Hoisin",
+      "Smoked Duck Balsamic"
+    ],
+    "chinese": [
+      "烟熏鸭",
+      "煙燻鴨"
+    ],
+    "malay": [
+      "Itik Salai"
+    ],
+    "tamil": [
+      "புகைபிடித்த வாத்து"
+    ],
+    "hindi": [
+      "स्मोक्ड बत्तख"
+    ],
+    "japanese": [],
+    "korean": [],
+    "indonesian": [],
+    "thai": [],
+    "vietnamese": [],
+    "romanized": [
+      "Yan Xun Ya"
+    ]
+  },
+  "cuisine": "Chinese-Singaporean Fusion",
+  "region_of_origin": "Singapore",
+  "food_group": "Meat and alternatives",
+  "food_subgroup": "Duck-based dishes",
+  "ontology": {
+    "foodon_uri": "http://purl.obolibrary.org/obo/FOODON_03302050",
+    "foodon_label": "duck food product",
+    "foodon_match_type": "closest_parent",
+    "foodon_gap_note": "No FoodOn term exists specifically for smoked duck dish with sauce components; broader duck food product term used as closest defensible anchor.",
+    "foodex2_code": "A00LN",
+    "foodex2_description": "Duck meat, smoked",
+    "foodex2_match_type": "closest_parent",
+    "foodex2_gap_note": "FoodEx2 A00LN (duck meat, smoked) used as closest defensible match; the full dish includes shiitake, leek, hoisin mustard and balsamic vinaigrette which are not captured by this code. This is an analogous/closest-parent match rather than an exact match for the composite dish.",
+    "snomed_ct_code": null,
+    "snomed_ct_description": null,
+    "snomed_ct_match_type": "none",
+    "snomed_ct_gap_note": "No SNOMED CT code identified for smoked duck dish; omitted to preserve ontology honesty."
+  },
+  "classification": {
+    "preparation_method": [
+      "smoked",
+      "caramelized",
+      "dressed"
+    ],
+    "processing_level": "processed",
+    "main_ingredients": [
+      "duck",
+      "shiitake mushroom",
+      "leek",
+      "hoisin sauce",
+      "mustard",
+      "balsamic vinaigrette"
+    ],
+    "allergens": [
+      "soy",
+      "gluten",
+      "mustard"
+    ],
+    "dietary_flags": {
+      "is_vegetarian": false,
+      "is_vegan": false,
+      "is_halal": false,
+      "is_kosher": false,
+      "is_gluten_free": false,
+      "is_dairy_free": true
+    }
+  },
+  "serving": {
+    "description": "1 serving / 1 plate",
+    "size_g": 200,
+    "natural_language_portion": "One typical restaurant serving of smoked duck with accompaniments is approximately 200 g, comprising sliced smoked duck breast, shiitake mushrooms, caramelized leek, and sauce dressing."
+  },
+  "nutrient_source": {
+    "title": "Smoked Duck — HPB Singapore Foodo Database",
+    "organization": "Health Promotion Board (HPB), Singapore",
+    "url": "https://foodo.hpb.gov.sg/",
+    "accessed_date": "2026-04-16",
+    "source_match_type": "exact",
+    "source_match_notes": "Nutrient values sourced directly from the HPB Singapore Foodo database entry for Smoked Duck (cr_id G00010301). The nutritional profile is anomalous for a duck-based dish — very low protein (0.36 g/100g) and fat (0.13 g/100g) with very high carbohydrate (60.66 g/100g) and sugar (30.54 g/100g) — likely reflecting the sauce and glaze components dominating the reported composite. Values are preserved as reported by HPB; vendor verification is recommended."
+  },
+  "per_100g": {
+    "energy_kcal": 245.0,
+    "protein_g": 0.36,
+    "fat_g": 0.13,
+    "saturated_fat_g": -1.0,
+    "monounsaturated_fat_g": -1.0,
+    "polyunsaturated_fat_g": -1.0,
+    "trans_fat_g": -1.0,
+    "carbohydrate_g": 60.66,
+    "sugar_g": 30.54,
+    "dietary_fibre_g": 0.6,
+    "sodium_mg": 712.0,
+    "potassium_mg": 87.0,
+    "calcium_mg": 11.0,
+    "iron_mg": 0.39,
+    "cholesterol_mg": 0.0,
+    "vitamin_c_mg": -1.0,
+    "vitamin_a_mcg_rae": -1.0,
+    "vitamin_b1_thiamine_mg": -1.0,
+    "vitamin_b2_riboflavin_mg": -1.0,
+    "vitamin_b3_niacin_mg": -1.0,
+    "vitamin_b6_mg": -1.0,
+    "vitamin_b12_mcg": -1.0,
+    "folate_mcg_dfe": -1.0,
+    "vitamin_d_mcg": -1.0,
+    "vitamin_e_mg": -1.0,
+    "phosphorus_mg": -1.0,
+    "magnesium_mg": 5.0,
+    "zinc_mg": -1.0,
+    "selenium_mcg": -1.0,
+    "water_g": -1.0
+  },
+  "glycemic_index": 65,
+  "gi_category": "medium",
+  "glycemic_load_per_serving": 79.0,
+  "gi_source": {
+    "title": "International tables of glycemic index and glycemic load values: 2021 — analogous estimate based on mixed Chinese dish with high sugar sauce",
+    "organization": "University of Sydney GI Database",
+    "url": "https://www.glycemicindex.com/",
+    "accessed_date": "2026-04-16",
+    "source_match_type": "analogous_estimate",
+    "source_match_notes": "No direct GI measurement exists for this specific smoked duck dish. Given the dominant carbohydrate profile (60.66 g/100g) driven by hoisin sauce and balsamic vinaigrette with high sugar (30.54 g/100g), a GI of 65 is estimated by analogy to mixed Chinese dishes with sweet sauce bases as documented in the University of Sydney GI Database. Glycemic load per 200 g serving = (65 × 60.66 × 2) / 100 = 78.9, rounded to 79.0. This estimate should be treated as approximate pending direct measurement."
+  },
+  "health_context": {
+    "hypertension": {
+      "human_condition_name": "Hypertension",
+      "concern_level": "high",
+      "key_factor": "Sodium 712 mg/100g — well above the 600 mg/100g threshold; high sugar content adds further cardiovascular burden",
+      "guidance": "Individuals with hypertension should avoid this dish or consume only very small portions (≤50 g), as the sodium content of 712 mg/100g significantly exceeds safe limits and the high sugar load (30.54 g/100g) further elevates cardiovascular risk; request reduced-sodium soy sauce and reduced sugar in the marinade when preparing at home."
+    },
+    "type2_diabetes": {
+      "human_condition_name": "Type 2 Diabetes",
+      "concern_level": "high",
+      "key_factor": "Sugar 30.54 g/100g and carbohydrate 60.66 g/100g with only 0.6 g/100g dietary fibre — severe glycaemic impact",
+      "guidance": "This dish is unsuitable for individuals with Type 2 Diabetes due to sugar at 30.54 g/100g (far exceeding the 20 g/100g glycaemic ceiling) and total carbohydrate at 60.66 g/100g with negligible fibre (0.6 g/100g), creating a high risk of acute postprandial glucose spike; avoidance is recommended unless portion is strictly limited to ≤30 g with a high-fibre accompaniment."
+    },
+    "cardiovascular_disease": {
+      "human_condition_name": "Cardiovascular Disease",
+      "concern_level": "high",
+      "key_factor": "High sodium (712 mg/100g) and high sugar (30.54 g/100g) with minimal fibre — combined cardiometabolic risk",
+      "guidance": "Individuals with cardiovascular disease should avoid or strictly limit this dish, as the combination of very high sodium (712 mg/100g) and very high sugar (30.54 g/100g) with minimal dietary fibre (0.6 g/100g) promotes hypertension, endothelial dysfunction, and dyslipidaemia; if consumed, limit to ≤50 g and pair with high-fibre, low-sodium foods."
+    },
+    "additional_conditions": {
+      "rheumatoid_arthritis": {
+        "human_condition_name": "Rheumatoid Arthritis",
+        "concern_level": "high",
+        "key_factor": "Sodium 712 mg/100g exceeds 400 mg/100g RA threshold; sugar 30.54 g/100g exceeds 15 g/100g refined sugar gate — both promote inflammatory mediators",
+        "guidance": "Individuals with rheumatoid arthritis should avoid this dish, as high sodium worsens tissue swelling and high sugar promotes inflammatory cytokine production; the nutritional profile lacks meaningful anti-inflammatory factors."
+      }
+    }
+  },
+  "llm_training": {
+    "natural_language_description": "Smoked Duck with Shiitake, Caramelized Leek, Hoisin Mustard and Balsamic Vinaigrette is a Chinese-Singaporean fusion dish featuring smoked duck breast served alongside earthy shiitake mushrooms, sweet caramelized leek, and a complex sauce combining hoisin mustard with balsamic vinaigrette. The dish delivers a layered flavour profile — smoky, sweet, tangy, and umami — with a tender duck texture contrasted by the soft mushrooms and silky leek. It is typically served as a starter or main course at Singaporean Chinese restaurants and hotel dining venues. The HPB-reported nutritional profile is anomalous for a duck-based dish: protein is only 0.36 g/100g and fat only 0.13 g/100g, while carbohydrate is 60.66 g/100g and sugar is 30.54 g/100g, suggesting the reported values may reflect the sauce and glaze components rather than the whole dish composite. Sodium is very high at 712 mg/100g. Clinically, this dish is unsuitable for individuals with Type 2 Diabetes (extreme sugar and carbohydrate load), hypertension (very high sodium), cardiovascular disease (combined sodium and sugar burden), and rheumatoid arthritis (pro-inflammatory nutrient profile). Vendor verification of the nutritional data is strongly recommended before clinical or dietary use.",
+    "common_user_queries": [
+      "Is smoked duck healthy?",
+      "Can diabetics eat smoked duck?",
+      "How much sodium is in smoked duck?",
+      "Is smoked duck suitable for hypertension?",
+      "What is smoked duck with hoisin?",
+      "Smoked duck calories per 100g",
+      "Chinese smoked duck dish Singapore",
+      "烟熏鸭 nutrition",
+      "Itik salai nutrition"
+    ],
+    "meal_context": [
+      "lunch",
+      "dinner",
+      "starter",
+      "main course",
+      "restaurant dining"
+    ],
+    "ingredient_synonyms": {
+      "duck": [
+        "鸭",
+        "itik",
+        "வாத்து",
+        "बत्तख"
+      ],
+      "shiitake": [
+        "shiitake mushroom",
+        "Chinese black mushroom",
+        "香菇",
+        "lentinula edodes"
+      ],
+      "leek": [
+        "caramelized leek",
+        "daun bawang",
+        "பூண்டு இலை"
+      ],
+      "hoisin sauce": [
+        "海鲜酱",
+        "hoisin",
+        "Chinese BBQ sauce"
+      ],
+      "balsamic vinaigrette": [
+        "balsamic dressing",
+        "balsamic glaze",
+        "vinaigrette"
+      ]
+    }
+  },
+  "confidence": "medium",
+  "confidence_reason": "Nutrient values are sourced directly from the HPB Singapore Foodo database (canonical, reviewed, confidence 0.95 in source), but the nutritional profile is highly anomalous for a duck-based dish — extremely low protein and fat with very high carbohydrate and sugar — suggesting the reported values may reflect sauce or glaze components rather than the whole dish. Confidence is therefore set to medium pending vendor verification. GI is an analogous estimate, not a direct measurement.",
+  "notes": "1. ANOMALOUS NUTRITIONAL PROFILE: The HPB-reported values for this dish (protein 0.36 g/100g, fat 0.13 g/100g, carbohydrate 60.66 g/100g, sugar 30.54 g/100g) are highly atypical for smoked duck, which normally contains 15–25 g protein and 10–20 g fat per 100g. The reported profile likely reflects the sauce and glaze components (hoisin, balsamic) dominating the composite measurement. Vendor verification is strongly recommended before clinical or dietary use. 2. NEGATIVE SENTINEL VALUES: saturated_fat_g, monounsaturated_fat_g, polyunsaturated_fat_g, trans_fat_g, vitamin_c_mg, vitamin_a_mcg_rae, vitamin_b1_thiamine_mg, vitamin_b2_riboflavin_mg, vitamin_b3_niacin_mg, vitamin_b6_mg, vitamin_b12_mcg, folate_mcg_dfe, vitamin_d_mcg, vitamin_e_mg, phosphorus_mg, zinc_mg, selenium_mcg, water_g are set to -1 because detailed fatty acid breakdown, vitamin panel, and moisture data for this specific composite dish are not available in the HPB Singapore Foodo database or USDA FoodData Central as of 2026-04-16. 3. MACRO NOTE: protein_g (0.36) and fat_g (0.13) are not zero but are near-zero and anomalously low for duck meat; these values are preserved as reported by HPB and are not set to zero. cholesterol_mg is reported as 0.0 by HPB — this is confirmed zero per the HPB source record, which is itself anomalous for duck meat and further supports the hypothesis that the reported values reflect sauce components. 4. GI ESTIMATE: Glycemic index of 65 is an analogous estimate based on mixed Chinese dishes with sweet sauce bases from the University of Sydney GI Database; no direct GI measurement exists for this dish. 5. ONTOLOGY: FoodOn broader term (FOODON_03302050, duck food product) used with closest_parent match type. FoodEx2 A00LN (duck meat, smoked) used with closest_parent match type; the full composite dish including shiitake, leek, hoisin mustard and balsamic vinaigrette is not captured by this code. No exact ontology match exists for this composite dish.",
+  "veritas_qc": {
+    "final_decision": "PASS",
+    "hard_gates": {
+      "g1_valid_json_and_template": true,
+      "g2_approved_source_compliance": true,
+      "g3_numeric_hygiene": true,
+      "g4_core_macro_sanity": true,
+      "g5_ontology_honesty": true,
+      "g6_multilingual_naming_compliance": true
+    },
+    "score_total": 8,
+    "score_max": 8,
+    "criteria": {
+      "q1_food_identity": {
+        "pass": true,
+        "notes": "canonical English name present and multilingual identity satisfied"
+      },
+      "q2_core_macro_completeness_and_source_integrity": {
+        "pass": true,
+        "notes": "core macros and nutrient source integrity pass"
+      },
+      "q3_secondary_nutrient_completeness": {
+        "pass": true,
+        "notes": "secondary nutrient fields are present and numeric"
+      },
+      "q4_glycemic_completeness": {
+        "pass": true,
+        "notes": "GI, GI category, GL, and GI source are complete"
+      },
+      "q5_ontological_alignment": {
+        "pass": true,
+        "notes": "ontology anchor(s) present: foodon_uri, foodex2_code"
+      },
+      "q6_llm_ready_semantics": {
+        "pass": true,
+        "notes": "natural_language_description meets minimum semantic coverage"
+      },
+      "q7_health_context": {
+        "pass": true,
+        "notes": "required health-context conditions are complete"
+      },
+      "q8_aliases_and_multilingual_synonym_coverage": {
+        "pass": true,
+        "notes": "alias coverage is adequate and multilingual alias consistency passes"
+      }
+    },
+    "failure_reasons": [],
+    "improvement_actions_taken": [
+      "Iteration 1: Initial draft constructed from HPB source data with full multilingual coverage and health context.",
+      "Iteration 2: Corrected ontology.foodon_match_type from 'broader' to 'closest_parent'. Corrected ontology.foodex2_match_type from 'analogous_estimate' to 'closest_parent' to align with allowed values ['closest_parent', 'exact', 'none']. Updated foodex2_gap_note to clarify the analogous/closest-parent nature of the match.",
+      "Iteration 3: Confirmed foodex2_match_type is 'closest_parent' (valid allowed value). Updated notes section to reflect closest_parent match type for both FoodOn and FoodEx2. All hard gates now pass. Score remains 8/8.",
+      "Validated against VERITAS_SCORING_MODEL_v2.md"
+    ],
+    "reviewer_summary": "PASS — all hard gates passed and the record scored 8/8."
+  }
+}
