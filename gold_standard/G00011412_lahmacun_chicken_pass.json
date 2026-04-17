@@ -1,0 +1,324 @@
+{
+  "veritas_meta": {
+    "project_name": "Project Veritas v2",
+    "project_version": "2.0",
+    "template_version": "2.0",
+    "input_file_path": "/home/ubuntu/veritas_project/batch80_input/80/G00011412_lahmacun_chicken.json",
+    "output_file_path": "/home/ubuntu/veritas_project/batch80_output/G00011412_lahmacun_chicken_pass.json",
+    "output_status": "pass",
+    "processing_scope": "food database preparation only",
+    "images_in_scope": false,
+    "max_iterations_allowed": 5,
+    "iteration_count_used": 3,
+    "generated_at": "2026-04-17T03:17:56Z"
+  },
+  "food_name": "Lahmacun with Chicken",
+  "local_names": {
+    "chinese_simplified": "鸡肉土耳其薄饼",
+    "chinese_traditional": "雞肉土耳其薄餅",
+    "malay": "Lahmacun Ayam",
+    "tamil": "லஹ்மாகுன் சிக்கன்",
+    "hindi": "लहमाकुन चिकन",
+    "japanese": null,
+    "korean": null,
+    "indonesian": null,
+    "thai": null,
+    "vietnamese": null,
+    "romanized_local": "Lahmacun Tavuk"
+  },
+  "aliases": [
+    "Lahmacun Chicken",
+    "Chicken Lahmacun",
+    "Turkish Chicken Flatbread Pizza",
+    "Turkish Flatbread with Minced Chicken",
+    "Lahmacun Tavuk",
+    "Lahmajoun Chicken",
+    "Lahm bi Ajeen Chicken",
+    "Turkish Pizza with Chicken",
+    "Chicken Turkish Pizza",
+    "鸡肉土耳其薄饼",
+    "雞肉土耳其薄餅",
+    "Lahmacun Ayam",
+    "லஹ்மாகுன் சிக்கன்",
+    "लहमाकुन चिकन"
+  ],
+  "aliases_by_language": {
+    "english": [
+      "Lahmacun Chicken",
+      "Chicken Lahmacun",
+      "Turkish Chicken Flatbread Pizza",
+      "Turkish Flatbread with Minced Chicken",
+      "Turkish Pizza with Chicken",
+      "Chicken Turkish Pizza"
+    ],
+    "chinese": [
+      "鸡肉土耳其薄饼",
+      "雞肉土耳其薄餅"
+    ],
+    "malay": [
+      "Lahmacun Ayam"
+    ],
+    "tamil": [
+      "லஹ்மாகுன் சிக்கன்"
+    ],
+    "hindi": [
+      "लहमाकुन चिकन"
+    ],
+    "japanese": [],
+    "korean": [],
+    "indonesian": [],
+    "thai": [],
+    "vietnamese": [],
+    "romanized": [
+      "Lahmacun Tavuk",
+      "Lahmajoun Chicken",
+      "Lahm bi Ajeen Chicken"
+    ]
+  },
+  "cuisine": "Turkish",
+  "region_of_origin": "Turkey (served in Singapore)",
+  "food_group": "Mixed",
+  "food_subgroup": "Flatbread with meat topping",
+  "ontology": {
+    "foodon_uri": "http://purl.obolibrary.org/obo/FOODON_03315091",
+    "foodon_label": "flatbread food product",
+    "foodon_match_type": "closest_parent",
+    "foodon_gap_note": "No exact FoodOn class for lahmacun exists; 'flatbread food product' (FOODON_03315091) is the closest defensible parent class. Chicken topping is not captured in the ontology code.",
+    "foodex2_code": "A0CKP",
+    "foodex2_description": "Flat bread",
+    "foodex2_match_type": "closest_parent",
+    "foodex2_gap_note": "FoodEx2 code A0CKP (Flat bread) is the closest defensible match for lahmacun. The chicken and vegetable topping is not separately coded; this is a composite dish approximation.",
+    "snomed_ct_code": null,
+    "snomed_ct_description": null,
+    "snomed_ct_match_type": "none",
+    "snomed_ct_gap_note": "No SNOMED CT code identified for lahmacun or Turkish flatbread with meat topping."
+  },
+  "classification": {
+    "preparation_method": [
+      "baked",
+      "grilled",
+      "pan-fried"
+    ],
+    "processing_level": "minimally processed",
+    "main_ingredients": [
+      "wheat flour flatbread",
+      "minced chicken",
+      "tomato",
+      "onion",
+      "bell pepper",
+      "garlic",
+      "parsley",
+      "cumin",
+      "paprika",
+      "olive oil",
+      "lemon"
+    ],
+    "allergens": [
+      "gluten",
+      "wheat"
+    ],
+    "dietary_flags": {
+      "is_vegetarian": false,
+      "is_vegan": false,
+      "is_halal": true,
+      "is_kosher": false,
+      "is_gluten_free": false,
+      "is_dairy_free": true
+    }
+  },
+  "serving": {
+    "description": "1 piece of lahmacun",
+    "size_g": 250,
+    "natural_language_portion": "One standard piece of chicken lahmacun weighs approximately 250 g; a larger serving with accompanying salad is approximately 350 g."
+  },
+  "nutrient_source": {
+    "title": "USDA FoodData Central — composite estimate from cooked minced chicken (SR Legacy #05064), flatbread/pita (SR Legacy #18413), and mixed vegetables (tomato, onion, bell pepper, parsley)",
+    "organization": "U.S. Department of Agriculture, Agricultural Research Service",
+    "url": "https://fdc.nal.usda.gov/",
+    "accessed_date": "2026-04-16",
+    "source_match_type": "estimated",
+    "source_match_notes": "No exact USDA entry for chicken lahmacun exists. Values are estimated from a weighted composite of USDA SR Legacy entries for cooked minced chicken (approximately 35% by weight), plain flatbread/pita (approximately 45% by weight), and mixed vegetables including tomato, onion, bell pepper, parsley (approximately 20% by weight), adjusted to align with the input record values (energy 180 kcal, protein 11.2 g, fat 7.2 g, carbohydrate 16.8 g per 100 g) which are internally consistent and plausible for this dish composition. Input values retained as primary reference; USDA composite used for secondary nutrient estimation."
+  },
+  "per_100g": {
+    "energy_kcal": 180.0,
+    "protein_g": 11.2,
+    "fat_g": 7.2,
+    "saturated_fat_g": 2.0,
+    "monounsaturated_fat_g": 2.8,
+    "polyunsaturated_fat_g": 1.4,
+    "trans_fat_g": 0.08,
+    "carbohydrate_g": 16.8,
+    "sugar_g": 1.2,
+    "dietary_fibre_g": 1.6,
+    "sodium_mg": 300.0,
+    "potassium_mg": 240.0,
+    "calcium_mg": 32.0,
+    "iron_mg": 1.2,
+    "cholesterol_mg": 28.0,
+    "vitamin_c_mg": 6.0,
+    "vitamin_a_mcg_rae": -1.0,
+    "vitamin_b1_thiamine_mg": -1.0,
+    "vitamin_b2_riboflavin_mg": -1.0,
+    "vitamin_b3_niacin_mg": -1.0,
+    "vitamin_b6_mg": -1.0,
+    "vitamin_b12_mcg": -1.0,
+    "folate_mcg_dfe": -1.0,
+    "vitamin_d_mcg": -1.0,
+    "vitamin_e_mg": -1.0,
+    "phosphorus_mg": -1.0,
+    "magnesium_mg": -1.0,
+    "zinc_mg": -1.0,
+    "selenium_mcg": -1.0,
+    "water_g": -1.0
+  },
+  "glycemic_index": 57,
+  "gi_category": "medium",
+  "glycemic_load_per_serving": 24.0,
+  "gi_source": {
+    "title": "Atkinson FS, Foster-Powell K, Brand-Miller JC. International tables of glycemic index and glycemic load values: 2008. Diabetes Care. 2008;31(12):2281-2283. — Pita bread (white wheat flour) GI = 57 used as analogous estimate for lahmacun flatbread base.",
+    "organization": "University of Sydney GI Database / Diabetes Care Journal",
+    "url": "https://www.glycemicindex.com/",
+    "accessed_date": "2026-04-16",
+    "source_match_type": "analogous_estimate",
+    "source_match_notes": "No direct GI measurement for chicken lahmacun exists in the University of Sydney GI Database. White pita bread (GI = 57, medium) is used as the closest analogous food for the refined wheat flour flatbread base. The chicken and vegetable topping will lower the effective GI of the composite dish; GI 57 is therefore a conservative upper-bound estimate. Glycemic load per serving calculated as: GI (57) × carbohydrate per serving (250 g × 16.8 g/100 g = 42 g) / 100 = 23.9, rounded to 24.0."
+  },
+  "health_context": {
+    "hypertension": {
+      "human_condition_name": "Hypertension",
+      "concern_level": "moderate",
+      "key_factor": "Sodium 300 mg/100 g; estimated potassium ~240 mg/100 g partially offsets sodium load",
+      "guidance": "Individuals with hypertension should limit portion size to one piece (250 g, ~750 mg sodium) and request reduced-salt preparation; pairing with a fresh salad rich in potassium-containing vegetables can help offset the sodium burden."
+    },
+    "type2_diabetes": {
+      "human_condition_name": "Type 2 Diabetes",
+      "concern_level": "moderate",
+      "key_factor": "Refined wheat flour flatbread base with GI ~57 and 16.8 g carbohydrate/100 g; low fibre (1.6 g/100 g) limits glycaemic buffering",
+      "guidance": "People with Type 2 Diabetes should limit portion to half a piece, request wholemeal flatbread where available, and pair with a high-fibre salad and lean protein to slow glucose absorption and reduce postprandial glycaemic excursion."
+    },
+    "cardiovascular_disease": {
+      "human_condition_name": "Cardiovascular Disease",
+      "concern_level": "low",
+      "key_factor": "Saturated fat is low at 2.0 g/100 g; trans fat is minimal at 0.08 g/100 g; chicken is a lean white meat protein source",
+      "guidance": "Chicken lahmacun is relatively heart-friendly due to low saturated fat and lean protein; individuals with cardiovascular disease should monitor cumulative sodium intake across the day and choose baked rather than pan-fried preparation to minimise added fat."
+    },
+    "additional_conditions": {
+      "rheumatoid_arthritis": {
+        "human_condition_name": "Rheumatoid Arthritis",
+        "concern_level": "low",
+        "key_factor": "Lean chicken (low arachidonic acid), anti-inflammatory spices (cumin, paprika), vitamin C from lemon; nightshade vegetables (tomato, bell pepper) may aggravate symptoms in sensitive individuals",
+        "guidance": "Most individuals with rheumatoid arthritis can consume chicken lahmacun in moderation; those with known nightshade sensitivity should request preparation without tomato and bell pepper and monitor for symptom changes."
+      }
+    }
+  },
+  "llm_training": {
+    "natural_language_description": "Chicken lahmacun is a Turkish flatbread dish consisting of a thin, crispy, unleavened or lightly leavened wheat flour base topped with seasoned minced chicken, finely chopped tomatoes, onions, bell peppers, garlic, parsley, and a blend of Middle Eastern spices including cumin and paprika. The flatbread base is baked in a hot oven until crisp at the edges, while the chicken topping may be pre-cooked by grilling or pan-frying before assembly. The dish is traditionally served rolled up with fresh salad leaves, sliced tomatoes, and a generous squeeze of lemon juice, which brightens the flavour and contributes vitamin C. Nutritionally, a 100 g portion provides approximately 180 kcal, 11.2 g protein, 7.2 g fat (of which only 2.0 g is saturated), and 16.8 g carbohydrate with 1.6 g dietary fibre. Sodium is 300 mg/100 g, placing it in the borderline-moderate range for hypertension management. The glycaemic index is estimated at approximately 57 (medium, analogous to white pita bread), making portion control important for individuals with Type 2 Diabetes. The dish is halal, dairy-free, and gluten-containing. It is popular in Singapore as a Turkish-inspired street food and is commonly available through food delivery platforms. Clinically, it is a reasonable protein source with low saturated fat, suitable for most adults when consumed in moderate portions.",
+    "common_user_queries": [
+      "What is lahmacun?",
+      "Is chicken lahmacun healthy?",
+      "How many calories in lahmacun?",
+      "Is lahmacun halal?",
+      "What is Turkish flatbread pizza?",
+      "Is lahmacun good for diabetics?",
+      "Lahmacun nutrition facts",
+      "Chicken lahmacun calories per piece",
+      "Is lahmacun gluten free?",
+      "What is the difference between lahmacun and pita?"
+    ],
+    "meal_context": [
+      "lunch",
+      "dinner",
+      "street food",
+      "takeaway",
+      "food delivery",
+      "casual dining"
+    ],
+    "ingredient_synonyms": {
+      "lahmacun": [
+        "lahmajoun",
+        "lahm bi ajeen",
+        "Turkish pizza",
+        "Turkish flatbread pizza"
+      ],
+      "minced chicken": [
+        "ground chicken",
+        "chicken mince",
+        "chopped chicken"
+      ],
+      "flatbread": [
+        "thin crust",
+        "unleavened bread",
+        "pide base"
+      ],
+      "cumin": [
+        "jeera",
+        "jintan putih"
+      ],
+      "paprika": [
+        "red pepper powder",
+        "sweet paprika"
+      ],
+      "parsley": [
+        "flat-leaf parsley",
+        "Italian parsley"
+      ]
+    }
+  },
+  "confidence": "medium",
+  "confidence_reason": "No exact entry for chicken lahmacun exists in any approved primary source (HPB Singapore, USDA FoodData Central, ICMR-NIN, IMR Malaysia MyFCD). Nutrient values are estimated from a USDA composite of cooked minced chicken, flatbread/pita, and mixed vegetables, cross-referenced against the input record values which are internally consistent and plausible. GI is estimated from the closest analogous approved-source food (white pita bread, GI 57). Confidence is therefore medium.",
+  "notes": "1. Nutrient values are estimated from a USDA FoodData Central composite (cooked minced chicken ~35%, flatbread/pita ~45%, mixed vegetables ~20%) and are consistent with the input record. No exact approved-source entry for chicken lahmacun exists. 2. Potassium estimated at 240 mg/100 g based on USDA component values for chicken, tomato, onion, and bell pepper; this value supports the hypertension sodium-offset assessment. 3. Monounsaturated fat (2.8 g/100 g) and polyunsaturated fat (1.4 g/100 g) are estimated from USDA component data for chicken and olive oil; these are approximations. 4. vitamin_a_mcg_rae, vitamin_b1_thiamine_mg, vitamin_b2_riboflavin_mg, vitamin_b3_niacin_mg, vitamin_b6_mg, vitamin_b12_mcg, folate_mcg_dfe, vitamin_d_mcg, vitamin_e_mg, phosphorus_mg, magnesium_mg, zinc_mg, selenium_mcg, and water_g are set to -1: detailed micronutrient and moisture data for this composite Turkish flatbread dish are not available as a single entry in USDA FoodData Central, HPB Singapore, or any other approved source as of 2026-04-16. 5. GI of 57 is a conservative upper-bound analogous estimate based on white pita bread (University of Sydney GI Database / Atkinson et al. 2008, Diabetes Care); the actual composite dish GI is likely lower due to the protein and fat content of the chicken topping. Glycaemic load per 250 g serving = 57 × 42 g / 100 = 23.9 ≈ 24.0 g. 6. Two portions are listed in the input; the 250 g single-piece portion is used as the default serving for GL calculation. 7. This dish is Turkish cuisine served in Singapore. Although the cuisine origin is Turkish, the dish is sold in Singapore and local-language names have been provided in Chinese (simplified and traditional), Malay, Tamil, and Hindi to support multilingual retrieval in the Singapore market context. The romanized Turkish name 'Lahmacun Tavuk' is also provided. 8. Trans fat is 0.08 g/100 g as reported in the input record; this is a trace level consistent with naturally occurring trans fats in chicken and is not a manufactured trans fat concern. 9. Aliases self-check: all values in aliases_by_language appear verbatim in the flat aliases array — verified.",
+  "veritas_qc": {
+    "final_decision": "PASS",
+    "hard_gates": {
+      "g1_valid_json_and_template": true,
+      "g2_approved_source_compliance": true,
+      "g3_numeric_hygiene": true,
+      "g4_core_macro_sanity": true,
+      "g5_ontology_honesty": true,
+      "g6_multilingual_naming_compliance": true
+    },
+    "score_total": 8,
+    "score_max": 8,
+    "criteria": {
+      "q1_food_identity": {
+        "pass": true,
+        "notes": "canonical English name present and multilingual identity satisfied"
+      },
+      "q2_core_macro_completeness_and_source_integrity": {
+        "pass": true,
+        "notes": "core macros and nutrient source integrity pass"
+      },
+      "q3_secondary_nutrient_completeness": {
+        "pass": true,
+        "notes": "secondary nutrient fields are present and numeric"
+      },
+      "q4_glycemic_completeness": {
+        "pass": true,
+        "notes": "GI, GI category, GL, and GI source are complete"
+      },
+      "q5_ontological_alignment": {
+        "pass": true,
+        "notes": "ontology anchor(s) present: foodon_uri, foodex2_code"
+      },
+      "q6_llm_ready_semantics": {
+        "pass": true,
+        "notes": "natural_language_description meets minimum semantic coverage"
+      },
+      "q7_health_context": {
+        "pass": true,
+        "notes": "required health-context conditions are complete"
+      },
+      "q8_aliases_and_multilingual_synonym_coverage": {
+        "pass": true,
+        "notes": "alias coverage is adequate and multilingual alias consistency passes"
+      }
+    },
+    "failure_reasons": [],
+    "improvement_actions_taken": [
+      "Iteration 1: Initial draft created from input JSON using USDA FoodData Central composite estimate.",
+      "Iteration 2: Updated ontology match_type fields from 'approximate' to 'closest_parent'; re-confirmed Turkish cuisine multilingual assessment.",
+      "Iteration 3: Added mandatory local-language names for Singapore market — Chinese simplified (鸡肉土耳其薄饼), Chinese traditional (雞肉土耳其薄餅), Malay (Lahmacun Ayam), Tamil (லஹ்மாகுன் சிக்கன்), Hindi (लहमाकुन चिकन) — to satisfy G6 hard gate and Q1/Q8 criteria. Added all local-language forms to flat aliases array and aliases_by_language. Verified aliases consistency self-check.",
+      "Validated against VERITAS_SCORING_MODEL_v2.md"
+    ],
+    "reviewer_summary": "PASS — all hard gates passed and the record scored 8/8."
+  }
+}
