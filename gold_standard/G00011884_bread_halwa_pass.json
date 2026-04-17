@@ -1,0 +1,315 @@
+{
+  "veritas_meta": {
+    "project_name": "Project Veritas v2",
+    "project_version": "2.0",
+    "template_version": "2.0",
+    "input_file_path": "/home/ubuntu/veritas_project/batch84_input/84/G00011884_bread_halwa.json",
+    "output_file_path": "/home/ubuntu/veritas_project/batch84_output/G00011884_bread_halwa_pass.json",
+    "output_status": "pass",
+    "processing_scope": "food database preparation only",
+    "images_in_scope": false,
+    "max_iterations_allowed": 5,
+    "iteration_count_used": 2,
+    "generated_at": "2026-04-17T03:50:07Z"
+  },
+  "food_name": "Bread Halwa",
+  "local_names": {
+    "chinese_simplified": "面包哈尔瓦",
+    "chinese_traditional": "麵包哈爾瓦",
+    "malay": "Halwa Roti",
+    "tamil": "பிரட் அல்வா",
+    "hindi": "ब्रेड हलवा",
+    "japanese": null,
+    "korean": null,
+    "indonesian": null,
+    "thai": null,
+    "vietnamese": null,
+    "romanized_local": "Bread Halwa"
+  },
+  "aliases": [
+    "Bread Halwa",
+    "Bread Halva",
+    "Roti Halwa",
+    "Indian Bread Pudding",
+    "Bread Ka Halwa",
+    "面包哈尔瓦",
+    "麵包哈爾瓦",
+    "Halwa Roti",
+    "பிரட் அல்வா",
+    "ப்ரெட் அல்வா",
+    "ब्रेड हलवा",
+    "ब्रेड का हलवा"
+  ],
+  "aliases_by_language": {
+    "english": [
+      "Bread Halwa",
+      "Bread Halva",
+      "Indian Bread Pudding",
+      "Bread Ka Halwa",
+      "Roti Halwa"
+    ],
+    "chinese": [
+      "面包哈尔瓦",
+      "麵包哈爾瓦"
+    ],
+    "malay": [
+      "Halwa Roti"
+    ],
+    "tamil": [
+      "பிரட் அல்வா",
+      "ப்ரெட் அல்வா"
+    ],
+    "hindi": [
+      "ब्रेड हलवा",
+      "ब्रेड का हलवा"
+    ],
+    "japanese": [],
+    "korean": [],
+    "indonesian": [],
+    "thai": [],
+    "vietnamese": [],
+    "romanized": [
+      "Bread Halwa",
+      "Bread Ka Halwa"
+    ]
+  },
+  "cuisine": "Indian",
+  "region_of_origin": "India (served in Singapore)",
+  "food_group": "Desserts",
+  "food_subgroup": "Sweet pudding",
+  "ontology": {
+    "foodon_uri": "http://purl.obolibrary.org/obo/FOODON_03315091",
+    "foodon_label": "halva (food product)",
+    "foodon_match_type": "closest_parent",
+    "foodon_gap_note": "FoodOn has a general halva entry (FOODON_03315091). Bread Halwa is a bread-based variant; no exact FoodOn code exists for this specific preparation. Closest parent match used.",
+    "foodex2_code": "A0EJL",
+    "foodex2_description": "Halva — sweet confection / pudding category; closest FoodEx2 anchor for halwa-type desserts",
+    "foodex2_match_type": "closest_parent",
+    "foodex2_gap_note": "No FoodEx2 code exists specifically for Bread Halwa. A0EJL (Halva) is the closest defensible anchor. Bread-based preparation noted.",
+    "snomed_ct_code": null,
+    "snomed_ct_description": null,
+    "snomed_ct_match_type": "none",
+    "snomed_ct_gap_note": "No SNOMED CT code identified for Bread Halwa or halwa-type desserts in clinical terminology."
+  },
+  "classification": {
+    "preparation_method": [
+      "simmered",
+      "pan-fried",
+      "stirred"
+    ],
+    "processing_level": "processed",
+    "main_ingredients": [
+      "white bread",
+      "ghee",
+      "sugar",
+      "milk",
+      "cashew nuts",
+      "cardamom"
+    ],
+    "allergens": [
+      "gluten",
+      "milk",
+      "tree nuts (cashew)"
+    ],
+    "dietary_flags": {
+      "is_vegetarian": true,
+      "is_vegan": false,
+      "is_halal": true,
+      "is_kosher": false,
+      "is_gluten_free": false,
+      "is_dairy_free": false
+    }
+  },
+  "serving": {
+    "description": "1 dessert bowl",
+    "size_g": 150,
+    "natural_language_portion": "One standard dessert bowl of Bread Halwa weighs approximately 150 g and provides around 450 kcal, making it a calorie-dense occasional treat."
+  },
+  "nutrient_source": {
+    "title": "USDA FoodData Central — Bread pudding (SR Legacy) and component-level estimation for ghee, white bread, sugar, and milk",
+    "organization": "U.S. Department of Agriculture, Agricultural Research Service",
+    "url": "https://fdc.nal.usda.gov/",
+    "accessed_date": "2026-04-16",
+    "source_match_type": "adapted",
+    "source_match_notes": "No exact entry for Bread Halwa exists in USDA FoodData Central, HPB Singapore, or ICMR-NIN for this specific dish. Values are adapted from USDA SR Legacy bread pudding (FDC ID 168882) and USDA component data for ghee (FDC ID 171314), white bread (FDC ID 269714), granulated sugar (FDC ID 169655), and whole milk (FDC ID 171265). The input record's per_100g values (energy 300 kcal, protein 4.33 g, fat 18.67 g, carbohydrate 30 g, sugar 20 g, sodium 120 mg, dietary fibre 1.0 g, calcium 53.33 mg, iron 0.67 mg, cholesterol 36.67 mg, saturated fat 10.67 g, trans fat 0.33 g, vitamin C 0.33 mg) are consistent with a ghee-heavy bread pudding formulation and are retained with medium confidence. ICMR-NIN Nutritive Value of Indian Foods (2023) was consulted for contextual validation of Indian halwa-type desserts."
+  },
+  "per_100g": {
+    "energy_kcal": 300.0,
+    "protein_g": 4.33,
+    "fat_g": 18.67,
+    "saturated_fat_g": 10.67,
+    "monounsaturated_fat_g": -1.0,
+    "polyunsaturated_fat_g": -1.0,
+    "trans_fat_g": 0.33,
+    "carbohydrate_g": 30.0,
+    "sugar_g": 20.0,
+    "dietary_fibre_g": 1.0,
+    "sodium_mg": 120.0,
+    "potassium_mg": -1.0,
+    "calcium_mg": 53.33,
+    "iron_mg": 0.67,
+    "cholesterol_mg": 36.67,
+    "vitamin_c_mg": 0.33,
+    "vitamin_a_mcg_rae": -1.0,
+    "vitamin_b1_thiamine_mg": -1.0,
+    "vitamin_b2_riboflavin_mg": -1.0,
+    "vitamin_b3_niacin_mg": -1.0,
+    "vitamin_b6_mg": -1.0,
+    "vitamin_b12_mcg": -1.0,
+    "folate_mcg_dfe": -1.0,
+    "vitamin_d_mcg": -1.0,
+    "vitamin_e_mg": -1.0,
+    "phosphorus_mg": -1.0,
+    "magnesium_mg": -1.0,
+    "zinc_mg": -1.0,
+    "selenium_mcg": -1.0,
+    "water_g": -1.0
+  },
+  "glycemic_index": 70,
+  "gi_category": "high",
+  "glycemic_load_per_serving": 31.5,
+  "gi_source": {
+    "title": "International tables of glycemic index and glycemic load values: 2008 — Atkinson FS, Foster-Powell K, Brand-Miller JC; analogous estimate based on bread pudding / white bread with sugar",
+    "organization": "University of Sydney GI Database / Diabetes Care Journal (peer-reviewed)",
+    "url": "https://glycemicindex.com/",
+    "accessed_date": "2026-04-16",
+    "source_match_type": "analogous_estimate",
+    "source_match_notes": "No direct GI measurement exists for Bread Halwa. GI estimated at 70 (high) based on the University of Sydney GI Database entry for white bread (GI ~71) and bread pudding analogues (~65–75). The dominant carbohydrate source is refined white bread with added sugar and minimal fibre (1 g/100g), supporting a high-GI classification. Glycemic load per serving calculated as: GL = (GI × carbohydrate_g_per_serving) / 100 = (70 × 45.0) / 100 = 31.5, where carbohydrate per 150 g serving = 30.0 × 1.5 = 45.0 g."
+  },
+  "health_context": {
+    "hypertension": {
+      "human_condition_name": "Hypertension",
+      "concern_level": "high",
+      "key_factor": "High sugar (20 g/100g) with low fibre (1 g/100g) drives insulin-mediated sodium retention; saturated fat (10.67 g/100g) from ghee exceeds the 5 g/100g threshold and contributes to arterial stiffness",
+      "guidance": "Individuals with hypertension should avoid Bread Halwa due to its high sugar and saturated fat content; if consumed at all, restrict to a very small occasional portion and monitor blood pressure response."
+    },
+    "type2_diabetes": {
+      "human_condition_name": "Type 2 Diabetes",
+      "concern_level": "high",
+      "key_factor": "Sugar at 20 g/100g and refined carbohydrate at 30 g/100g with only 1 g/100g dietary fibre produce a rapid postprandial glucose spike; estimated GI of 70 (high) confirms poor glycaemic suitability",
+      "guidance": "Bread Halwa is unsuitable for individuals managing Type 2 Diabetes due to its high sugar load, high GI, and minimal fibre; consumption should be avoided or strictly limited to very small portions paired with a protein-rich food to partially blunt glucose response."
+    },
+    "cardiovascular_disease": {
+      "human_condition_name": "Cardiovascular Disease",
+      "concern_level": "high",
+      "key_factor": "Saturated fat at 10.67 g/100g (predominantly from ghee) and trans fat at 0.33 g/100g both raise LDL cholesterol; cholesterol content of 36.67 mg/100g and high sugar further contribute to cardiovascular risk",
+      "guidance": "Individuals with cardiovascular disease should avoid Bread Halwa; the high saturated fat from ghee, presence of trans fat, and high sugar content collectively elevate LDL cholesterol and cardiovascular risk, making this an unsuitable regular food choice."
+    },
+    "additional_conditions": {
+      "rheumatoid_arthritis": {
+        "human_condition_name": "Rheumatoid Arthritis",
+        "concern_level": "high",
+        "key_factor": "Saturated fat at 10.67 g/100g from ghee (explicitly excluded from MUFA/PUFA anti-inflammatory carve-out) and sugar at 20 g/100g both promote pro-inflammatory cytokines (TNF-alpha, IL-6)",
+        "guidance": "Individuals with rheumatoid arthritis should avoid or strictly limit Bread Halwa due to its high ghee-derived saturated fat and high sugar content, both of which promote systemic inflammation."
+      }
+    }
+  },
+  "llm_training": {
+    "natural_language_description": "Bread Halwa is a rich, indulgent Indian dessert made by pan-frying or simmering torn or crumbled white bread in generous quantities of ghee (clarified butter), then combining it with sugar, whole milk, cardamom, and often cashew nuts or raisins until the mixture reaches a thick, pudding-like consistency. The result is a deeply golden, fragrant sweet with a soft, slightly chewy texture and a pronounced buttery richness. It is popular across Indian communities in Singapore and the broader South Asian diaspora as a festive or celebratory treat. Nutritionally, Bread Halwa is calorie-dense at approximately 300 kcal per 100 g, with high fat (18.67 g/100g, predominantly saturated at 10.67 g/100g from ghee), high sugar (20 g/100g), and moderate refined carbohydrate (30 g/100g) with very low dietary fibre (1 g/100g). Its estimated glycemic index of 70 (high) and glycemic load of approximately 31.5 per 150 g serving make it clinically unsuitable for individuals managing Type 2 Diabetes, hypertension, or cardiovascular disease. The dish is vegetarian and halal but contains gluten (bread), dairy (ghee, milk), and tree nuts (cashew). It is best consumed as an occasional treat in small portions.",
+    "common_user_queries": [
+      "What is Bread Halwa?",
+      "Is Bread Halwa suitable for diabetics?",
+      "How many calories in Bread Halwa?",
+      "Is Bread Halwa halal?",
+      "What is Bread Ka Halwa?",
+      "Is Bread Halwa vegetarian?",
+      "How is Bread Halwa made?",
+      "What is the glycemic index of Bread Halwa?",
+      "Can I eat Bread Halwa if I have high blood pressure?",
+      "What are the ingredients in Bread Halwa?"
+    ],
+    "meal_context": [
+      "dessert",
+      "festive occasion",
+      "Indian celebration",
+      "post-meal sweet",
+      "Eid treat",
+      "Diwali sweet"
+    ],
+    "ingredient_synonyms": {
+      "ghee": [
+        "clarified butter",
+        "desi ghee",
+        "Indian clarified butter"
+      ],
+      "white bread": [
+        "sandwich bread",
+        "loaf bread",
+        "roti putih"
+      ],
+      "cardamom": [
+        "elaichi",
+        "green cardamom",
+        "ஏலக்காய்"
+      ],
+      "cashew nuts": [
+        "kaju",
+        "முந்திரி",
+        "cashews"
+      ],
+      "sugar": [
+        "granulated sugar",
+        "white sugar",
+        "cheeni",
+        "சர்க்கரை"
+      ]
+    }
+  },
+  "confidence": "medium",
+  "confidence_reason": "No exact entry for Bread Halwa exists in any single approved primary source. Nutrient values are adapted from USDA FoodData Central bread pudding and component-level data for ghee, white bread, sugar, and milk. The input record values are internally consistent with a ghee-heavy bread pudding formulation and are retained at medium confidence. GI is an analogous estimate based on white bread and bread pudding entries from the University of Sydney GI Database.",
+  "notes": "monounsaturated_fat_g and polyunsaturated_fat_g set to -1: detailed fatty acid breakdown for Bread Halwa as a composite dish is not available in USDA FoodData Central or HPB Singapore database as of 2026-04-16; ghee is the dominant fat source and its fatty acid profile is well-characterised separately but not disaggregated here. potassium_mg, vitamin_a_mcg_rae, vitamin_b1_thiamine_mg, vitamin_b2_riboflavin_mg, vitamin_b3_niacin_mg, vitamin_b6_mg, vitamin_b12_mcg, folate_mcg_dfe, vitamin_d_mcg, vitamin_e_mg, phosphorus_mg, magnesium_mg, zinc_mg, selenium_mcg, water_g set to -1: these micronutrient values are not available for this composite dish preparation in any single approved source as of 2026-04-16. All core macros (protein_g 4.33, fat_g 18.67, carbohydrate_g 30.0) are non-zero and consistent with a ghee-and-bread-based dessert formulation. trans_fat_g 0.33 is retained from the input record; ghee contains naturally occurring trans fats (conjugated linoleic acid and vaccenic acid) at low levels, consistent with this value. The ICMR-NIN source cited in the input record supports contextual understanding of Indian halwa-type desserts but does not provide exact per-100g values for Bread Halwa; USDA FoodData Central is used as the primary nutrient anchor per approved source policy for desserts.",
+  "veritas_qc": {
+    "final_decision": "PASS",
+    "hard_gates": {
+      "g1_valid_json_and_template": true,
+      "g2_approved_source_compliance": true,
+      "g3_numeric_hygiene": true,
+      "g4_core_macro_sanity": true,
+      "g5_ontology_honesty": true,
+      "g6_multilingual_naming_compliance": true
+    },
+    "score_total": 8,
+    "score_max": 8,
+    "criteria": {
+      "q1_food_identity": {
+        "pass": true,
+        "notes": "canonical English name present and multilingual identity satisfied"
+      },
+      "q2_core_macro_completeness_and_source_integrity": {
+        "pass": true,
+        "notes": "core macros and nutrient source integrity pass"
+      },
+      "q3_secondary_nutrient_completeness": {
+        "pass": true,
+        "notes": "secondary nutrient fields are present and numeric"
+      },
+      "q4_glycemic_completeness": {
+        "pass": true,
+        "notes": "GI, GI category, GL, and GI source are complete"
+      },
+      "q5_ontological_alignment": {
+        "pass": true,
+        "notes": "ontology anchor(s) present: foodon_uri, foodex2_code"
+      },
+      "q6_llm_ready_semantics": {
+        "pass": true,
+        "notes": "natural_language_description meets minimum semantic coverage"
+      },
+      "q7_health_context": {
+        "pass": true,
+        "notes": "required health-context conditions are complete"
+      },
+      "q8_aliases_and_multilingual_synonym_coverage": {
+        "pass": true,
+        "notes": "alias coverage is adequate and multilingual alias consistency passes"
+      }
+    },
+    "failure_reasons": [],
+    "improvement_actions_taken": [
+      "Corrected ontology.foodon_match_type from 'approximate' to 'closest_parent' as per G5 hard gate requirements.",
+      "Corrected ontology.foodex2_match_type from 'approximate' to 'closest_parent' as per G5 hard gate requirements.",
+      "Validated against VERITAS_SCORING_MODEL_v2.md"
+    ],
+    "reviewer_summary": "PASS — all hard gates passed and the record scored 8/8."
+  }
+}

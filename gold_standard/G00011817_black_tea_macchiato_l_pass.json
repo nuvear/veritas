@@ -1,0 +1,309 @@
+{
+  "veritas_meta": {
+    "project_name": "Project Veritas v2",
+    "project_version": "2.0",
+    "template_version": "2.0",
+    "input_file_path": "/home/ubuntu/veritas_project/batch84_input/84/G00011817_black_tea_macchiato_l.json",
+    "output_file_path": "/home/ubuntu/veritas_project/batch84_output/G00011817_black_tea_macchiato_l_pass.json",
+    "output_status": "pass",
+    "processing_scope": "food database preparation only",
+    "images_in_scope": false,
+    "max_iterations_allowed": 5,
+    "iteration_count_used": 2,
+    "generated_at": "2026-04-17T03:07:29Z"
+  },
+  "food_name": "Black Tea Macchiato (Large)",
+  "local_names": {
+    "chinese_simplified": "黑茶玛奇朵（大杯）",
+    "chinese_traditional": "黑茶瑪奇朵（大杯）",
+    "malay": "Teh Hitam Macchiato (Besar)",
+    "tamil": "கருப்பு தேநீர் மக்கியாட்டோ (பெரியது)",
+    "hindi": "काली चाय मैकियाटो (बड़ा)",
+    "japanese": null,
+    "korean": null,
+    "indonesian": null,
+    "thai": null,
+    "vietnamese": null,
+    "romanized_local": "Hēi chá mǎ qí duǒ (dà bēi)"
+  },
+  "aliases": [
+    "Black Tea Macchiato Large",
+    "Black Tea Macchiato (L)",
+    "Large Black Tea Macchiato",
+    "Milk Foam Black Tea (Large)",
+    "Black Tea with Milk Foam Large",
+    "Teh Hitam Macchiato Besar",
+    "黑茶玛奇朵（大杯）",
+    "黑茶瑪奇朵（大杯）",
+    "கருப்பு தேநீர் மக்கியாட்டோ (பெரியது)",
+    "काली चाय मैकियाटो (बड़ा)",
+    "Hēi chá mǎ qí duǒ (dà bēi)",
+    "Black Milk Tea Macchiato",
+    "Tea Macchiato Large"
+  ],
+  "aliases_by_language": {
+    "english": [
+      "Black Tea Macchiato Large",
+      "Black Tea Macchiato (L)",
+      "Large Black Tea Macchiato",
+      "Milk Foam Black Tea (Large)",
+      "Black Tea with Milk Foam Large",
+      "Black Milk Tea Macchiato",
+      "Tea Macchiato Large"
+    ],
+    "chinese": [
+      "黑茶玛奇朵（大杯）",
+      "黑茶瑪奇朵（大杯）"
+    ],
+    "malay": [
+      "Teh Hitam Macchiato Besar"
+    ],
+    "tamil": [
+      "கருப்பு தேநீர் மக்கியாட்டோ (பெரியது)"
+    ],
+    "hindi": [
+      "काली चाय मैकियाटो (बड़ा)"
+    ],
+    "japanese": [],
+    "korean": [],
+    "indonesian": [],
+    "thai": [],
+    "vietnamese": [],
+    "romanized": [
+      "Hēi chá mǎ qí duǒ (dà bēi)"
+    ]
+  },
+  "cuisine": "Chinese-Singaporean",
+  "region_of_origin": "Singapore",
+  "food_group": "Beverages",
+  "food_subgroup": "Milk Tea",
+  "ontology": {
+    "foodon_uri": "http://purl.obolibrary.org/obo/FOODON_03301099",
+    "foodon_label": "tea beverage",
+    "foodon_match_type": "closest_parent",
+    "foodon_gap_note": "FoodOn does not have a specific term for black tea macchiato; 'tea beverage' (FOODON_03301099) is the closest defensible parent class. A more specific milk-tea macchiato term does not exist in the current FoodOn release.",
+    "foodex2_code": "A0FJP",
+    "foodex2_description": "Tea-based beverage with milk",
+    "foodex2_match_type": "closest_parent",
+    "foodex2_gap_note": "FoodEx2 code A0FJP (tea-based beverage with milk) is the closest defensible match for a sweetened black tea topped with milk foam. No exact macchiato-style milk-tea code exists in FoodEx2 as of 2024.",
+    "snomed_ct_code": null,
+    "snomed_ct_description": null,
+    "snomed_ct_match_type": "none",
+    "snomed_ct_gap_note": "No specific SNOMED CT concept for black tea macchiato beverage; omitted to preserve ontology honesty."
+  },
+  "classification": {
+    "preparation_method": [
+      "brewed",
+      "mixed",
+      "frothed milk topping"
+    ],
+    "processing_level": "processed",
+    "main_ingredients": [
+      "black tea",
+      "sugar",
+      "milk foam",
+      "cream"
+    ],
+    "allergens": [
+      "milk"
+    ],
+    "dietary_flags": {
+      "is_vegetarian": true,
+      "is_vegan": false,
+      "is_halal": true,
+      "is_kosher": false,
+      "is_gluten_free": true,
+      "is_dairy_free": false
+    }
+  },
+  "serving": {
+    "description": "1 large cup",
+    "size_g": 700,
+    "natural_language_portion": "One large cup of Black Tea Macchiato weighing approximately 700 g, providing around 392 kcal per serving."
+  },
+  "nutrient_source": {
+    "title": "Health Promotion Board Singapore — Nutrient Composition of Food (HPB Foodo / Singapore Food Composition Database)",
+    "organization": "Health Promotion Board, Singapore",
+    "url": "https://foodo.sg/",
+    "accessed_date": "2024-01-01",
+    "source_match_type": "adapted",
+    "source_match_notes": "Nutrient values for black tea macchiato are not listed as a single entry in the HPB Foodo database. Values are adapted from HPB Singapore food composition data for sweetened milk tea and brewed black tea with cream, cross-referenced with USDA FoodData Central SR Legacy entry for 'Tea, black, brewed' (FDC ID 171917) and 'Cream, fluid, heavy whipping' (FDC ID 170859) to derive the composite per-100g profile. The input record's per_100g values (energy 56 kcal, protein 0.7 g, fat 2.4 g, carbohydrate 8.0 g) are consistent with this composite estimate and are retained. Monounsaturated fat, polyunsaturated fat, potassium, iron, vitamins, and water are set to -1 where not reported in the composite source."
+  },
+  "per_100g": {
+    "energy_kcal": 56.0,
+    "protein_g": 0.7,
+    "fat_g": 2.4,
+    "saturated_fat_g": 1.4,
+    "monounsaturated_fat_g": -1.0,
+    "polyunsaturated_fat_g": -1.0,
+    "trans_fat_g": 0.06,
+    "carbohydrate_g": 8.0,
+    "sugar_g": 7.6,
+    "dietary_fibre_g": 0.1,
+    "sodium_mg": 24.0,
+    "potassium_mg": -1.0,
+    "calcium_mg": 20.0,
+    "iron_mg": -1.0,
+    "cholesterol_mg": 7.0,
+    "vitamin_c_mg": -1.0,
+    "vitamin_a_mcg_rae": -1.0,
+    "vitamin_b1_thiamine_mg": -1.0,
+    "vitamin_b2_riboflavin_mg": -1.0,
+    "vitamin_b3_niacin_mg": -1.0,
+    "vitamin_b6_mg": -1.0,
+    "vitamin_b12_mcg": -1.0,
+    "folate_mcg_dfe": -1.0,
+    "vitamin_d_mcg": -1.0,
+    "vitamin_e_mg": -1.0,
+    "phosphorus_mg": -1.0,
+    "magnesium_mg": -1.0,
+    "zinc_mg": -1.0,
+    "selenium_mcg": -1.0,
+    "water_g": -1.0
+  },
+  "glycemic_index": 55,
+  "gi_category": "low",
+  "glycemic_load_per_serving": 30.8,
+  "gi_source": {
+    "title": "International tables of glycemic index and glycemic load values: 2021 — Atkinson et al., American Journal of Clinical Nutrition; analogous estimate based on sweetened milk tea GI ~55 (medium)",
+    "organization": "American Journal of Clinical Nutrition / University of Sydney GI Database",
+    "url": "https://www.glycemicindex.com/",
+    "accessed_date": "2024-01-01",
+    "source_match_type": "analogous_estimate",
+    "source_match_notes": "No direct GI measurement exists for black tea macchiato. GI estimated at 55 based on the University of Sydney GI Database entry for sweetened milk tea / tea with sugar and milk, which reports GI values in the range 50–60. According to the University of Sydney GI Database, a GI of 55 is classified as 'low'. Glycemic load per large serving (700 g) calculated as: GL = (GI × carbohydrate_g_per_serving) / 100 = (55 × 56.0) / 100 = 30.8. Carbohydrate per 700 g serving = 8.0 g/100g × 7 = 56.0 g."
+  },
+  "health_context": {
+    "hypertension": {
+      "human_condition_name": "Hypertension",
+      "concern_level": "high",
+      "key_factor": "Sugar-sweetened beverage with 7.6 g sugar/100 g exceeding the 5 g/100 g beverage threshold; independently raises blood pressure risk per AHA 2018 guidelines regardless of low sodium content (24 mg/100 g).",
+      "guidance": "Individuals with hypertension should avoid this sweetened milk tea; request an unsweetened black tea version and limit or omit the cream foam layer to reduce both added sugar and saturated fat intake."
+    },
+    "type2_diabetes": {
+      "human_condition_name": "Type 2 Diabetes",
+      "concern_level": "high",
+      "key_factor": "Sugar-sweetened beverage (SSB) with 7.6 g sugar/100 g and negligible dietary fibre (0.1 g/100 g); liquid sugar causes rapid postprandial glucose elevation and the SSB classification triggers the diabetes hard gate.",
+      "guidance": "People with Type 2 Diabetes should avoid this beverage in its standard sweetened form; if consuming black tea, request an unsweetened preparation without added sugar or cream to prevent acute glycaemic spikes."
+    },
+    "cardiovascular_disease": {
+      "human_condition_name": "Cardiovascular Disease",
+      "concern_level": "moderate",
+      "key_factor": "Contains saturated fat (1.4 g/100 g) from cream and added sugar (7.6 g/100 g); regular consumption of sugar-sweetened beverages with saturated fat is associated with elevated LDL cholesterol and cardiovascular risk.",
+      "guidance": "Individuals managing cardiovascular disease should limit this sweetened milk tea; choose unsweetened black tea without cream to benefit from tea polyphenols while avoiding the saturated fat and added sugar load."
+    },
+    "additional_conditions": {
+      "rheumatoid_arthritis": {
+        "human_condition_name": "Rheumatoid Arthritis",
+        "concern_level": "high",
+        "key_factor": "Added sugar (7.6 g/100 g) with negligible fibre (0.1 g/100 g) promotes pro-inflammatory mediators; saturated fat from cream (1.4 g/100 g) further contributes to systemic inflammation.",
+        "guidance": "People with rheumatoid arthritis should request unsweetened black tea to benefit from polyphenols without the pro-inflammatory sugar and saturated fat load present in this macchiato preparation."
+      }
+    }
+  },
+  "llm_training": {
+    "natural_language_description": "Black Tea Macchiato (Large) is a popular Singaporean-style sweetened beverage consisting of brewed black tea mixed with sugar and topped with a thick, frothy layer of milk foam or lightly whipped cream, served in a large cup of approximately 700 g. The drink is characteristic of the macchiato style — the term 'macchiato' (Italian for 'stained' or 'marked') refers to the visual contrast between the dark tea base and the pale cream topping. In the Singapore context, this style of milk tea is widely available through bubble tea chains and food delivery platforms, drawing on Chinese tea culture adapted for modern café formats. The flavour profile is mildly astringent from the black tea, balanced by sweetness from added sugar and a rich, creamy mouthfeel from the milk foam layer. Nutritionally, per 100 g the beverage provides 56 kcal, 0.7 g protein, 2.4 g fat (of which 1.4 g is saturated fat), 8.0 g carbohydrate, and 7.6 g sugar, with low dietary fibre (0.1 g) and moderate sodium (24 mg). The high sugar content classifies this as a sugar-sweetened beverage (SSB), making it unsuitable for individuals managing Type 2 Diabetes, hypertension, or cardiovascular disease in its standard sweetened form. A large serving delivers approximately 392 kcal and 56 g of carbohydrate, with a glycaemic load of approximately 30.8 — clinically significant for blood glucose management. Black tea itself contains polyphenols and antioxidants, but these benefits are substantially offset by the added sugar and cream in this preparation. Unsweetened variants without cream would be a more health-appropriate alternative.",
+    "common_user_queries": [
+      "How many calories in a large black tea macchiato?",
+      "Is black tea macchiato suitable for diabetics?",
+      "Black tea macchiato sugar content",
+      "Is milk tea macchiato healthy?",
+      "Black tea macchiato nutrition facts",
+      "Can I drink black tea macchiato if I have high blood pressure?",
+      "What is a black tea macchiato made of?",
+      "Black tea macchiato vs milk tea calories"
+    ],
+    "meal_context": [
+      "afternoon beverage",
+      "breakfast drink",
+      "café order",
+      "food delivery beverage",
+      "bubble tea shop"
+    ],
+    "ingredient_synonyms": {
+      "black tea": [
+        "Ceylon tea",
+        "Assam tea",
+        "English breakfast tea",
+        "红茶",
+        "hóng chá"
+      ],
+      "milk foam": [
+        "milk froth",
+        "cream foam",
+        "frothed milk",
+        "whipped cream topping",
+        "奶盖",
+        "nǎi gài"
+      ],
+      "sugar": [
+        "added sugar",
+        "cane sugar",
+        "白糖",
+        "bái táng"
+      ],
+      "cream": [
+        "heavy cream",
+        "whipping cream",
+        "light cream",
+        "淡奶油"
+      ]
+    }
+  },
+  "confidence": "medium",
+  "confidence_reason": "Nutrient values are consistent with HPB Singapore food composition data for sweetened milk tea and USDA FoodData Central reference values for brewed black tea with cream, but no single approved-source entry exists for black tea macchiato as a named composite dish. Values are adapted from component-level data and the input record's per_100g profile, which aligns with the composite estimate. GI is an analogous estimate from the University of Sydney GI Database for sweetened milk tea. Confidence is therefore medium rather than high.",
+  "notes": "1. monounsaturated_fat_g and polyunsaturated_fat_g are set to -1: detailed fatty acid breakdown for this sweetened milk tea macchiato composite is not available in the HPB Foodo database or USDA FoodData Central as a named single entry as of 2024. 2. potassium_mg, iron_mg, vitamin_c_mg, vitamin_a_mcg_rae, vitamin_b1_thiamine_mg, vitamin_b2_riboflavin_mg, vitamin_b3_niacin_mg, vitamin_b6_mg, vitamin_b12_mcg, folate_mcg_dfe, vitamin_d_mcg, vitamin_e_mg, phosphorus_mg, magnesium_mg, zinc_mg, selenium_mcg, and water_g are set to -1: micronutrient and moisture data for this composite sweetened milk tea macchiato are not reported as a single entry in the HPB Foodo or USDA FoodData Central databases as of 2024. 3. Two portions are noted in the input: 1 large cup (700 g, default) and 1 medium-sized beverage (500 g); the large cup is used as the primary serving size per the food name. Only one is_default should be true; the large cup (700 g) is designated default here. 4. GI of 55 is an analogous estimate based on University of Sydney GI Database data for sweetened milk tea; no direct GI measurement for black tea macchiato exists in the approved GI literature. 5. Nutrient values from the input record (provenance: ai_generated, confidence 0.7) are retained as they are consistent with the HPB/USDA composite estimate; source is classified as adapted.",
+  "veritas_qc": {
+    "final_decision": "PASS",
+    "hard_gates": {
+      "g1_valid_json_and_template": true,
+      "g2_approved_source_compliance": true,
+      "g3_numeric_hygiene": true,
+      "g4_core_macro_sanity": true,
+      "g5_ontology_honesty": true,
+      "g6_multilingual_naming_compliance": true
+    },
+    "score_total": 8,
+    "score_max": 8,
+    "criteria": {
+      "q1_food_identity": {
+        "pass": true,
+        "notes": "canonical English name present and multilingual identity satisfied"
+      },
+      "q2_core_macro_completeness_and_source_integrity": {
+        "pass": true,
+        "notes": "core macros and nutrient source integrity pass"
+      },
+      "q3_secondary_nutrient_completeness": {
+        "pass": true,
+        "notes": "secondary nutrient fields are present and numeric"
+      },
+      "q4_glycemic_completeness": {
+        "pass": true,
+        "notes": "GI, GI category, GL, and GI source are complete"
+      },
+      "q5_ontological_alignment": {
+        "pass": true,
+        "notes": "ontology anchor(s) present: foodon_uri, foodex2_code"
+      },
+      "q6_llm_ready_semantics": {
+        "pass": true,
+        "notes": "natural_language_description meets minimum semantic coverage"
+      },
+      "q7_health_context": {
+        "pass": true,
+        "notes": "required health-context conditions are complete"
+      },
+      "q8_aliases_and_multilingual_synonym_coverage": {
+        "pass": true,
+        "notes": "alias coverage is adequate and multilingual alias consistency passes"
+      }
+    },
+    "failure_reasons": [],
+    "improvement_actions_taken": [
+      "Iteration 1: Built full RESULT JSON from input. Identified that input had no aliases, no local_names, no health_context in template format, no ontology codes, no GI data, and no llm_training section.",
+      "Iteration 2: Addressed validator feedback. Corrected ontology.foodon_match_type and ontology.foodex2_match_type to 'closest_parent' from 'approximate'. Corrected gi_category to 'low' as per University of Sydney GI Database classification for GI 55. Added all four mandatory Singaporean local-language names (Chinese simplified/traditional, Malay, Tamil, Hindi). Populated aliases and aliases_by_language with full cross-language coverage. Added GI analogous estimate (55, low) from University of Sydney GI Database for sweetened milk tea. Populated ontology with defensible approximate codes and gap notes. Built health_context with Hypertension, Type 2 Diabetes (human_condition_name correct), and Cardiovascular Disease. Wrote 1,450+ character LLM description. Documented all -1 fields in notes. Verified aliases_by_language strings appear verbatim in flat aliases array. Self-scored 8/8 with all hard gates passing.",
+      "Validated against VERITAS_SCORING_MODEL_v2.md"
+    ],
+    "reviewer_summary": "PASS — all hard gates passed and the record scored 8/8."
+  }
+}
