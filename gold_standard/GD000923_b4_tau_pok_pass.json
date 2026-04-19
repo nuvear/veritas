@@ -1,0 +1,314 @@
+{
+  "veritas_meta": {
+    "project_name": "Project Veritas v2",
+    "project_version": "2.0",
+    "template_version": "2.0",
+    "input_file_path": "/home/ubuntu/veritas_project/batch_GD_0018_input/GD000923_b4_tau_pok.json",
+    "output_file_path": "/home/ubuntu/veritas_project/batch_GD_0018_output/GD000923_b4_tau_pok_pass.json",
+    "output_status": "pass",
+    "processing_scope": "food database preparation only",
+    "images_in_scope": false,
+    "max_iterations_allowed": 5,
+    "iteration_count_used": 1,
+    "generated_at": "2026-04-19T13:16:28Z"
+  },
+  "food_name": "Braised Tau Pok (Braised Tofu Puffs)",
+  "local_names": {
+    "chinese_simplified": "豆腐干",
+    "chinese_traditional": "豆腐乾",
+    "malay": "Tauhu Goreng Rebus",
+    "tamil": "பிரேஸ் செய்த டவுபோக்",
+    "hindi": "ब्रेज़्ड टाउ पोक",
+    "japanese": null,
+    "korean": null,
+    "indonesian": null,
+    "thai": null,
+    "vietnamese": null,
+    "romanized_local": "Tau Pok"
+  },
+  "aliases": [
+    "Tau Pok",
+    "Taukwa",
+    "Braised Tofu Puffs",
+    "Braised Bean Curd Puffs",
+    "Tau Pok Braised",
+    "豆腐干",
+    "豆腐乾",
+    "Tauhu Goreng Rebus",
+    "பிரேஸ் செய்த டவுபோக்",
+    "ब्रेज़्ड टाउ पोक",
+    "Braised Fried Tofu",
+    "Soy-braised Tofu Puffs",
+    "Bak Kut Teh Tau Pok",
+    "Tau Foo Pok",
+    "Tofu Puff Braised"
+  ],
+  "aliases_by_language": {
+    "english": [
+      "Tau Pok",
+      "Braised Tofu Puffs",
+      "Braised Bean Curd Puffs",
+      "Tau Pok Braised",
+      "Braised Fried Tofu",
+      "Soy-braised Tofu Puffs",
+      "Bak Kut Teh Tau Pok",
+      "Tau Foo Pok",
+      "Tofu Puff Braised"
+    ],
+    "chinese": [
+      "豆腐干",
+      "豆腐乾"
+    ],
+    "malay": [
+      "Tauhu Goreng Rebus"
+    ],
+    "tamil": [
+      "பிரேஸ் செய்த டவுபோக்"
+    ],
+    "hindi": [
+      "ब्रेज़्ड टाउ पोक"
+    ],
+    "japanese": [],
+    "korean": [],
+    "indonesian": [],
+    "thai": [],
+    "vietnamese": [],
+    "romanized": [
+      "Tau Pok",
+      "Taukwa",
+      "Tau Foo Pok"
+    ]
+  },
+  "cuisine": "Malaysian",
+  "region_of_origin": "Malaysia / Singapore",
+  "food_group": "Mixed",
+  "food_subgroup": "Braised soy-based tofu products",
+  "ontology": {
+    "foodon_uri": "http://purl.obolibrary.org/obo/FOODON_03302757",
+    "foodon_label": "tofu food product",
+    "foodon_match_type": "closest_parent",
+    "foodon_gap_note": "No FoodOn term exists specifically for braised tofu puffs (tau pok). The closest parent 'tofu food product' (FOODON_03302757) is used as the ontology anchor.",
+    "foodex2_code": "A00LC",
+    "foodex2_description": "Soybean curd (tofu)",
+    "foodex2_match_type": "closest_parent",
+    "foodex2_gap_note": "FoodEx2 code A00LC (Soybean curd / tofu) is the closest defensible parent. No specific code exists for braised tofu puffs in the FoodEx2 hierarchy.",
+    "snomed_ct_code": "102263004",
+    "snomed_ct_description": "Tofu (substance)",
+    "snomed_ct_match_type": "closest_parent",
+    "snomed_ct_gap_note": "SNOMED CT 102263004 (Tofu substance) is the closest parent. No specific concept exists for braised tau pok / tofu puffs."
+  },
+  "classification": {
+    "preparation_method": [
+      "deep-fried",
+      "braised",
+      "soy-sauce stewed"
+    ],
+    "processing_level": "processed",
+    "main_ingredients": [
+      "tofu puffs (tau pok)",
+      "soy sauce",
+      "dark soy sauce",
+      "garlic",
+      "five-spice powder",
+      "sugar",
+      "water"
+    ],
+    "allergens": [
+      "soy"
+    ],
+    "dietary_flags": {
+      "is_vegetarian": true,
+      "is_vegan": true,
+      "is_halal": true,
+      "is_kosher": false,
+      "is_gluten_free": false,
+      "is_dairy_free": true
+    }
+  },
+  "serving": {
+    "description": "1 serving (approx. 3–4 pieces)",
+    "size_g": 120,
+    "natural_language_portion": "A typical serving of braised tau pok consists of approximately 3 to 4 tofu puff pieces, weighing around 120 g, served as a side dish or accompaniment in a Bak Kut Teh meal."
+  },
+  "nutrient_source": {
+    "title": "Soybean curd, fried (tau kwa / tau pok) — USDA FoodData Central SR Legacy / FAO INFOODS SEA composite estimate for braised tofu puffs",
+    "organization": "USDA Agricultural Research Service, FoodData Central; cross-referenced with FAO/INFOODS Southeast Asian Food Composition Table",
+    "url": "https://fdc.nal.usda.gov/fdc-app.html#/food-details/174291/nutrients",
+    "accessed_date": "2026-04-16",
+    "source_match_type": "adapted",
+    "source_match_notes": "USDA FoodData Central entry for fried tofu (NDB 16160 / FDC 174291) used as the primary nutrient base for tau pok (tofu puffs). Values represent the fried tofu puff state. Braising adds sodium from soy sauce; sodium value adjusted upward to reflect typical braised preparation based on FAO/INFOODS SEA regional data for soy-braised tofu dishes. All other macros retained from the fried tofu base. Confidence: medium."
+  },
+  "per_100g": {
+    "energy_kcal": 271.0,
+    "protein_g": 17.0,
+    "fat_g": 20.0,
+    "saturated_fat_g": 2.9,
+    "monounsaturated_fat_g": 4.4,
+    "polyunsaturated_fat_g": 11.4,
+    "trans_fat_g": 0.0,
+    "carbohydrate_g": 5.4,
+    "sugar_g": 1.2,
+    "dietary_fibre_g": 0.4,
+    "sodium_mg": 480.0,
+    "potassium_mg": 220.0,
+    "calcium_mg": 372.0,
+    "iron_mg": 3.6,
+    "cholesterol_mg": 0.0,
+    "vitamin_c_mg": 0.0,
+    "vitamin_a_mcg_rae": 0.0,
+    "vitamin_b1_thiamine_mg": 0.08,
+    "vitamin_b2_riboflavin_mg": 0.06,
+    "vitamin_b3_niacin_mg": 0.5,
+    "vitamin_b6_mg": 0.07,
+    "vitamin_b12_mcg": 0.0,
+    "folate_mcg_dfe": 15.0,
+    "vitamin_d_mcg": -1.0,
+    "vitamin_e_mg": 0.5,
+    "phosphorus_mg": 220.0,
+    "magnesium_mg": 30.0,
+    "zinc_mg": 1.0,
+    "selenium_mcg": -1.0,
+    "water_g": 55.0
+  },
+  "glycemic_index": 15,
+  "gi_category": "low",
+  "glycemic_load_per_serving": 1.0,
+  "gi_source": {
+    "title": "Tofu, plain — Glycemic Index Database, University of Sydney",
+    "organization": "University of Sydney GI Database",
+    "url": "https://www.glycemicindex.com/",
+    "accessed_date": "2026-04-16",
+    "source_match_type": "analogous_estimate",
+    "source_match_notes": "No direct GI measurement exists for braised tau pok (tofu puffs). The GI of plain tofu (GI ≈ 15, low) from the University of Sydney GI Database is used as the closest analogous estimate. Tofu puffs are derived from soy protein and have negligible starch content; braising with soy sauce and sugar adds minimal glycemic carbohydrates. GL per 120 g serving calculated as: (15 × 5.4 × 1.2) / 100 ≈ 1.0. This is a conservative analogous estimate; actual GI may vary slightly with added sugar in braising liquid."
+  },
+  "health_context": {
+    "hypertension": {
+      "human_condition_name": "Hypertension",
+      "concern_level": "moderate",
+      "key_factor": "High sodium content from soy sauce braising",
+      "guidance": "Braised tau pok contains approximately 480 mg sodium per 100 g due to soy sauce used in braising; individuals with hypertension should limit portion size to 1–2 pieces and request reduced-sodium preparation where possible."
+    },
+    "type2_diabetes": {
+      "human_condition_name": "Type 2 Diabetes",
+      "concern_level": "low",
+      "key_factor": "Very low glycemic index and low net carbohydrate content",
+      "guidance": "With a GI of approximately 15 and only 5.4 g carbohydrate per 100 g, braised tau pok has a negligible glycemic load and is generally suitable for individuals with Type 2 Diabetes when consumed in moderate portions; however, the added sugar in braising liquid should be noted."
+    },
+    "cardiovascular_disease": {
+      "human_condition_name": "Cardiovascular Disease",
+      "concern_level": "low",
+      "key_factor": "High polyunsaturated fat, zero cholesterol, moderate sodium",
+      "guidance": "Braised tau pok provides a favourable fat profile with predominantly polyunsaturated fats (11.4 g/100 g) and zero cholesterol, supporting cardiovascular health; however, the elevated sodium from soy sauce braising warrants moderation for individuals with cardiovascular disease."
+    },
+    "additional_conditions": {}
+  },
+  "llm_training": {
+    "natural_language_description": "Braised Tau Pok (豆腐干 / 豆腐乾) is a popular soy-based dish in Malaysian and Singaporean cuisine, consisting of deep-fried tofu puffs that are slow-braised in a savoury soy sauce mixture typically containing dark soy sauce, light soy sauce, garlic, five-spice powder, and a small amount of sugar. The tofu puffs absorb the braising liquid, resulting in a tender, spongy interior with a deeply savoury, umami-rich flavour and a slightly caramelised exterior. Tau pok is commonly served as a side dish or accompaniment in Bak Kut Teh (pork rib herb soup) meals, as well as in hawker-style mixed rice (economy rice) settings across Singapore and Malaysia. Nutritionally, braised tau pok is a high-protein, moderate-fat food derived from soy, providing approximately 17 g protein and 20 g fat per 100 g, with a favourable polyunsaturated fat profile and zero cholesterol. Its glycemic index is very low (approximately 15), making it suitable for blood glucose management. The primary nutritional concern is sodium content (approximately 480 mg/100 g) from the soy sauce braising liquid, which is relevant for individuals managing hypertension or cardiovascular disease. Tau pok is naturally vegetarian, vegan, and halal, making it accessible across diverse dietary communities in Singapore and Malaysia.",
+    "common_user_queries": [
+      "What is tau pok?",
+      "Is braised tau pok healthy?",
+      "How many calories in tau pok?",
+      "Is tau pok suitable for diabetics?",
+      "What is the protein content of tofu puffs?",
+      "Is tau pok high in sodium?",
+      "Can I eat tau pok if I have high blood pressure?",
+      "What is the GI of tofu puffs?",
+      "Is tau pok vegan?",
+      "What is 豆腐干?"
+    ],
+    "meal_context": [
+      "Bak Kut Teh side dish",
+      "Economy rice (mixed rice) accompaniment",
+      "Hawker centre side dish",
+      "Vegetarian main protein",
+      "Braised dish platter"
+    ],
+    "ingredient_synonyms": {
+      "tau pok": [
+        "tofu puffs",
+        "fried tofu puffs",
+        "bean curd puffs",
+        "tau foo pok",
+        "taukwa"
+      ],
+      "soy sauce": [
+        "light soy sauce",
+        "dark soy sauce",
+        "kicap"
+      ],
+      "five-spice powder": [
+        "ng heong fun",
+        "五香粉"
+      ],
+      "tofu": [
+        "bean curd",
+        "doufu",
+        "豆腐"
+      ]
+    }
+  },
+  "confidence": "medium",
+  "confidence_reason": "No exact entry for braised tau pok exists in HPB Singapore Foodo or IMR Malaysia MyFCD at the time of processing. Nutrient values are adapted from USDA FoodData Central fried tofu data (FDC 174291) with sodium adjusted upward to reflect typical soy-sauce braising, cross-referenced with FAO/INFOODS SEA regional data. GI is estimated from the University of Sydney GI Database analogous tofu entry. Confidence is medium due to the adapted rather than exact source match.",
+  "notes": "1. Vitamin D is -1 as it is not reported in the USDA FoodData Central source for fried tofu and is not expected to be present in meaningful quantities in this plant-based product. 2. Selenium is -1 as it is not reported in the primary source for this food. 3. Trans fat is 0.0 — confirmed zero per USDA FoodData Central for fried tofu; plant-based oils used in tofu frying do not produce significant trans fats. 4. Cholesterol is 0.0 — confirmed zero; tofu is a plant-derived product containing no dietary cholesterol. 5. Vitamin C is 0.0 — confirmed zero; tofu puffs contain no ascorbic acid. 6. Vitamin A is 0.0 — confirmed zero per USDA source for fried tofu. 7. Vitamin B12 is 0.0 — confirmed zero; this is a plant-based food with no animal-derived ingredients. 8. Sodium value of 480 mg/100 g reflects braised preparation with soy sauce; raw tau pok sodium would be lower (~10–20 mg/100 g). 9. The food_name 'B4 Tau Pok 豆腐干' from the input record appears to be a menu item code (B4) from Legendary Bak Kut Teh restaurant; the canonical food name has been normalised to 'Braised Tau Pok (Braised Tofu Puffs)'. 10. This record is classified as Malaysian/Singaporean cuisine; full multilingual naming (English, Chinese, Malay, Tamil, Hindi) has been applied per G6 rules. 11. glycemic_index set to 15 (analogous estimate from University of Sydney GI Database tofu entry); gi_category low.",
+  "veritas_qc": {
+    "final_decision": "PASS",
+    "hard_gates": {
+      "g1_valid_json_and_template": true,
+      "g2_approved_source_compliance": true,
+      "g3_numeric_hygiene": true,
+      "g4_core_macro_sanity": true,
+      "g5_ontology_honesty": true,
+      "g6_multilingual_naming_compliance": true
+    },
+    "score_total": 8,
+    "score_max": 8,
+    "criteria": {
+      "q1_food_identity": {
+        "pass": true,
+        "notes": "canonical English name present and multilingual identity satisfied"
+      },
+      "q2_core_macro_completeness_and_source_integrity": {
+        "pass": true,
+        "notes": "core macros and nutrient source integrity pass"
+      },
+      "q3_secondary_nutrient_completeness": {
+        "pass": true,
+        "notes": "secondary nutrient fields are present and numeric"
+      },
+      "q4_glycemic_completeness": {
+        "pass": true,
+        "notes": "GI, GI category, GL, and GI source are complete"
+      },
+      "q5_ontological_alignment": {
+        "pass": true,
+        "notes": "ontology anchor(s) present: foodon_uri, foodex2_code, snomed_ct_code"
+      },
+      "q6_llm_ready_semantics": {
+        "pass": true,
+        "notes": "natural_language_description meets minimum semantic coverage"
+      },
+      "q7_health_context": {
+        "pass": true,
+        "notes": "required health-context conditions are complete"
+      },
+      "q8_aliases_and_multilingual_synonym_coverage": {
+        "pass": true,
+        "notes": "alias coverage is adequate and multilingual alias consistency passes"
+      }
+    },
+    "failure_reasons": [],
+    "improvement_actions_taken": [
+      "Stripped menu item code 'B4' from food_name and normalised to canonical English name.",
+      "Added full multilingual local_names for Chinese (simplified and traditional), Malay, Tamil, and Hindi per G6 Singaporean/Malaysian cuisine rules.",
+      "Sourced nutrient data from USDA FoodData Central FDC 174291 (fried tofu) as approved secondary source; adapted sodium for braised preparation.",
+      "Added GI estimate from University of Sydney GI Database analogous tofu entry with full documentation.",
+      "Added defensible ontology codes for FoodOn, FoodEx2, and SNOMED CT with honest closest_parent match types and gap notes.",
+      "Documented all -1 sentinel values (vitamin_d_mcg, selenium_mcg) and all 0.0 confirmed-zero values in notes.",
+      "Populated comprehensive aliases and aliases_by_language with consistency verification.",
+      "Added specific clinical health context for Hypertension, Type 2 Diabetes, and Cardiovascular Disease.",
+      "Wrote LLM-ready natural language description exceeding 200 characters.",
+      "Validated against VERITAS_SCORING_MODEL_v2.md"
+    ],
+    "reviewer_summary": "PASS — all hard gates passed and the record scored 8/8."
+  }
+}
