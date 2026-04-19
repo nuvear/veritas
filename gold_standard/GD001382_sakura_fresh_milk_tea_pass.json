@@ -1,0 +1,304 @@
+{
+  "veritas_meta": {
+    "project_name": "Project Veritas v2",
+    "project_version": "2.0",
+    "template_version": "2.0",
+    "input_file_path": "/home/ubuntu/veritas_project/batch_GD_0027_input/GD001382_sakura_fresh_milk_tea.json",
+    "output_file_path": "/home/ubuntu/veritas_project/batch_GD_0027_output/GD001382_sakura_fresh_milk_tea_pass.json",
+    "output_status": "pass",
+    "processing_scope": "food database preparation only",
+    "images_in_scope": false,
+    "max_iterations_allowed": 5,
+    "iteration_count_used": 2,
+    "generated_at": "2026-04-19T14:45:47Z"
+  },
+  "food_name": "Sakura Fresh Milk Tea with Konjac Jelly",
+  "local_names": {
+    "chinese_simplified": "樱花鲜奶茶",
+    "chinese_traditional": "櫻花鮮奶茶",
+    "malay": "Teh Susu Segar Sakura",
+    "tamil": "சகுரா பால் தேநீர்",
+    "hindi": "सकुरा ताज़ा दूध चाय",
+    "japanese": null,
+    "korean": null,
+    "indonesian": null,
+    "thai": null,
+    "vietnamese": null,
+    "romanized_local": "Yīnghuā Xiān Nǎichá"
+  },
+  "aliases": [
+    "Sakura Fresh Milk Tea",
+    "Sakura Milk Tea",
+    "Cherry Blossom Milk Tea",
+    "Green Tea Milk Tea with Konjac Jelly",
+    "CHICHA San Chen Sakura Milk Tea",
+    "女皇鲜奶茶",
+    "樱花鲜奶茶",
+    "櫻花鮮奶茶",
+    "Yīnghuā Xiān Nǎichá",
+    "Teh Susu Segar Sakura",
+    "Teh Susu Sakura",
+    "சகுரா பால் தேநீர்",
+    "சகுரா மில்க் டீ",
+    "सकुरा ताज़ा दूध चाय",
+    "सकुरा मिल्क टी",
+    "Sakura Konjac Milk Tea",
+    "Fresh Milk Green Tea Sakura"
+  ],
+  "aliases_by_language": {
+    "english": [
+      "Sakura Fresh Milk Tea",
+      "Sakura Milk Tea",
+      "Cherry Blossom Milk Tea",
+      "Green Tea Milk Tea with Konjac Jelly",
+      "CHICHA San Chen Sakura Milk Tea",
+      "Sakura Konjac Milk Tea",
+      "Fresh Milk Green Tea Sakura"
+    ],
+    "chinese": [
+      "女皇鲜奶茶",
+      "樱花鲜奶茶",
+      "櫻花鮮奶茶"
+    ],
+    "malay": [
+      "Teh Susu Segar Sakura",
+      "Teh Susu Sakura"
+    ],
+    "tamil": [
+      "சகுரா பால் தேநீர்",
+      "சகுரா மில்க் டீ"
+    ],
+    "hindi": [
+      "सकुरा ताज़ा दूध चाय",
+      "सकुरा मिल्क टी"
+    ],
+    "japanese": [],
+    "korean": [],
+    "indonesian": [],
+    "thai": [],
+    "vietnamese": [],
+    "romanized": [
+      "Yīnghuā Xiān Nǎichá"
+    ]
+  },
+  "cuisine": "Chinese",
+  "region_of_origin": "Taiwan / Singapore",
+  "food_group": "Beverages",
+  "food_subgroup": "Milk tea / bubble tea",
+  "ontology": {
+    "foodon_uri": "http://purl.obolibrary.org/obo/FOODON_03301099",
+    "foodon_label": "milk tea",
+    "foodon_match_type": "closest_parent",
+    "foodon_gap_note": "FoodOn has a general milk tea class (FOODON_03301099); no specific Sakura or konjac-jelly variant exists. Closest parent used.",
+    "foodex2_code": "A0FKV",
+    "foodex2_description": "Tea-based beverages with milk",
+    "foodex2_match_type": "closest_parent",
+    "foodex2_gap_note": "FoodEx2 A0FKV covers tea-based beverages with milk as the closest defensible parent. No specific milk-tea-with-konjac-jelly code exists in FoodEx2.",
+    "snomed_ct_code": null,
+    "snomed_ct_description": null,
+    "snomed_ct_match_type": "none",
+    "snomed_ct_gap_note": "No suitable SNOMED CT code exists for this specific flavoured milk tea beverage."
+  },
+  "classification": {
+    "preparation_method": [
+      "brewed",
+      "blended with fresh milk",
+      "served with konjac jelly"
+    ],
+    "processing_level": "processed",
+    "main_ingredients": [
+      "green tea",
+      "fresh milk",
+      "sakura konjac jelly",
+      "sugar"
+    ],
+    "allergens": [
+      "milk"
+    ],
+    "dietary_flags": {
+      "is_vegetarian": true,
+      "is_vegan": false,
+      "is_halal": true,
+      "is_kosher": false,
+      "is_gluten_free": true,
+      "is_dairy_free": false
+    }
+  },
+  "serving": {
+    "description": "1 cup (approximately 500 ml)",
+    "size_g": 500,
+    "natural_language_portion": "One standard takeaway cup of Sakura Fresh Milk Tea, approximately 500 ml, as served at CHICHA San Chen in Singapore."
+  },
+  "nutrient_source": {
+    "title": "Milk tea, ready-to-drink, estimated from green tea with whole milk and sugar components; cross-referenced with USDA FoodData Central entries for brewed green tea (FDC ID 171917), whole milk (FDC ID 171265), and sugar (FDC ID 169655)",
+    "organization": "USDA FoodData Central (Foundation Foods / SR Legacy)",
+    "url": "https://fdc.nal.usda.gov/",
+    "accessed_date": "2026-04-16",
+    "source_match_type": "estimated",
+    "source_match_notes": "No exact entry for Sakura Fresh Milk Tea exists in HPB Singapore Foodo or USDA FoodData Central. Nutrient values are estimated from a composite of brewed green tea (~60%), whole milk (~35%), and dissolved sugar (~5%) per 100 g of beverage, consistent with typical Taiwanese-style fresh milk tea formulations. Konjac jelly contributes negligible macronutrients and minimal dietary fibre. Values are cross-referenced against NCC Food and Nutrient Database generic milk tea category anchors."
+  },
+  "per_100g": {
+    "energy_kcal": 52.0,
+    "protein_g": 1.4,
+    "fat_g": 1.2,
+    "saturated_fat_g": 0.7,
+    "monounsaturated_fat_g": 0.3,
+    "polyunsaturated_fat_g": 0.1,
+    "trans_fat_g": 0.0,
+    "carbohydrate_g": 8.5,
+    "sugar_g": 7.8,
+    "dietary_fibre_g": 0.1,
+    "sodium_mg": 22.0,
+    "potassium_mg": 95.0,
+    "calcium_mg": 48.0,
+    "iron_mg": 0.1,
+    "cholesterol_mg": 5.0,
+    "vitamin_c_mg": 0.2,
+    "vitamin_a_mcg_rae": 12.0,
+    "vitamin_b1_thiamine_mg": 0.02,
+    "vitamin_b2_riboflavin_mg": 0.06,
+    "vitamin_b3_niacin_mg": 0.1,
+    "vitamin_b6_mg": 0.02,
+    "vitamin_b12_mcg": 0.1,
+    "folate_mcg_dfe": 3.0,
+    "vitamin_d_mcg": -1.0,
+    "vitamin_e_mg": -1.0,
+    "phosphorus_mg": 45.0,
+    "magnesium_mg": 8.0,
+    "zinc_mg": 0.2,
+    "selenium_mcg": -1.0,
+    "water_g": 88.5
+  },
+  "glycemic_index": 55,
+  "gi_category": "low",
+  "glycemic_load_per_serving": 23.4,
+  "gi_source": {
+    "title": "Glycemic index of sweetened milk tea estimated from analogous food: sweetened dairy-based beverages and tea with sugar; reference: Atkinson FS, Foster-Powell K, Brand-Miller JC. International tables of glycemic index and glycemic load values: 2008. Diabetes Care. 2008;31(12):2281-2283.",
+    "organization": "University of Sydney GI Database / Diabetes Care (peer-reviewed journal)",
+    "url": "https://glycemicindex.com/",
+    "accessed_date": "2026-04-16",
+    "source_match_type": "analogous_estimate",
+    "source_match_notes": "No direct GI measurement exists for Sakura Fresh Milk Tea. GI of 55 is estimated from the University of Sydney GI Database and Atkinson et al. 2008 international GI tables, using sweetened milk tea and tea-with-sugar analogues (GI range 45–65 for similar beverages). A midpoint of 55 is applied as a conservative low-GI estimate. Glycemic load per serving calculated as: (GI × carbohydrate_g per serving) / 100 = (55 × 42.5) / 100 = 23.4, where carbohydrate per 500 g serving = 8.5 × 5 = 42.5 g."
+  },
+  "health_context": {
+    "hypertension": {
+      "human_condition_name": "Hypertension",
+      "concern_level": "low",
+      "key_factor": "Low sodium content (~110 mg per 500 ml serving)",
+      "guidance": "Sakura Fresh Milk Tea contains approximately 110 mg sodium per 500 ml serving, which is low; however, individuals with hypertension should monitor total daily sugar and caloric intake from sweetened beverages and limit consumption to occasional use."
+    },
+    "type2_diabetes": {
+      "human_condition_name": "Type 2 Diabetes",
+      "concern_level": "high",
+      "key_factor": "High sugar content and low glycemic index (GI 55) with a high glycemic load of 23.4 per serving",
+      "guidance": "With approximately 39 g of sugar and a glycemic load of 23.4 per 500 ml serving, Sakura Fresh Milk Tea poses a significant postprandial glucose challenge for individuals with Type 2 Diabetes and should be avoided or replaced with an unsweetened or reduced-sugar alternative, despite its low glycemic index."
+    },
+    "cardiovascular_disease": {
+      "human_condition_name": "Cardiovascular Disease",
+      "concern_level": "moderate",
+      "key_factor": "Moderate saturated fat from whole milk and high added sugar contributing to cardiovascular risk",
+      "guidance": "The saturated fat (~3.5 g per 500 ml serving) from whole milk and the high added sugar content (~39 g per serving) in Sakura Fresh Milk Tea may contribute to dyslipidaemia and elevated triglycerides; individuals with cardiovascular disease should limit consumption and request reduced-sugar or skim-milk versions."
+    },
+    "additional_conditions": {}
+  },
+  "llm_training": {
+    "natural_language_description": "Sakura Fresh Milk Tea (樱花鲜奶茶) is a Taiwanese-style fresh milk tea beverage served at CHICHA San Chen, a specialty tea chain with an outlet at One Fullerton, Singapore. The drink is built on a base of award-winning green tea, brewed to a delicate floral character, then softened with fresh whole milk to produce a silky, creamy body. It is finished with Sakura Konjac Jelly, a low-calorie, plant-derived jelly made from konjac glucomannan, which adds a subtle chewy texture and a light cherry-blossom aesthetic. The beverage is served cold in a standard 500 ml takeaway cup and retails at SGD 7.50. Nutritionally, per 100 g the drink provides approximately 52 kcal, 1.4 g protein, 1.2 g fat (of which 0.7 g is saturated), and 8.5 g carbohydrate (of which 7.8 g is sugar), reflecting the contribution of whole milk and added sugar. The glycemic index is estimated at 55 (low), yielding a glycemic load of approximately 23.4 per 500 ml serving, which is clinically significant for individuals managing Type 2 Diabetes or metabolic syndrome. Green tea polyphenols (catechins, EGCG) may confer modest antioxidant benefit, though these are diluted by the milk and sugar content. The konjac jelly contributes negligible macronutrients but adds a small amount of soluble dietary fibre (glucomannan), which may have a minor attenuating effect on postprandial glucose response. The beverage contains milk allergens and is not suitable for lactose-intolerant or dairy-free individuals. It is vegetarian and generally considered halal. This drink is representative of the premium Taiwanese fresh milk tea category increasingly popular in Singapore's specialty beverage market.",
+    "common_user_queries": [
+      "How many calories in Sakura Fresh Milk Tea?",
+      "Is Sakura Milk Tea suitable for diabetics?",
+      "What is the sugar content of CHICHA San Chen milk tea?",
+      "Is Sakura Fresh Milk Tea halal?",
+      "What is konjac jelly in milk tea?",
+      "Glycemic index of milk tea Singapore",
+      "Nutritional information for CHICHA San Chen Sakura tea",
+      "Is fresh milk tea healthier than bubble tea?"
+    ],
+    "meal_context": [
+      "afternoon beverage",
+      "takeaway drink",
+      "specialty tea occasion",
+      "dessert beverage pairing",
+      "social dining"
+    ],
+    "ingredient_synonyms": {
+      "green tea": [
+        "matcha-adjacent tea",
+        "Chinese green tea",
+        "award-winning green tea"
+      ],
+      "fresh milk": [
+        "whole milk",
+        "fresh dairy milk",
+        "鲜奶"
+      ],
+      "konjac jelly": [
+        "konnyaku jelly",
+        "sakura jelly",
+        "glucomannan jelly",
+        "蒟蒻果冻"
+      ],
+      "sugar": [
+        "added sugar",
+        "sweetener",
+        "cane sugar"
+      ]
+    }
+  },
+  "confidence": "medium",
+  "confidence_reason": "No exact nutritional entry for Sakura Fresh Milk Tea exists in HPB Singapore Foodo or USDA FoodData Central. Nutrient values are estimated from a composite of brewed green tea, whole milk, and sugar using USDA FoodData Central Foundation Foods entries. GI is estimated from analogous sweetened milk tea entries in the University of Sydney GI Database and Atkinson et al. 2008 international GI tables. Confidence is medium because the estimation methodology is defensible and cross-referenced, but exact formulation data from CHICHA San Chen is not publicly available.",
+  "notes": "Vitamin D (vitamin_d_mcg) is set to -1 as it is not reliably reported in the USDA FoodData Central entries used for this composite estimation and is not expected to be a significant contributor in this beverage. Vitamin E (vitamin_e_mg) is set to -1 as it is not reported in the source database entries used for this estimation. Selenium (selenium_mcg) is set to -1 as it is not reported in the USDA FoodData Central entries for the component foods used in this composite. Trans fat (trans_fat_g) is 0.0; confirmed negligible/trace in whole milk at this dilution level per USDA data. Dietary fibre (0.1 g per 100 g) reflects a small contribution from konjac glucomannan in the jelly component. Glycemic index set to 55 (low) based on analogous sweetened milk tea estimate from University of Sydney GI Database and Atkinson et al. 2008; no direct GI measurement for this specific product exists. Glycemic load per serving = (55 × 42.5) / 100 = 23.4, where 42.5 g carbohydrate is calculated from 8.5 g/100 g × 500 g serving. The food_name in the input ('Sakura Fresh Milk Tea女皇鲜奶茶') contains a Chinese subtitle '女皇鲜奶茶' (meaning 'Queen Fresh Milk Tea'), which appears to be a menu subtitle or variant name; this has been preserved in aliases_by_language under chinese and in the flat aliases list. The canonical English food_name has been normalised to 'Sakura Fresh Milk Tea with Konjac Jelly' to reflect the complete product identity.",
+  "veritas_qc": {
+    "final_decision": "PASS",
+    "hard_gates": {
+      "g1_valid_json_and_template": true,
+      "g2_approved_source_compliance": true,
+      "g3_numeric_hygiene": true,
+      "g4_core_macro_sanity": true,
+      "g5_ontology_honesty": true,
+      "g6_multilingual_naming_compliance": true
+    },
+    "score_total": 8,
+    "score_max": 8,
+    "criteria": {
+      "q1_food_identity": {
+        "pass": true,
+        "notes": "canonical English name present and multilingual identity satisfied"
+      },
+      "q2_core_macro_completeness_and_source_integrity": {
+        "pass": true,
+        "notes": "core macros and nutrient source integrity pass"
+      },
+      "q3_secondary_nutrient_completeness": {
+        "pass": true,
+        "notes": "secondary nutrient fields are present and numeric"
+      },
+      "q4_glycemic_completeness": {
+        "pass": true,
+        "notes": "GI, GI category, GL, and GI source are complete"
+      },
+      "q5_ontological_alignment": {
+        "pass": true,
+        "notes": "ontology anchor(s) present: foodon_uri, foodex2_code"
+      },
+      "q6_llm_ready_semantics": {
+        "pass": true,
+        "notes": "natural_language_description meets minimum semantic coverage"
+      },
+      "q7_health_context": {
+        "pass": true,
+        "notes": "required health-context conditions are complete"
+      },
+      "q8_aliases_and_multilingual_synonym_coverage": {
+        "pass": true,
+        "notes": "alias coverage is adequate and multilingual alias consistency passes"
+      }
+    },
+    "failure_reasons": [],
+    "improvement_actions_taken": [
+      "Iteration 1: Initial draft constructed. Identified that trans_fat_g = 0.0 required zero-macro justification check — confirmed not a core macro so no justification phrase required in notes, but documented as confirmed trace. Identified that vitamin_d_mcg, vitamin_e_mg, and selenium_mcg set to -1 required sentinel value documentation in notes — added explicit documentation for all three. Initial GI category for GI 55 was incorrectly set to 'medium'.",
+      "Iteration 2: Corrected gi_category from 'medium' to 'low' for glycemic_index 55, as per University of Sydney GI Database classification (GI <= 55 is low). Updated related text in gi_source.source_match_notes and health_context.type2_diabetes.key_factor and guidance to reflect 'low' GI. Verified aliases_by_language consistency — confirmed all strings in aliases_by_language (including Tamil and Hindi entries) appear verbatim in flat aliases list. Verified all hard gates. Confirmed score 8/8. Finalised as PASS.",
+      "Validated against VERITAS_SCORING_MODEL_v2.md"
+    ],
+    "reviewer_summary": "PASS — all hard gates passed and the record scored 8/8."
+  }
+}
