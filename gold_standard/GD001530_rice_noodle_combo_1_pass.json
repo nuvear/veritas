@@ -1,0 +1,318 @@
+{
+  "veritas_meta": {
+    "project_name": "Project Veritas v2",
+    "project_version": "2.0",
+    "template_version": "2.0",
+    "input_file_path": "/home/ubuntu/veritas_project/batch_GD_0030_input/GD001530_rice_noodle_combo_1.json",
+    "output_file_path": "/home/ubuntu/veritas_project/batch_GD_0030_output/GD001530_rice_noodle_combo_1_pass.json",
+    "output_status": "pass",
+    "processing_scope": "food database preparation only",
+    "images_in_scope": false,
+    "max_iterations_allowed": 5,
+    "iteration_count_used": 2,
+    "generated_at": "2026-04-19T15:13:06Z"
+  },
+  "food_name": "Thai Rice or Noodle Combo Set Meal",
+  "local_names": {
+    "chinese_simplified": null,
+    "chinese_traditional": null,
+    "malay": null,
+    "tamil": null,
+    "hindi": null,
+    "japanese": null,
+    "korean": null,
+    "indonesian": null,
+    "thai": "ชุดข้าวหรือก๋วยเตี๋ยวพร้อมไก่ทอดและเครื่องดื่ม",
+    "vietnamese": null,
+    "romanized_local": "Chut khao rue kuai tiao phrom kai thot lae khrueang duem"
+  },
+  "aliases": [
+    "Thai rice or noodle set",
+    "Thai noodle combo",
+    "Thai rice combo",
+    "Rice noodle combo set",
+    "Thai combo meal with chicken wings",
+    "Thai set meal with drink",
+    "Pad Thai combo set",
+    "Thai noodle set meal",
+    "Thai rice set meal",
+    "Thai combo with fried chicken wings",
+    "Saap Saap Thai combo",
+    "Rice noodle combo 1",
+    "ชุดข้าวหรือก๋วยเตี๋ยวพร้อมไก่ทอดและเครื่องดื่ม",
+    "Chut khao rue kuai tiao phrom kai thot lae khrueang duem"
+  ],
+  "aliases_by_language": {
+    "english": [
+      "Thai rice or noodle set",
+      "Thai noodle combo",
+      "Thai rice combo",
+      "Rice noodle combo set",
+      "Thai combo meal with chicken wings",
+      "Thai set meal with drink",
+      "Pad Thai combo set",
+      "Thai noodle set meal",
+      "Thai rice set meal",
+      "Thai combo with fried chicken wings",
+      "Saap Saap Thai combo",
+      "Rice noodle combo 1"
+    ],
+    "chinese": [],
+    "malay": [],
+    "tamil": [],
+    "hindi": [],
+    "japanese": [],
+    "korean": [],
+    "indonesian": [],
+    "thai": [
+      "ชุดข้าวหรือก๋วยเตี๋ยวพร้อมไก่ทอดและเครื่องดื่ม"
+    ],
+    "vietnamese": [],
+    "romanized": [
+      "Chut khao rue kuai tiao phrom kai thot lae khrueang duem"
+    ]
+  },
+  "cuisine": "Thai",
+  "region_of_origin": "Thailand",
+  "food_group": "Mixed",
+  "food_subgroup": "Thai set meal combining a rice or noodle dish, fried chicken wings, and a cold beverage",
+  "ontology": {
+    "foodon_uri": "http://purl.obolibrary.org/obo/FOODON_00002473",
+    "foodon_label": "meal (food product)",
+    "foodon_match_type": "closest_parent",
+    "foodon_gap_note": "No FoodOn term exists for a Thai combo set meal specifically. FOODON_00002473 (meal food product) is used as the closest parent category.",
+    "foodex2_code": "A00FL",
+    "foodex2_description": "Mixed dishes",
+    "foodex2_match_type": "closest_parent",
+    "foodex2_gap_note": "FoodEx2 A00FL (Mixed dishes) is the closest defensible parent. No specific code exists for a Thai rice-or-noodle combo set with fried chicken and beverage.",
+    "snomed_ct_code": null,
+    "snomed_ct_description": null,
+    "snomed_ct_match_type": "none",
+    "snomed_ct_gap_note": "No suitable SNOMED CT code identified for a Thai combo set meal. SNOMED CT does not enumerate individual restaurant set meals at this specificity."
+  },
+  "classification": {
+    "preparation_method": [
+      "boiled",
+      "stir-fried",
+      "deep-fried"
+    ],
+    "processing_level": "processed",
+    "main_ingredients": [
+      "rice or noodles (pad thai noodles or steamed rice)",
+      "chicken wings",
+      "cooking oil",
+      "fish sauce",
+      "soy sauce",
+      "garlic",
+      "chilli",
+      "cold beverage (soft drink or juice)"
+    ],
+    "allergens": [
+      "gluten (soy sauce, noodles)",
+      "soy",
+      "fish (fish sauce)",
+      "egg (possible in noodle dishes)"
+    ],
+    "dietary_flags": {
+      "is_vegetarian": false,
+      "is_vegan": false,
+      "is_halal": false,
+      "is_kosher": false,
+      "is_gluten_free": false,
+      "is_dairy_free": true
+    }
+  },
+  "serving": {
+    "description": "1 set meal (rice or noodle dish + 2 chicken wings + 1 cold drink)",
+    "size_g": 550,
+    "natural_language_portion": "One serving is approximately 550 g, comprising a rice or noodle main dish (approximately 350 g), two crispy fried chicken wings (approximately 120 g), and a cold beverage (approximately 80 g net food weight contribution), as served at Saap Saap Thai, Singapore."
+  },
+  "nutrient_source": {
+    "title": "Estimated composite from USDA FoodData Central: Pad Thai (SR Legacy 35188), Fried Chicken Wings (SR Legacy 05062), and Sweetened Cold Beverage (SR Legacy 14400); weighted by component proportions",
+    "organization": "USDA Agricultural Research Service — FoodData Central (SR Legacy)",
+    "url": "https://fdc.nal.usda.gov/",
+    "accessed_date": "2026-04-16",
+    "source_match_type": "estimated",
+    "source_match_notes": "No direct entry for this Thai combo set meal exists in HPB Singapore Foodo, ICMR-NIN, IMR Malaysia MyFCD, or FAO/INFOODS SEA. Nutrient values are estimated as a weighted composite of three USDA SR Legacy components: (1) Pad Thai noodle dish (~64% by weight of solid food, using USDA SR Legacy reference for Asian noodle dish with chicken and vegetables), (2) deep-fried chicken wings (~22% by weight, USDA SR Legacy 05062 chicken wing fried), and (3) sweetened cold beverage contribution (~14% by weight, USDA SR Legacy 14400 carbonated soft drink). Per-100g values are derived from this weighted blend. Confidence is medium due to composite estimation."
+  },
+  "per_100g": {
+    "energy_kcal": 168.0,
+    "protein_g": 8.5,
+    "fat_g": 6.2,
+    "saturated_fat_g": 1.6,
+    "monounsaturated_fat_g": 2.4,
+    "polyunsaturated_fat_g": 1.6,
+    "trans_fat_g": 0.1,
+    "carbohydrate_g": 20.8,
+    "sugar_g": 4.2,
+    "dietary_fibre_g": 0.9,
+    "sodium_mg": 420.0,
+    "potassium_mg": 145.0,
+    "calcium_mg": 22.0,
+    "iron_mg": 0.9,
+    "cholesterol_mg": 38.0,
+    "vitamin_c_mg": 2.0,
+    "vitamin_a_mcg_rae": 18.0,
+    "vitamin_b1_thiamine_mg": 0.08,
+    "vitamin_b2_riboflavin_mg": 0.07,
+    "vitamin_b3_niacin_mg": 2.8,
+    "vitamin_b6_mg": 0.15,
+    "vitamin_b12_mcg": 0.2,
+    "folate_mcg_dfe": 14.0,
+    "vitamin_d_mcg": -1.0,
+    "vitamin_e_mg": -1.0,
+    "phosphorus_mg": 110.0,
+    "magnesium_mg": 18.0,
+    "zinc_mg": 0.8,
+    "selenium_mcg": -1.0,
+    "water_g": 62.0
+  },
+  "glycemic_index": 55,
+  "gi_category": "low",
+  "glycemic_load_per_serving": 63.0,
+  "gi_source": {
+    "title": "International tables of glycemic index and glycemic load values: 2021 — Atkinson FS et al.; and University of Sydney GI Database entry for rice noodles (GI ~53) and pad thai noodle dish (GI ~55 analogous estimate)",
+    "organization": "University of Sydney GI Database; Atkinson FS, Brand-Miller JC, Foster-Powell K, Buyken AE, Goletzke J. International tables of glycemic index and glycemic load values 2021. Am J Clin Nutr. 2021;114(5):1625-1632.",
+    "url": "https://www.glycemicindex.com/",
+    "accessed_date": "2026-04-16",
+    "source_match_type": "analogous_estimate",
+    "source_match_notes": "No direct GI measurement exists for this specific Thai combo set meal. GI of 55 is estimated as a weighted average of the dominant carbohydrate components: rice noodles (GI ~53, University of Sydney GI Database), steamed jasmine rice (GI ~68, University of Sydney GI Database), and sweetened beverage (GI ~63, University of Sydney GI Database), weighted by carbohydrate contribution per component. The composite GI of 55 places this meal in the low GI category (55 or less). Glycemic load per serving calculated as: (GI × carbohydrate_g per serving) / 100 = (55 × 114.4) / 100 ≈ 63.0 g, where carbohydrate per 550 g serving = 20.8 × 5.5 = 114.4 g."
+  },
+  "health_context": {
+    "hypertension": {
+      "human_condition_name": "Hypertension",
+      "concern_level": "high",
+      "key_factor": "High sodium content (~420 mg per 100 g; ~2310 mg per serving) from fish sauce, soy sauce, and seasoning",
+      "guidance": "Individuals with hypertension should limit or avoid this meal due to its very high sodium content (~2310 mg per serving, approaching or exceeding the daily recommended limit of 2000 mg), and should request reduced-sauce or unseasoned preparation where possible."
+    },
+    "type2_diabetes": {
+      "human_condition_name": "Type 2 Diabetes",
+      "concern_level": "high",
+      "key_factor": "High glycemic load (~63 g per serving) driven by refined rice or noodle base and sweetened beverage, despite a low glycemic index for the composite meal.",
+      "guidance": "People with Type 2 Diabetes should exercise caution with this meal due to its high glycemic load (~63 per serving), which can still lead to significant postprandial glucose excursions. They should consider substituting the sweetened beverage with water or unsweetened tea and choosing a smaller noodle or brown-rice portion to mitigate the carbohydrate impact."
+    },
+    "cardiovascular_disease": {
+      "human_condition_name": "Cardiovascular Disease",
+      "concern_level": "moderate",
+      "key_factor": "Moderate saturated fat from deep-fried chicken wings and elevated sodium from Thai seasoning sauces",
+      "guidance": "For individuals with cardiovascular disease, the combination of deep-fried chicken wings (contributing saturated fat and cholesterol) and high sodium from fish sauce and soy sauce warrants portion control; grilled chicken substitution and reduced-sauce preparation are advisable."
+    },
+    "additional_conditions": {}
+  },
+  "llm_training": {
+    "natural_language_description": "The Thai Rice or Noodle Combo Set Meal is a popular Thai restaurant set offering served in Singapore, consisting of a customer's choice of a rice or noodle main dish (such as Pad Thai, Thai fried rice, or a Thai noodle soup), two golden deep-fried crispy chicken wings, and an ice-cold beverage (typically a sweetened soft drink or Thai iced tea). The meal is designed as a complete, satisfying single-person set that delivers a balance of carbohydrates from the rice or noodle base, protein and fat from the fried chicken wings, and refreshment from the cold drink. The noodle or rice component is typically stir-fried or boiled and seasoned with fish sauce, soy sauce, garlic, chilli, and lime, giving it the characteristic sweet-salty-sour-spicy flavour profile of Thai cuisine. The chicken wings are marinated and deep-fried to a crispy golden exterior with juicy interior meat. Nutritionally, this is a calorie-dense, high-carbohydrate, moderate-protein meal with significant sodium content due to Thai seasoning sauces. The glycemic load per serving is high (~63), making it a meal that requires careful management for individuals with Type 2 Diabetes or insulin resistance. The sodium content (~2310 mg per serving) is a concern for individuals with hypertension or cardiovascular disease. This meal is representative of casual Thai dining in Singapore and is commonly ordered as a lunch or dinner set at Thai fast-casual restaurants such as Saap Saap Thai.",
+    "common_user_queries": [
+      "What is in a Thai rice noodle combo?",
+      "How many calories in a Thai set meal with chicken wings?",
+      "Is Thai combo meal healthy?",
+      "Thai noodle set meal nutrition",
+      "Pad Thai combo calories Singapore",
+      "Thai restaurant set meal GI",
+      "Is Thai combo meal suitable for diabetics?",
+      "Sodium in Thai set meal",
+      "Thai combo meal with drink calories",
+      "Saap Saap Thai combo nutrition"
+    ],
+    "meal_context": [
+      "lunch",
+      "dinner",
+      "casual dining",
+      "Thai restaurant set meal",
+      "food delivery",
+      "weekday meal"
+    ],
+    "ingredient_synonyms": {
+      "rice noodles": [
+        "sen lek",
+        "sen yai",
+        "flat rice noodles",
+        "rice vermicelli",
+        "kuay teow"
+      ],
+      "pad thai noodles": [
+        "stir-fried rice noodles",
+        "phad thai",
+        "pad thai"
+      ],
+      "chicken wings": [
+        "fried chicken wings",
+        "crispy chicken wings",
+        "kai thot"
+      ],
+      "fish sauce": [
+        "nam pla",
+        "Thai fish sauce"
+      ],
+      "cold drink": [
+        "iced beverage",
+        "soft drink",
+        "Thai iced tea",
+        "nam yen"
+      ]
+    }
+  },
+  "confidence": "medium",
+  "confidence_reason": "No direct nutritional entry for this specific Thai combo set meal was found in HPB Singapore Foodo, ICMR-NIN, IMR Malaysia MyFCD, or FAO/INFOODS SEA. Nutrient values are estimated as a weighted composite of USDA SR Legacy reference entries for the component foods (noodle/rice dish, fried chicken wings, sweetened beverage). GI is an analogous estimate from the University of Sydney GI Database weighted by carbohydrate contribution. Confidence is therefore medium.",
+  "notes": "1. This record represents a Thai restaurant combo set meal sold at Saap Saap Thai - Funan, Singapore via field survey. The exact composition (which rice or noodle dish is chosen) varies by customer selection; nutrient values are estimated assuming a Pad Thai noodle base as the most common choice, blended with fried chicken wings and a sweetened cold drink. 2. Serving size of 550 g is an estimate based on typical Thai set meal portions in Singapore casual dining. 3. vitamin_d_mcg is -1 as it is not reported in the USDA SR Legacy composite sources used for this estimation. 4. vitamin_e_mg is -1 as it is not reported consistently across the component USDA SR Legacy entries used. 5. selenium_mcg is -1 as it is not reported in the USDA SR Legacy composite sources used for this estimation. 6. monounsaturated_fat_g, polyunsaturated_fat_g, and trans_fat_g are estimated from USDA SR Legacy fried chicken wing and noodle dish entries and carry moderate uncertainty. 7. Halal status is marked false as it cannot be confirmed without restaurant certification; the restaurant may or may not hold halal certification. 8. The food_group has been reclassified from 'Grains and staples' (input) to 'Mixed' as this is a composite set meal containing grains, meat, and a beverage. 9. GI of 55 is an analogous estimate; no direct GI measurement for this specific combo exists in the University of Sydney GI Database.",
+  "veritas_qc": {
+    "final_decision": "PASS",
+    "hard_gates": {
+      "g1_valid_json_and_template": true,
+      "g2_approved_source_compliance": true,
+      "g3_numeric_hygiene": true,
+      "g4_core_macro_sanity": true,
+      "g5_ontology_honesty": true,
+      "g6_multilingual_naming_compliance": true
+    },
+    "score_total": 8,
+    "score_max": 8,
+    "criteria": {
+      "q1_food_identity": {
+        "pass": true,
+        "notes": "canonical English name present and multilingual identity satisfied"
+      },
+      "q2_core_macro_completeness_and_source_integrity": {
+        "pass": true,
+        "notes": "core macros and nutrient source integrity pass"
+      },
+      "q3_secondary_nutrient_completeness": {
+        "pass": true,
+        "notes": "secondary nutrient fields are present and numeric"
+      },
+      "q4_glycemic_completeness": {
+        "pass": true,
+        "notes": "GI, GI category, GL, and GI source are complete"
+      },
+      "q5_ontological_alignment": {
+        "pass": true,
+        "notes": "ontology anchor(s) present: foodon_uri, foodex2_code"
+      },
+      "q6_llm_ready_semantics": {
+        "pass": true,
+        "notes": "natural_language_description meets minimum semantic coverage"
+      },
+      "q7_health_context": {
+        "pass": true,
+        "notes": "required health-context conditions are complete"
+      },
+      "q8_aliases_and_multilingual_synonym_coverage": {
+        "pass": true,
+        "notes": "alias coverage is adequate and multilingual alias consistency passes"
+      }
+    },
+    "failure_reasons": [],
+    "improvement_actions_taken": [
+      "Iteration 1: Replaced promotional menu label 'Rice/Noodle Combo 1' with canonical English food name 'Thai Rice or Noodle Combo Set Meal'.",
+      "Iteration 1: Reclassified food_group from 'Grains and staples' to 'Mixed' to reflect composite set meal nature.",
+      "Iteration 1: Added Thai local-language name in local_names.thai as required by G6 multilingual rule for Thai cuisine.",
+      "Iteration 1: Constructed weighted composite nutrient estimates from USDA SR Legacy approved sources for noodle dish, fried chicken wings, and sweetened beverage components.",
+      "Iteration 1: Added GI of 55 as analogous estimate from University of Sydney GI Database with full methodology documentation.",
+      "Iteration 1: Added all three required health context conditions with specific clinical guidance.",
+      "Iteration 1: Documented all -1 sentinel values (vitamin_d_mcg, vitamin_e_mg, selenium_mcg) in notes as required by G3.",
+      "Iteration 1: Verified aliases_by_language and flat aliases list are perfectly consistent.",
+      "Iteration 2: Corrected gi_category from 'medium' to 'low' for glycemic_index 55, as per validator feedback. Updated gi_source.source_match_notes and health_context.type2_diabetes key_factor and guidance to reflect this change while maintaining high concern due to high glycemic load.",
+      "Validated against VERITAS_SCORING_MODEL_v2.md"
+    ],
+    "reviewer_summary": "PASS — all hard gates passed and the record scored 8/8."
+  }
+}
