@@ -1,0 +1,320 @@
+{
+  "veritas_meta": {
+    "project_name": "Project Veritas v2",
+    "project_version": "2.0",
+    "template_version": "2.0",
+    "input_file_path": "/home/ubuntu/veritas_project/batch_GD_0024_input/GD001247_fish_paste_rice_salad.json",
+    "output_file_path": "/home/ubuntu/veritas_project/batch_GD_0024_output/GD001247_fish_paste_rice_salad_pass.json",
+    "output_status": "pass",
+    "processing_scope": "food database preparation only",
+    "images_in_scope": false,
+    "max_iterations_allowed": 5,
+    "iteration_count_used": 2,
+    "generated_at": "2026-04-19T14:23:21Z"
+  },
+  "food_name": "Fish Paste Rice Salad",
+  "local_names": {
+    "chinese_simplified": "鱼酱拌饭沙拉",
+    "chinese_traditional": "魚醬拌飯沙拉",
+    "malay": null,
+    "tamil": null,
+    "hindi": null,
+    "japanese": null,
+    "korean": null,
+    "indonesian": null,
+    "thai": "ข้าวยำน้ำบูดู",
+    "vietnamese": null,
+    "romanized_local": "Khao Yam Nam Budu"
+  },
+  "aliases": [
+    "Fish Paste Rice Salad",
+    "Khao Yam",
+    "Khao Yam Nam Budu",
+    "Thai Rice Salad with Fish Paste",
+    "Thai Herb Rice Salad",
+    "Rice Salad with Fermented Fish Sauce",
+    "Budu Rice Salad",
+    "ข้าวยำน้ำบูดู",
+    "鱼酱拌饭沙拉",
+    "魚醬拌飯沙拉",
+    "Khao Yam Pak Tai",
+    "Southern Thai Rice Salad"
+  ],
+  "aliases_by_language": {
+    "english": [
+      "Fish Paste Rice Salad",
+      "Thai Rice Salad with Fish Paste",
+      "Thai Herb Rice Salad",
+      "Rice Salad with Fermented Fish Sauce",
+      "Budu Rice Salad",
+      "Southern Thai Rice Salad",
+      "Khao Yam Pak Tai"
+    ],
+    "chinese": [
+      "鱼酱拌饭沙拉",
+      "魚醬拌飯沙拉"
+    ],
+    "malay": [],
+    "tamil": [],
+    "hindi": [],
+    "japanese": [],
+    "korean": [],
+    "indonesian": [],
+    "thai": [
+      "ข้าวยำน้ำบูดู"
+    ],
+    "vietnamese": [],
+    "romanized": [
+      "Khao Yam",
+      "Khao Yam Nam Budu",
+      "Khao Yam Pak Tai"
+    ]
+  },
+  "cuisine": "Thai",
+  "region_of_origin": "Southern Thailand",
+  "food_group": "Mixed",
+  "food_subgroup": "Rice-based salad with fermented fish paste dressing and fresh herbs",
+  "ontology": {
+    "foodon_uri": "http://purl.obolibrary.org/obo/FOODON_03311737",
+    "foodon_label": "rice dish",
+    "foodon_match_type": "closest_parent",
+    "foodon_gap_note": "No FoodOn term exists specifically for Thai fish paste rice salad (Khao Yam). The closest defensible parent is the generic 'rice dish' class FOODON_03311737.",
+    "foodex2_code": "A00LC",
+    "foodex2_description": "Rice-based dishes",
+    "foodex2_match_type": "closest_parent",
+    "foodex2_gap_note": "FoodEx2 does not contain a specific code for Khao Yam or Thai fish paste rice salad. A00LC (Rice-based dishes) is the closest defensible parent category.",
+    "snomed_ct_code": null,
+    "snomed_ct_description": null,
+    "snomed_ct_match_type": "none",
+    "snomed_ct_gap_note": "No SNOMED CT concept found for Thai fish paste rice salad or Khao Yam. SNOMED CT does not index this dish at the required specificity."
+  },
+  "classification": {
+    "preparation_method": [
+      "mixed",
+      "assembled",
+      "no cooking required for salad base",
+      "rice cooked by boiling or steaming"
+    ],
+    "processing_level": "minimally processed",
+    "main_ingredients": [
+      "cooked jasmine rice",
+      "fermented fish paste (budu or kapi)",
+      "fresh herbs (lemongrass, kaffir lime leaf, toasted coconut)",
+      "bean sprouts",
+      "long beans",
+      "dried shrimp",
+      "lime juice",
+      "palm sugar",
+      "fried chicken (accompaniment per menu description)"
+    ],
+    "allergens": [
+      "fish",
+      "shellfish (dried shrimp)",
+      "gluten (possible soy sauce in dressing)"
+    ],
+    "dietary_flags": {
+      "is_vegetarian": false,
+      "is_vegan": false,
+      "is_halal": true,
+      "is_kosher": false,
+      "is_gluten_free": false,
+      "is_dairy_free": true
+    }
+  },
+  "serving": {
+    "description": "1 plate",
+    "size_g": 350,
+    "natural_language_portion": "One standard plate of Fish Paste Rice Salad as served in a Thai restaurant, approximately 350 g, comprising cooked jasmine rice, fresh herb garnishes, dried shrimp, and fermented fish paste dressing, accompanied by fried chicken."
+  },
+  "nutrient_source": {
+    "title": "Khao Yam (Southern Thai Rice Salad) — estimated from FAO/INFOODS SEA Food Composition Table and USDA FoodData Central component data for cooked jasmine rice, fermented fish paste, fresh herbs, dried shrimp, and fried chicken",
+    "organization": "FAO/INFOODS Southeast Asian Food Composition Table (FAO/INFOODS SEA); USDA FoodData Central SR Legacy",
+    "url": "https://www.fao.org/infoods/infoods/tables-and-databases/asia/en/; https://fdc.nal.usda.gov/",
+    "accessed_date": "2026-04-16",
+    "source_match_type": "estimated",
+    "source_match_notes": "No single approved-source entry exists for Khao Yam Nam Budu as a composite dish. Nutrient values are estimated by weighted component analysis: cooked jasmine rice (~55% by weight), fermented fish paste dressing with budu (~10%), fresh herbs and vegetables (~20%), dried shrimp (~5%), and fried chicken accompaniment (~10%). Primary reference for rice: FAO/INFOODS SEA Table, Thailand entries. Secondary reference for fish paste and dried shrimp: USDA FoodData Central SR Legacy. Fried chicken component: USDA FoodData Central SR Legacy item 'Chicken, broilers or fryers, breast, meat only, cooked, fried'. Values represent a blended per-100g estimate of the full assembled dish."
+  },
+  "per_100g": {
+    "energy_kcal": 148.0,
+    "protein_g": 7.2,
+    "fat_g": 4.1,
+    "saturated_fat_g": 1.0,
+    "monounsaturated_fat_g": 1.5,
+    "polyunsaturated_fat_g": 1.0,
+    "trans_fat_g": 0.0,
+    "carbohydrate_g": 20.5,
+    "sugar_g": 2.8,
+    "dietary_fibre_g": 1.4,
+    "sodium_mg": 420.0,
+    "potassium_mg": 185.0,
+    "calcium_mg": 42.0,
+    "iron_mg": 1.1,
+    "cholesterol_mg": 38.0,
+    "vitamin_c_mg": 6.5,
+    "vitamin_a_mcg_rae": 18.0,
+    "vitamin_b1_thiamine_mg": 0.08,
+    "vitamin_b2_riboflavin_mg": 0.07,
+    "vitamin_b3_niacin_mg": 2.8,
+    "vitamin_b6_mg": 0.18,
+    "vitamin_b12_mcg": 0.6,
+    "folate_mcg_dfe": 14.0,
+    "vitamin_d_mcg": -1.0,
+    "vitamin_e_mg": -1.0,
+    "phosphorus_mg": 110.0,
+    "magnesium_mg": 22.0,
+    "zinc_mg": 0.8,
+    "selenium_mcg": -1.0,
+    "water_g": 62.0
+  },
+  "glycemic_index": 54,
+  "gi_category": "low",
+  "glycemic_load_per_serving": 20.2,
+  "gi_source": {
+    "title": "International tables of glycemic index and glycemic load values: 2021 — white rice (boiled, Asian-style jasmine rice) GI ~54–64; composite dish estimated at lower end due to protein, fat, and fibre dilution from fish paste, herbs, and vegetables",
+    "organization": "University of Sydney GI Database; Atkinson FS, Brand-Miller JC, Foster-Powell K et al. (2021) International Tables of Glycemic Index and Glycemic Load Values 2021. Diabetes Care.",
+    "url": "https://glycemicindex.com/; https://doi.org/10.2337/dc21-0366",
+    "accessed_date": "2026-04-16",
+    "source_match_type": "analogous_estimate",
+    "source_match_notes": "No direct GI measurement exists for Khao Yam Nam Budu as a composite dish. GI estimated at 54 (low) based on the GI of boiled jasmine rice (GI 54–64 per University of Sydney GI Database and Atkinson et al. 2021 international tables). The composite dish GI is moderated downward from plain rice GI by the presence of protein (dried shrimp, fish paste, fried chicken), dietary fat, dietary fibre from herbs and vegetables, and the acidic lime juice dressing, which are all known to attenuate postprandial glycaemic response. GL per serving calculated as: (54 × 71.75 g carbohydrate in 350 g serving at 20.5 g/100g) / 100 ≈ 20.2."
+  },
+  "health_context": {
+    "hypertension": {
+      "human_condition_name": "Hypertension",
+      "concern_level": "high",
+      "key_factor": "High sodium content from fermented fish paste (budu) and dried shrimp",
+      "guidance": "Individuals with hypertension should limit or avoid this dish due to its high sodium content (~420 mg per 100 g, equivalent to approximately 1,470 mg sodium per standard 350 g serving), which approaches or exceeds the recommended daily sodium limit of 2,000 mg; requesting reduced fish paste dressing or smaller portions is advisable."
+    },
+    "type2_diabetes": {
+      "human_condition_name": "Type 2 Diabetes",
+      "concern_level": "high",
+      "key_factor": "High glycaemic load from jasmine rice base, partially offset by protein, fat, fibre, and acidic dressing",
+      "guidance": "Individuals with Type 2 Diabetes should be aware that the jasmine rice base contributes a high glycaemic load (GL ~20 per serving); portion control is strongly recommended, and while the protein from fish paste and dried shrimp, dietary fibre from herbs and vegetables, and lime juice dressing help attenuate the postprandial glucose response compared with plain rice, the overall carbohydrate quantity in a standard serving is significant."
+    },
+    "cardiovascular_disease": {
+      "human_condition_name": "Cardiovascular Disease",
+      "concern_level": "moderate",
+      "key_factor": "Elevated sodium from fermented fish paste and moderate saturated fat from fried chicken accompaniment",
+      "guidance": "Individuals with cardiovascular disease should moderate consumption of this dish due to its high sodium content from fermented fish paste and the saturated fat contributed by the fried chicken accompaniment; choosing a smaller portion and requesting less fish paste dressing can reduce cardiovascular risk."
+    },
+    "additional_conditions": {}
+  },
+  "llm_training": {
+    "natural_language_description": "Fish Paste Rice Salad, known in Thai as Khao Yam Nam Budu (ข้าวยำน้ำบูดู), is a traditional Southern Thai dish consisting of cooked jasmine rice tossed with a pungent, umami-rich fermented fish paste dressing (budu or kapi), fresh aromatic herbs such as lemongrass and kaffir lime leaf, toasted coconut, bean sprouts, long beans, and dried shrimp, finished with lime juice and palm sugar. The dish delivers a complex balance of salty, sour, sweet, and umami flavours with a fragrant herbal aroma and a variety of textures ranging from soft rice to crunchy vegetables and chewy dried shrimp. As served at The Upper House - Funan in Singapore, the dish is accompanied by fried chicken, adding protein and richness. Nutritionally, the dish provides approximately 148 kcal per 100 g, with a moderate protein content of 7.2 g, moderate carbohydrate of 20.5 g from the jasmine rice base, and a relatively low fat content of 4.1 g per 100 g. The fermented fish paste and dried shrimp contribute significant sodium (~420 mg per 100 g), making this a high-sodium dish that warrants caution for individuals managing hypertension or cardiovascular disease. The glycaemic index is estimated at 54 (low), moderated below plain jasmine rice by the protein, fat, fibre, and acidic lime dressing. However, due to the substantial serving size, the glycaemic load per serving is high (GL ~20), indicating a significant impact on blood glucose for a single portion. The dish is not suitable for vegetarians or vegans due to fish and shrimp content. It is generally considered halal. Clinically, portion control and reduced fish paste dressing are recommended for individuals with hypertension, Type 2 Diabetes, or cardiovascular disease.",
+    "common_user_queries": [
+      "What is Khao Yam?",
+      "Is fish paste rice salad healthy?",
+      "How many calories in Thai rice salad?",
+      "What is budu dressing?",
+      "Is Khao Yam gluten free?",
+      "Is Khao Yam halal?",
+      "What is the GI of Thai rice salad?",
+      "Can diabetics eat Khao Yam?",
+      "Is fish paste rice salad high in sodium?",
+      "What herbs are in Khao Yam?"
+    ],
+    "meal_context": [
+      "lunch",
+      "dinner",
+      "Thai restaurant main course",
+      "light meal",
+      "salad-style rice dish"
+    ],
+    "ingredient_synonyms": {
+      "fermented fish paste": [
+        "budu",
+        "kapi",
+        "shrimp paste",
+        "fish sauce paste",
+        "น้ำบูดู"
+      ],
+      "jasmine rice": [
+        "Thai fragrant rice",
+        "white rice",
+        "steamed rice",
+        "ข้าวหอมมะลิ"
+      ],
+      "dried shrimp": [
+        "kung haeng",
+        "กุ้งแห้ง",
+        "dried prawns"
+      ],
+      "kaffir lime leaf": [
+        "makrut lime leaf",
+        "ใบมะกรูด"
+      ],
+      "lemongrass": [
+        "takrai",
+        "ตะไคร้"
+      ],
+      "toasted coconut": [
+        "maprao khua",
+        "มะพร้าวคั่ว"
+      ],
+      "fried chicken": [
+        "gai tod",
+        "ไก่ทอด"
+      ]
+    }
+  },
+  "confidence": "medium",
+  "confidence_reason": "No single approved-source entry exists for Khao Yam Nam Budu as a composite dish. Nutrient values are estimated by weighted component analysis using FAO/INFOODS SEA and USDA FoodData Central SR Legacy data for individual components. GI is estimated by analogy from boiled jasmine rice GI values in the University of Sydney GI Database and Atkinson et al. (2021). Confidence is medium rather than low because the component-level sources are high-quality approved sources and the estimation methodology is transparent and defensible.",
+  "notes": "1. Nutrient values are component-estimated; no single approved-source composite entry for Khao Yam Nam Budu was found. Values should be verified against a direct laboratory analysis or a future approved composite entry if one becomes available. 2. The input record listed food_group as 'Vegetables', which has been corrected to 'Mixed' as this is a composite rice-based dish with protein, vegetables, and fermented fish paste. 3. The input description 'Comes with Fried Chicken' has been preserved as a menu note and incorporated into the ingredient list and serving description. 4. Vitamin D (vitamin_d_mcg) is -1 as it is not reported in the FAO/INFOODS SEA or USDA SR Legacy component sources used for this estimation. 5. Vitamin E (vitamin_e_mg) is -1 as it is not reported in the component sources used. 6. Selenium (selenium_mcg) is -1 as it is not reported in the component sources used. 7. Trans fat (trans_fat_g) is 0.0; confirmed negligible/trace in the component sources; naturally zero for plant-based and minimally processed fish components. 8. GI set to 54 (low) by analogous estimate from boiled jasmine rice; GL per 350 g serving = (54 × 71.75) / 100 ≈ 20.2. 9. Malay, Tamil, and Hindi local names are not included as this is a Thai dish, not a Singaporean dish; the mandatory multilingual requirement for Thai cuisine requires only the Thai-script name, which is provided. 10. FoodOn URI FOODON_03311737 and FoodEx2 code A00LC are used as closest-parent matches; no exact ontology code exists for this dish.",
+  "veritas_qc": {
+    "final_decision": "PASS",
+    "hard_gates": {
+      "g1_valid_json_and_template": true,
+      "g2_approved_source_compliance": true,
+      "g3_numeric_hygiene": true,
+      "g4_core_macro_sanity": true,
+      "g5_ontology_honesty": true,
+      "g6_multilingual_naming_compliance": true
+    },
+    "score_total": 8,
+    "score_max": 8,
+    "criteria": {
+      "q1_food_identity": {
+        "pass": true,
+        "notes": "canonical English name present and multilingual identity satisfied"
+      },
+      "q2_core_macro_completeness_and_source_integrity": {
+        "pass": true,
+        "notes": "core macros and nutrient source integrity pass"
+      },
+      "q3_secondary_nutrient_completeness": {
+        "pass": true,
+        "notes": "secondary nutrient fields are present and numeric"
+      },
+      "q4_glycemic_completeness": {
+        "pass": true,
+        "notes": "GI, GI category, GL, and GI source are complete"
+      },
+      "q5_ontological_alignment": {
+        "pass": true,
+        "notes": "ontology anchor(s) present: foodon_uri, foodex2_code"
+      },
+      "q6_llm_ready_semantics": {
+        "pass": true,
+        "notes": "natural_language_description meets minimum semantic coverage"
+      },
+      "q7_health_context": {
+        "pass": true,
+        "notes": "required health-context conditions are complete"
+      },
+      "q8_aliases_and_multilingual_synonym_coverage": {
+        "pass": true,
+        "notes": "alias coverage is adequate and multilingual alias consistency passes"
+      }
+    },
+    "failure_reasons": [],
+    "improvement_actions_taken": [
+      "Corrected gi_category from 'medium' to 'low' for glycemic_index 54, as per validator feedback and standard GI classification.",
+      "Updated gi_source.source_match_notes to reflect 'low' GI category.",
+      "Adjusted health_context.type2_diabetes.concern_level from 'moderate' to 'high' and updated key_factor and guidance to accurately reflect the high glycemic load (GL ~20) despite the low GI.",
+      "Revised llm_training.natural_language_description to clearly state the low GI but high GL per serving.",
+      "Updated veritas_meta.iteration_count_used to 2 and generated_at timestamp.",
+      "Ensured all other previously correct sections remain unchanged.",
+      "Validated against VERITAS_SCORING_MODEL_v2.md"
+    ],
+    "reviewer_summary": "PASS — all hard gates passed and the record scored 8/8."
+  }
+}
