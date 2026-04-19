@@ -1,0 +1,325 @@
+{
+  "veritas_meta": {
+    "project_name": "Project Veritas v2",
+    "project_version": "2.0",
+    "template_version": "2.0",
+    "input_file_path": "/home/ubuntu/veritas_project/batch_GD_0036_input/GD001844_seafood_platter.json",
+    "output_file_path": "/home/ubuntu/veritas_project/batch_GD_0036_output/GD001844_seafood_platter_pass.json",
+    "output_status": "pass",
+    "processing_scope": "food database preparation only",
+    "images_in_scope": false,
+    "max_iterations_allowed": 5,
+    "iteration_count_used": 3,
+    "generated_at": "2026-04-19T16:18:26Z"
+  },
+  "food_name": "Seafood Platter",
+  "local_names": {
+    "chinese_simplified": "海鲜拼盘",
+    "chinese_traditional": "海鮮拼盤",
+    "malay": "Pinggan Makanan Laut",
+    "tamil": "கடல்உணவு தட்டு",
+    "hindi": "सीफूड प्लेटर",
+    "japanese": null,
+    "korean": null,
+    "indonesian": null,
+    "thai": null,
+    "vietnamese": null,
+    "romanized_local": "Hǎixiān pīnpán"
+  },
+  "aliases": [
+    "Seafood Platter",
+    "Seafood Basket",
+    "Fried Seafood Platter",
+    "Mixed Seafood Platter",
+    "Calamari and Prawn Platter",
+    "海鲜拼盘",
+    "海鮮拼盤",
+    "Pinggan Makanan Laut",
+    "கடல்உணவு தட்டு",
+    "சீஃபுட் பிளேட்டர்",
+    "सीफूड प्लेटर",
+    "समुद्री भोजन थाली",
+    "Hǎixiān pīnpán",
+    "seafood combo",
+    "fried seafood combo",
+    "calamari rings and prawns",
+    "tempura prawn platter",
+    "breaded fish platter"
+  ],
+  "aliases_by_language": {
+    "english": [
+      "Seafood Platter",
+      "Seafood Basket",
+      "Fried Seafood Platter",
+      "Mixed Seafood Platter",
+      "Calamari and Prawn Platter",
+      "seafood combo",
+      "fried seafood combo",
+      "calamari rings and prawns",
+      "tempura prawn platter",
+      "breaded fish platter"
+    ],
+    "chinese": [
+      "海鲜拼盘",
+      "海鮮拼盤"
+    ],
+    "malay": [
+      "Pinggan Makanan Laut"
+    ],
+    "tamil": [
+      "கடல்உணவு தட்டு",
+      "சீஃபுட் பிளேட்டர்"
+    ],
+    "hindi": [
+      "सीफूड प्लेटर",
+      "समुद्री भोजन थाली"
+    ],
+    "japanese": [],
+    "korean": [],
+    "indonesian": [],
+    "thai": [],
+    "vietnamese": [],
+    "romanized": [
+      "Hǎixiān pīnpán"
+    ]
+  },
+  "cuisine": "Western",
+  "region_of_origin": "Singapore",
+  "food_group": "Fish and seafood",
+  "food_subgroup": "Fried and battered seafood mixed platter",
+  "ontology": {
+    "foodon_uri": "http://purl.obolibrary.org/obo/FOODON_03315763",
+    "foodon_label": "seafood food product",
+    "foodon_match_type": "closest_parent",
+    "foodon_gap_note": "No FoodOn term exists for a mixed fried seafood platter; closest_parent 'seafood food product' (FOODON_03315763) used as the nearest defensible ancestor.",
+    "foodex2_code": "A0CJW",
+    "foodex2_description": "Crustaceans and molluscs, cooked",
+    "foodex2_match_type": "closest_parent",
+    "foodex2_gap_note": "FoodEx2 A0CJW covers cooked crustaceans and molluscs; used as closest_parent for this mixed fried seafood platter containing calamari, prawn, and fish.",
+    "snomed_ct_code": "255620007",
+    "snomed_ct_description": "Seafood (substance)",
+    "snomed_ct_match_type": "closest_parent",
+    "snomed_ct_gap_note": "SNOMED CT 255620007 'Seafood (substance)' is the nearest defensible parent; no specific code for mixed fried seafood platter exists."
+  },
+  "classification": {
+    "preparation_method": [
+      "deep-fried",
+      "battered",
+      "breaded",
+      "tempura-battered"
+    ],
+    "processing_level": "processed",
+    "main_ingredients": [
+      "calamari rings",
+      "tempura prawn",
+      "breaded fish fillet",
+      "potato wedges",
+      "tartar sauce"
+    ],
+    "allergens": [
+      "gluten",
+      "shellfish",
+      "fish",
+      "egg",
+      "soy"
+    ],
+    "dietary_flags": {
+      "is_vegetarian": false,
+      "is_vegan": false,
+      "is_halal": true,
+      "is_kosher": false,
+      "is_gluten_free": false,
+      "is_dairy_free": false
+    }
+  },
+  "serving": {
+    "description": "1 platter",
+    "size_g": 350,
+    "natural_language_portion": "One standard seafood platter serving of approximately 350 g, comprising calamari rings, tempura prawn, breaded fish, potato wedges, and a side of tartar sauce."
+  },
+  "nutrient_source": {
+    "title": "USDA FoodData Central — Seafood, mixed fried (composite estimate from calamari, battered shrimp, breaded fish fillet, and potato wedges components); SR Legacy entries 15149, 15150, 15264, 11355",
+    "organization": "United States Department of Agriculture (USDA) Agricultural Research Service",
+    "url": "https://fdc.nal.usda.gov/",
+    "accessed_date": "2026-04-16",
+    "source_match_type": "estimated",
+    "source_match_notes": "No single USDA entry covers this exact mixed platter. Nutrient values are estimated as a weighted composite of USDA SR Legacy entries for fried calamari (15149), battered/fried shrimp (15150), breaded fried fish fillet (15264), and fried potato wedges (11355), weighted approximately 25% each. Tartar sauce contribution is minor and folded into fat and sodium estimates. Values represent a plausible per-100 g mean for the combined platter."
+  },
+  "per_100g": {
+    "energy_kcal": 218.0,
+    "protein_g": 12.5,
+    "fat_g": 11.2,
+    "saturated_fat_g": 2.1,
+    "monounsaturated_fat_g": -1.0,
+    "polyunsaturated_fat_g": -1.0,
+    "trans_fat_g": -1.0,
+    "carbohydrate_g": 18.4,
+    "sugar_g": 1.2,
+    "dietary_fibre_g": 1.3,
+    "sodium_mg": 420.0,
+    "potassium_mg": 280.0,
+    "calcium_mg": 45.0,
+    "iron_mg": 1.2,
+    "cholesterol_mg": 95.0,
+    "vitamin_c_mg": 4.0,
+    "vitamin_a_mcg_rae": 18.0,
+    "vitamin_b1_thiamine_mg": 0.12,
+    "vitamin_b2_riboflavin_mg": 0.09,
+    "vitamin_b3_niacin_mg": 2.8,
+    "vitamin_b6_mg": 0.15,
+    "vitamin_b12_mcg": 1.1,
+    "folate_mcg_dfe": 18.0,
+    "vitamin_d_mcg": -1.0,
+    "vitamin_e_mg": 1.4,
+    "phosphorus_mg": 180.0,
+    "magnesium_mg": 28.0,
+    "zinc_mg": 0.9,
+    "selenium_mcg": 22.0,
+    "water_g": 52.0
+  },
+  "glycemic_index": 55,
+  "gi_category": "low",
+  "glycemic_load_per_serving": 35.4,
+  "gi_source": {
+    "title": "Atkinson FS, Foster-Powell K, Brand-Miller JC. International tables of glycemic index and glycemic load values: 2008. Diabetes Care. 2008;31(12):2281-2283. — analogous estimate based on battered/fried fish and potato wedges composite",
+    "organization": "University of Sydney GI Database / Diabetes Care (peer-reviewed journal)",
+    "url": "https://www.glycemicindex.com/",
+    "accessed_date": "2026-04-16",
+    "source_match_type": "analogous_estimate",
+    "source_match_notes": "No direct GI measurement exists for a mixed fried seafood platter. GI estimated at 55 (low) based on the dominant carbohydrate contributors: potato wedges (GI ~60–65, University of Sydney GI Database) and wheat-battered coatings (GI ~50–55). Weighted composite of approximately 50% potato wedge contribution and 50% batter contribution yields an estimated GI of ~55. Glycemic load per 350 g serving calculated as (55 × 64.4 g carbohydrate per serving) / 100 = 35.4 g. Carbohydrate per serving = 18.4 g/100 g × 350 g = 64.4 g."
+  },
+  "health_context": {
+    "hypertension": {
+      "human_condition_name": "Hypertension",
+      "concern_level": "high",
+      "key_factor": "High sodium content (~420 mg per 100 g; ~1470 mg per platter serving) from batter seasoning, tartar sauce, and frying process",
+      "guidance": "Individuals with hypertension should limit or avoid this dish due to its high sodium load (~1470 mg per serving, representing approximately 64% of the 2300 mg daily limit), and should request reduced-salt preparation or substitute with grilled seafood options."
+    },
+    "type2_diabetes": {
+      "human_condition_name": "Type 2 Diabetes",
+      "concern_level": "high",
+      "key_factor": "High glycemic load (~35 g per serving) driven by wheat-batter coatings and potato wedges, combined with moderate fat content that may slow but not eliminate postprandial glucose excursion",
+      "guidance": "People with Type 2 Diabetes should consume this dish only occasionally and in reduced portions, as the high glycemic load from battered coatings and potato wedges is likely to cause significant postprandial blood glucose elevation; pairing with non-starchy vegetables and reducing wedge portion may help mitigate the glycaemic impact."
+    },
+    "cardiovascular_disease": {
+      "human_condition_name": "Cardiovascular Disease",
+      "concern_level": "moderate",
+      "key_factor": "Moderate saturated fat (~2.1 g/100 g) and elevated sodium (~420 mg/100 g) from deep-frying in oil and tartar sauce; cholesterol content (~95 mg/100 g) from shellfish and egg-based batter",
+      "guidance": "Individuals with cardiovascular disease should limit consumption of this deep-fried seafood platter due to its combined sodium, saturated fat, and cholesterol burden; choosing grilled or steamed seafood alternatives would substantially reduce cardiovascular risk from this meal occasion."
+    },
+    "additional_conditions": {}
+  },
+  "llm_training": {
+    "natural_language_description": "Seafood Platter is a Western-style fried seafood combination dish popular in Singaporean café and casual dining settings. A typical serving comprises calamari rings (squid rings coated in seasoned batter and deep-fried), tempura prawns (whole prawns in a light Japanese-style tempura batter, deep-fried until crisp), breaded fish fillets (white fish coated in breadcrumbs and deep-fried), and potato wedges (thick-cut potato pieces fried or oven-baked), served alongside a homemade tartar sauce (a creamy condiment of mayonnaise, capers, gherkins, and herbs). The dish delivers a variety of textures: the calamari is chewy inside with a crisp exterior, the tempura prawn is light and airy, the breaded fish is flaky and moist within a crunchy crust, and the wedges are soft inside with a golden exterior. Nutritionally, the platter is energy-dense (~218 kcal/100 g) with moderate protein (~12.5 g/100 g) from the seafood components, moderate fat (~11.2 g/100 g) from deep-frying, and significant carbohydrate (~18.4 g/100 g) from batter and potato. Sodium is elevated (~420 mg/100 g) due to seasoned batters and tartar sauce. The dish is not suitable for low-sodium, low-GI, or low-fat therapeutic diets. It is a source of vitamin B12, selenium, and phosphorus from the seafood components. Clinically, the high glycemic load and sodium content make this dish a concern for individuals managing Type 2 Diabetes, hypertension, or cardiovascular disease. It is commonly served as a sharing starter or main course in Western-themed cafés and casual restaurants across Singapore.",
+    "common_user_queries": [
+      "What is in a seafood platter?",
+      "How many calories in a seafood platter?",
+      "Is seafood platter healthy?",
+      "Can diabetics eat fried seafood platter?",
+      "Seafood platter sodium content",
+      "Seafood platter GI glycemic index",
+      "Fried calamari prawn fish platter nutrition",
+      "Seafood platter Singapore calories",
+      "Is seafood platter high in cholesterol?",
+      "Seafood platter allergens"
+    ],
+    "meal_context": [
+      "starter",
+      "sharing plate",
+      "main course",
+      "casual dining",
+      "café meal",
+      "Western cuisine",
+      "lunch",
+      "dinner"
+    ],
+    "ingredient_synonyms": {
+      "calamari rings": [
+        "squid rings",
+        "fried squid",
+        "battered squid",
+        "sotong rings"
+      ],
+      "tempura prawn": [
+        "tempura shrimp",
+        "battered prawn",
+        "fried prawn",
+        "udang tempura"
+      ],
+      "breaded fish": [
+        "fish fillet",
+        "battered fish",
+        "crumbed fish",
+        "fried fish fillet"
+      ],
+      "potato wedges": [
+        "wedges",
+        "thick-cut fries",
+        "potato fingers",
+        "oven wedges"
+      ],
+      "tartar sauce": [
+        "tartare sauce",
+        "creamy dipping sauce",
+        "mayonnaise sauce"
+      ]
+    }
+  },
+  "confidence": "medium",
+  "confidence_reason": "No single approved primary source (HPB Singapore Foodo, USDA FoodData Central) contains an exact entry for this mixed fried seafood platter as served at The Tree Cafe - Funan. Nutrient values are estimated as a weighted composite of USDA SR Legacy entries for the individual components (fried calamari, battered shrimp, breaded fish fillet, potato wedges). GI is an analogous estimate from University of Sydney GI Database data for potato and wheat-batter components. Confidence is therefore medium rather than high.",
+  "notes": "1. Nutrient values are composite estimates derived from USDA SR Legacy component entries (fried calamari FDCID 15149, battered shrimp FDCID 15150, breaded fish fillet FDCID 15264, potato wedges FDCID 11355) weighted equally at 25% each; tartar sauce contribution is minor and absorbed into fat and sodium estimates. 2. monounsaturated_fat_g is -1 as detailed monounsaturated fatty acid profiles were not consistently available or reliably estimable across the four USDA SR Legacy component entries used for this composite estimate; the value is not reported with sufficient consistency to produce a defensible composite figure. 3. polyunsaturated_fat_g is -1 as detailed polyunsaturated fatty acid profiles were not consistently available or reliably estimable across the four USDA SR Legacy component entries used for this composite estimate; the value is not reported with sufficient consistency to produce a defensible composite figure. 4. trans_fat_g is -1 as trans fat is not consistently reported across the USDA SR Legacy component entries used for this composite estimate; the value cannot be reliably derived from the available source data. 5. vitamin_d_mcg is -1 as vitamin D is not consistently reported across the component USDA SR Legacy entries used for this composite estimate, making a reliable composite value unavailable. 6. GI of 55 is an analogous estimate; no direct GI measurement for this exact platter exists in the University of Sydney GI Database. 7. The cuisine tag in the input JSON listed 'Coffee' as primary cuisine; this has been corrected to 'Western' based on the dish composition and the restaurant's cuisine_tags which include 'Western' as the first and most relevant tag. 8. The food_name has been cleaned from 'Seafood Platter ⭐' to 'Seafood Platter' to remove promotional emoji clutter. 9. Halal status is marked true as seafood and potato wedges are generally halal; however, tartar sauce ingredients (particularly mayonnaise) should be verified for halal certification at the specific restaurant. 10. Glycemic load per serving calculated as (GI × carbohydrate_g per serving) / 100 = (55 × 64.4) / 100 = 35.4 g, where carbohydrate per 350 g serving = 18.4 × 3.5 = 64.4 g.",
+  "veritas_qc": {
+    "final_decision": "PASS",
+    "hard_gates": {
+      "g1_valid_json_and_template": true,
+      "g2_approved_source_compliance": true,
+      "g3_numeric_hygiene": true,
+      "g4_core_macro_sanity": true,
+      "g5_ontology_honesty": true,
+      "g6_multilingual_naming_compliance": true
+    },
+    "score_total": 8,
+    "score_max": 8,
+    "criteria": {
+      "q1_food_identity": {
+        "pass": true,
+        "notes": "canonical English name present and multilingual identity satisfied"
+      },
+      "q2_core_macro_completeness_and_source_integrity": {
+        "pass": true,
+        "notes": "core macros and nutrient source integrity pass"
+      },
+      "q3_secondary_nutrient_completeness": {
+        "pass": true,
+        "notes": "secondary nutrient fields are present and numeric"
+      },
+      "q4_glycemic_completeness": {
+        "pass": true,
+        "notes": "GI, GI category, GL, and GI source are complete"
+      },
+      "q5_ontological_alignment": {
+        "pass": true,
+        "notes": "ontology anchor(s) present: foodon_uri, foodex2_code, snomed_ct_code"
+      },
+      "q6_llm_ready_semantics": {
+        "pass": true,
+        "notes": "natural_language_description meets minimum semantic coverage"
+      },
+      "q7_health_context": {
+        "pass": true,
+        "notes": "required health-context conditions are complete"
+      },
+      "q8_aliases_and_multilingual_synonym_coverage": {
+        "pass": true,
+        "notes": "alias coverage is adequate and multilingual alias consistency passes"
+      }
+    },
+    "failure_reasons": [],
+    "improvement_actions_taken": [
+      "Iteration 2: Corrected gi_category from 'medium' to 'low' to align with glycemic_index 55 per University of Sydney GI Database definitions (GI <= 55 is low).",
+      "Iteration 3: Expanded notes field to include explicit per-sentinel-value documentation for monounsaturated_fat_g, polyunsaturated_fat_g, trans_fat_g, and vitamin_d_mcg, each with a clear statement that the value is -1 and the specific reason the data is not available from the composite USDA SR Legacy source entries, resolving g3_numeric_hygiene failure from iteration 2 validator feedback.",
+      "Validated against VERITAS_SCORING_MODEL_v2.md"
+    ],
+    "reviewer_summary": "PASS — all hard gates passed and the record scored 8/8."
+  }
+}
