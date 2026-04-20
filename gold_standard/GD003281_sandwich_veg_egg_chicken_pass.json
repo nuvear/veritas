@@ -1,0 +1,332 @@
+{
+  "veritas_meta": {
+    "project_name": "Project Veritas v2",
+    "project_version": "2.0",
+    "template_version": "2.0",
+    "input_file_path": "/home/ubuntu/veritas_project/batch_GD_0065_input/GD003281_sandwich_veg_egg_chicken.json",
+    "output_file_path": "/home/ubuntu/veritas_project/batch_GD_0065_output/GD003281_sandwich_veg_egg_chicken_pass.json",
+    "output_status": "pass",
+    "processing_scope": "food database preparation only",
+    "images_in_scope": false,
+    "max_iterations_allowed": 5,
+    "iteration_count_used": 1,
+    "generated_at": "2026-04-20T05:40:22Z"
+  },
+  "food_name": "Sandwich (Vegetarian / Egg / Chicken)",
+  "local_names": {
+    "chinese_simplified": "三明治（素食/鸡蛋/鸡肉）",
+    "chinese_traditional": "三明治（素食/雞蛋/雞肉）",
+    "malay": "Sandwic (Sayur / Telur / Ayam)",
+    "tamil": "சாண்ட்விச் (சைவம் / முட்டை / கோழி)",
+    "hindi": "सैंडविच (शाकाहारी / अंडा / चिकन)",
+    "japanese": null,
+    "korean": null,
+    "indonesian": null,
+    "thai": null,
+    "vietnamese": null,
+    "romanized_local": "Sandwic"
+  },
+  "aliases": [
+    "Veg Sandwich",
+    "Egg Sandwich",
+    "Chicken Sandwich",
+    "Vegetarian Sandwich",
+    "Sandwich Veg Egg Chicken",
+    "Indian-style Sandwich",
+    "Dugout Sandwich",
+    "三明治（素食/鸡蛋/鸡肉）",
+    "三明治（素食/雞蛋/雞肉）",
+    "Sandwic (Sayur / Telur / Ayam)",
+    "சாண்ட்விச் (சைவம் / முட்டை / கோழி)",
+    "सैंडविच (शाकाहारी / अंडा / चिकन)",
+    "Sandwic",
+    "Sandwich with filling",
+    "Toasted sandwich",
+    "Club sandwich Indian style"
+  ],
+  "aliases_by_language": {
+    "english": [
+      "Veg Sandwich",
+      "Egg Sandwich",
+      "Chicken Sandwich",
+      "Vegetarian Sandwich",
+      "Sandwich Veg Egg Chicken",
+      "Indian-style Sandwich",
+      "Dugout Sandwich",
+      "Sandwich with filling",
+      "Toasted sandwich",
+      "Club sandwich Indian style"
+    ],
+    "chinese": [
+      "三明治（素食/鸡蛋/鸡肉）",
+      "三明治（素食/雞蛋/雞肉）"
+    ],
+    "malay": [
+      "Sandwic (Sayur / Telur / Ayam)"
+    ],
+    "tamil": [
+      "சாண்ட்விச் (சைவம் / முட்டை / கோழி)"
+    ],
+    "hindi": [
+      "सैंडविच (शाकाहारी / अंडा / चिकन)"
+    ],
+    "japanese": [],
+    "korean": [],
+    "indonesian": [],
+    "thai": [],
+    "vietnamese": [],
+    "romanized": [
+      "Sandwic"
+    ]
+  },
+  "cuisine": "Indian",
+  "region_of_origin": "India / Singapore",
+  "food_group": "Meat and alternatives",
+  "food_subgroup": "Mixed sandwich with protein filling (vegetarian, egg, or chicken)",
+  "ontology": {
+    "foodon_uri": "http://purl.obolibrary.org/obo/FOODON_00002473",
+    "foodon_label": "sandwich",
+    "foodon_match_type": "closest_parent",
+    "foodon_gap_note": "FoodOn FOODON_00002473 covers the general sandwich category. No specific Indian-style veg/egg/chicken sandwich code exists; closest_parent used.",
+    "foodex2_code": "A0CKP",
+    "foodex2_description": "Sandwiches",
+    "foodex2_match_type": "closest_parent",
+    "foodex2_gap_note": "FoodEx2 A0CKP covers sandwiches as a category. No sub-code for Indian-style veg/egg/chicken variant; closest_parent used.",
+    "snomed_ct_code": "229953004",
+    "snomed_ct_description": "Sandwich (food)",
+    "snomed_ct_match_type": "closest_parent",
+    "snomed_ct_gap_note": "SNOMED CT 229953004 is the generic sandwich concept; no Indian-style variant code exists."
+  },
+  "classification": {
+    "preparation_method": [
+      "assembled",
+      "toasted or grilled",
+      "filled"
+    ],
+    "processing_level": "minimally processed",
+    "main_ingredients": [
+      "bread",
+      "vegetables",
+      "egg",
+      "chicken",
+      "butter or spread",
+      "spices"
+    ],
+    "allergens": [
+      "gluten",
+      "egg",
+      "milk"
+    ],
+    "dietary_flags": {
+      "is_vegetarian": false,
+      "is_vegan": false,
+      "is_halal": true,
+      "is_kosher": false,
+      "is_gluten_free": false,
+      "is_dairy_free": false
+    }
+  },
+  "serving": {
+    "description": "1 sandwich",
+    "size_g": 180,
+    "natural_language_portion": "One sandwich of approximately 180 g, comprising two slices of bread with a filling of vegetables, egg, or chicken with condiments."
+  },
+  "nutrient_source": {
+    "title": "Sandwich, with meat filling — USDA FoodData Central SR Legacy; supplemented with ICMR-NIN Nutritive Value of Indian Foods for Indian-style bread and spiced filling estimation",
+    "organization": "USDA Agricultural Research Service / ICMR-NIN",
+    "url": "https://fdc.nal.usda.gov/",
+    "accessed_date": "2026-04-16",
+    "source_match_type": "estimated",
+    "source_match_notes": "No exact entry for Indian-style veg/egg/chicken sandwich exists in HPB Foodo or ICMR-NIN as a composite dish. Values are estimated from USDA FoodData Central SR Legacy entries for sandwiches with mixed fillings (USDA FDC ID 172038 — Sandwich, with meat filling) and cross-referenced with ICMR-NIN data for Indian bread and spiced chicken/egg fillings. The record represents a mid-point estimate across the three filling variants (veg, egg, chicken). Per-100g values reflect a typical assembled sandwich with white bread, butter, and a protein filling."
+  },
+  "per_100g": {
+    "energy_kcal": 218.0,
+    "protein_g": 10.5,
+    "fat_g": 7.8,
+    "saturated_fat_g": 2.4,
+    "monounsaturated_fat_g": 2.9,
+    "polyunsaturated_fat_g": 1.8,
+    "trans_fat_g": 0.1,
+    "carbohydrate_g": 27.0,
+    "sugar_g": 3.2,
+    "dietary_fibre_g": 1.8,
+    "sodium_mg": 420.0,
+    "potassium_mg": 185.0,
+    "calcium_mg": 62.0,
+    "iron_mg": 1.8,
+    "cholesterol_mg": 65.0,
+    "vitamin_c_mg": 1.5,
+    "vitamin_a_mcg_rae": 28.0,
+    "vitamin_b1_thiamine_mg": 0.18,
+    "vitamin_b2_riboflavin_mg": 0.14,
+    "vitamin_b3_niacin_mg": 2.8,
+    "vitamin_b6_mg": 0.15,
+    "vitamin_b12_mcg": 0.4,
+    "folate_mcg_dfe": 28.0,
+    "vitamin_d_mcg": -1.0,
+    "vitamin_e_mg": -1.0,
+    "phosphorus_mg": 130.0,
+    "magnesium_mg": 22.0,
+    "zinc_mg": 1.1,
+    "selenium_mcg": -1.0,
+    "water_g": 48.0
+  },
+  "glycemic_index": 53,
+  "gi_category": "low",
+  "glycemic_load_per_serving": 25.7,
+  "gi_source": {
+    "title": "International tables of glycemic index and glycemic load values: 2021 — Atkinson FS et al.; sandwich / mixed bread-based meal entries",
+    "organization": "University of Sydney GI Database / American Journal of Clinical Nutrition",
+    "url": "https://www.glycemicindex.com/",
+    "accessed_date": "2026-04-16",
+    "source_match_type": "analogous_estimate",
+    "source_match_notes": "No direct GI measurement exists for an Indian-style veg/egg/chicken sandwich. GI of 53 is estimated from the University of Sydney GI Database entry for white bread-based sandwiches with mixed fillings (GI ~53, low category). Glycemic load per serving calculated as: (GI × carbohydrate_g per serving) / 100 = (53 × 48.6) / 100 ≈ 25.7, where carbohydrate per 180 g serving = 27.0 × 1.8 = 48.6 g."
+  },
+  "health_context": {
+    "hypertension": {
+      "human_condition_name": "Hypertension",
+      "concern_level": "moderate",
+      "key_factor": "Sodium content (~420 mg per 100 g; ~756 mg per serving)",
+      "guidance": "Individuals with hypertension should limit consumption to one sandwich and choose low-sodium bread and fillings, as a single serving can contribute approximately 33% of the 2300 mg daily sodium limit recommended by the American Heart Association."
+    },
+    "type2_diabetes": {
+      "human_condition_name": "Type 2 Diabetes",
+      "concern_level": "moderate",
+      "key_factor": "Moderate glycemic load (~25.7 per serving) from refined white bread",
+      "guidance": "People with Type 2 Diabetes should prefer wholegrain or multigrain bread variants to reduce the glycemic load, and pair the sandwich with non-starchy vegetables or a salad to blunt postprandial glucose response."
+    },
+    "cardiovascular_disease": {
+      "human_condition_name": "Cardiovascular Disease",
+      "concern_level": "moderate",
+      "key_factor": "Saturated fat (~2.4 g per 100 g) and sodium (~420 mg per 100 g) from butter and processed bread",
+      "guidance": "Individuals with cardiovascular disease should opt for the vegetarian or egg-white filling variant, use a minimal amount of unsaturated spread instead of butter, and choose wholegrain bread to improve the saturated fat and fibre profile."
+    },
+    "additional_conditions": {}
+  },
+  "llm_training": {
+    "natural_language_description": "A Sandwich (Vegetarian / Egg / Chicken) is a versatile filled bread-based dish served at Indian-influenced cafes and casual dining establishments in Singapore, such as Dugout on Circular Road. The sandwich is assembled using two slices of white or wholegrain bread spread with butter or a condiment, and filled with one of three protein options: a spiced vegetable mixture (typically potato, onion, and capsicum), a fried or scrambled egg with Indian spices, or sliced or shredded spiced chicken. The bread is typically toasted or grilled on a flat griddle, giving it a crisp exterior while the filling remains moist and flavourful. The flavour profile is mildly spiced with cumin, coriander, and chilli, reflecting Indian culinary influence. Nutritionally, the sandwich provides approximately 218 kcal per 100 g, with 10.5 g protein, 7.8 g fat, and 27 g carbohydrate. Sodium content is moderate to high at ~420 mg per 100 g, making portion control important for individuals managing hypertension. The glycemic index is estimated at 53 (low category) based on white bread sandwich analogues, though using wholegrain bread would further reduce the glycemic response. The dish is suitable for halal diets when chicken is used, and the vegetarian variant is suitable for lacto-vegetarians. It is a common breakfast, brunch, or light meal option in Singapore's Indian food scene.",
+    "common_user_queries": [
+      "What is in an Indian sandwich?",
+      "Calories in a chicken sandwich Singapore",
+      "Is the egg sandwich halal?",
+      "Veg sandwich nutrition facts",
+      "Indian style toasted sandwich",
+      "Sandwich at Dugout Circular Road",
+      "How many calories in a sandwich with egg filling?",
+      "Is a chicken sandwich good for diabetics?",
+      "Sodium in Indian sandwich",
+      "GI of a sandwich"
+    ],
+    "meal_context": [
+      "breakfast",
+      "brunch",
+      "light lunch",
+      "snack",
+      "takeaway meal",
+      "casual dining"
+    ],
+    "ingredient_synonyms": {
+      "bread": [
+        "white bread",
+        "wholegrain bread",
+        "toast",
+        "sandwich loaf"
+      ],
+      "chicken": [
+        "grilled chicken",
+        "spiced chicken",
+        "shredded chicken",
+        "chicken filling"
+      ],
+      "egg": [
+        "fried egg",
+        "scrambled egg",
+        "omelette filling",
+        "egg filling"
+      ],
+      "vegetables": [
+        "potato filling",
+        "aloo filling",
+        "capsicum",
+        "onion",
+        "spiced veg"
+      ],
+      "butter": [
+        "spread",
+        "margarine",
+        "ghee"
+      ],
+      "spices": [
+        "cumin",
+        "coriander",
+        "chilli powder",
+        "masala"
+      ]
+    }
+  },
+  "confidence": "medium",
+  "confidence_reason": "No exact entry for this specific Indian-style veg/egg/chicken sandwich exists in HPB Foodo, ICMR-NIN, or USDA FoodData Central as a named composite dish. Nutrient values are estimated from USDA SR Legacy sandwich entries and ICMR-NIN Indian bread and filling data. GI is estimated from analogous white bread sandwich entries in the University of Sydney GI Database. Confidence is medium rather than low because the estimation methodology is transparent, the source data is from approved primary sources, and the food is a well-understood composite of common ingredients.",
+  "notes": "1. Nutrient values represent a mid-point estimate across the three filling variants (vegetarian, egg, chicken). The chicken variant will have slightly higher protein (~12–13 g/100g) and the vegetarian variant slightly lower (~7–8 g/100g). A single composite record is used as the food is listed as a single menu item with three options. 2. Vitamin D is -1 as it is not reported in the USDA SR Legacy sandwich reference entry and is not reliably estimated for this composite dish. 3. Vitamin E is -1 as it is not reported in the primary source for this sandwich category. 4. Selenium is -1 as it is not reported in the primary source for this sandwich category. 5. GI of 53 is an analogous estimate from University of Sydney GI Database white bread sandwich entries; a direct GI measurement for this specific Indian-style sandwich does not exist in the approved GI literature. 6. The dietary flag is_vegetarian is set to false because the food record covers all three variants including egg and chicken; the vegetarian-only variant would qualify as lacto-vegetarian. 7. Monounsaturated fat, polyunsaturated fat, and trans fat values are estimated from USDA SR Legacy data for comparable sandwiches and are approximate.",
+  "veritas_qc": {
+    "final_decision": "PASS",
+    "hard_gates": {
+      "g1_valid_json_and_template": true,
+      "g2_approved_source_compliance": true,
+      "g3_numeric_hygiene": true,
+      "g4_core_macro_sanity": true,
+      "g5_ontology_honesty": true,
+      "g6_multilingual_naming_compliance": true
+    },
+    "score_total": 8,
+    "score_max": 8,
+    "criteria": {
+      "q1_food_identity": {
+        "pass": true,
+        "notes": "canonical English name present and multilingual identity satisfied"
+      },
+      "q2_core_macro_completeness_and_source_integrity": {
+        "pass": true,
+        "notes": "core macros and nutrient source integrity pass"
+      },
+      "q3_secondary_nutrient_completeness": {
+        "pass": true,
+        "notes": "secondary nutrient fields are present and numeric"
+      },
+      "q4_glycemic_completeness": {
+        "pass": true,
+        "notes": "GI, GI category, GL, and GI source are complete"
+      },
+      "q5_ontological_alignment": {
+        "pass": true,
+        "notes": "ontology anchor(s) present: foodon_uri, foodex2_code, snomed_ct_code"
+      },
+      "q6_llm_ready_semantics": {
+        "pass": true,
+        "notes": "natural_language_description meets minimum semantic coverage"
+      },
+      "q7_health_context": {
+        "pass": true,
+        "notes": "required health-context conditions are complete"
+      },
+      "q8_aliases_and_multilingual_synonym_coverage": {
+        "pass": true,
+        "notes": "alias coverage is adequate and multilingual alias consistency passes"
+      }
+    },
+    "failure_reasons": [],
+    "improvement_actions_taken": [
+      "Constructed full multilingual local_names for Singapore/Indian cuisine (Chinese simplified, Chinese traditional, Malay, Tamil, Hindi).",
+      "Estimated per_100g nutrient values from USDA FoodData Central SR Legacy and ICMR-NIN approved sources.",
+      "Documented all -1 sentinel values (vitamin_d_mcg, vitamin_e_mg, selenium_mcg) with explicit reasons in notes.",
+      "Estimated GI of 53 from University of Sydney GI Database analogous sandwich entries; documented estimation basis.",
+      "Set gi_category to 'low' consistent with GI 53 ≤ 55 threshold rule.",
+      "Populated all three health context conditions with specific clinical guidance.",
+      "Ensured aliases_by_language and flat aliases are perfectly consistent — all language-specific strings appear verbatim in flat aliases.",
+      "Natural language description exceeds 200 characters with full clinical and cultural context.",
+      "Used only allowed ontology match_type values: 'closest_parent' for all three ontology anchors.",
+      "No zero core macros; no zero-macro justification phrase required.",
+      "Validated against VERITAS_SCORING_MODEL_v2.md"
+    ],
+    "reviewer_summary": "PASS — all hard gates passed and the record scored 8/8."
+  }
+}
