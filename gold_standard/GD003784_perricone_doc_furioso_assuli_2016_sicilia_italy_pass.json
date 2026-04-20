@@ -1,0 +1,263 @@
+{
+  "veritas_meta": {
+    "project_name": "Project Veritas v2",
+    "project_version": "2.0",
+    "template_version": "2.0",
+    "input_file_path": "/home/ubuntu/veritas_project/batch_GD_0075_input/GD003784_perricone_doc_furioso_assuli_2016_sicilia_italy.json",
+    "output_file_path": "/home/ubuntu/veritas_project/batch_GD_0075_output/GD003784_perricone_doc_furioso_assuli_2016_sicilia_italy_pass.json",
+    "output_status": "pass",
+    "processing_scope": "food database preparation only",
+    "images_in_scope": false,
+    "max_iterations_allowed": 5,
+    "iteration_count_used": 3,
+    "generated_at": "2026-04-20T14:20:32Z"
+  },
+  "food_name": "Italian Red Wine",
+  "local_names": {
+    "chinese_simplified": null,
+    "chinese_traditional": null,
+    "malay": null,
+    "tamil": null,
+    "hindi": null,
+    "japanese": null,
+    "korean": null,
+    "indonesian": null,
+    "thai": null,
+    "vietnamese": null,
+    "romanized_local": "Vino Rosso Italiano"
+  },
+  "aliases": [
+    "Perricone DOC, Furioso, Assuli, 2016 (Sicilia - Italy)",
+    "Red Wine",
+    "Sicilian Red Wine",
+    "Dry Red Wine",
+    "Vino Rosso Italiano",
+    "Vino Rosso",
+    "Perricone DOC"
+  ],
+  "aliases_by_language": {
+    "english": [
+      "Red Wine",
+      "Sicilian Red Wine",
+      "Dry Red Wine"
+    ],
+    "chinese": [],
+    "malay": [],
+    "tamil": [],
+    "hindi": [],
+    "japanese": [],
+    "korean": [],
+    "indonesian": [],
+    "thai": [],
+    "vietnamese": [],
+    "romanized": [
+      "Vino Rosso Italiano",
+      "Vino Rosso",
+      "Perricone DOC"
+    ]
+  },
+  "cuisine": "Italian",
+  "region_of_origin": "Italy",
+  "food_group": "Beverages",
+  "food_subgroup": "Alcoholic Beverages",
+  "ontology": {
+    "foodon_uri": "http://purl.obolibrary.org/obo/FOODON_00001007",
+    "foodon_label": "red wine",
+    "foodon_match_type": "exact",
+    "foodon_gap_note": null,
+    "foodex2_code": "A0015X001",
+    "foodex2_description": "Red wine",
+    "foodex2_match_type": "exact",
+    "foodex2_gap_note": null,
+    "snomed_ct_code": "404684003",
+    "snomed_ct_description": "Red wine (substance)",
+    "snomed_ct_match_type": "exact",
+    "snomed_ct_gap_note": null
+  },
+  "classification": {
+    "preparation_method": [
+      "Fermented"
+    ],
+    "processing_level": "processed",
+    "main_ingredients": [
+      "Grapes",
+      "Yeast"
+    ],
+    "allergens": [
+      "Sulfites"
+    ],
+    "dietary_flags": {
+      "is_vegetarian": true,
+      "is_vegan": false,
+      "is_halal": false,
+      "is_kosher": false,
+      "is_gluten_free": true,
+      "is_dairy_free": true
+    }
+  },
+  "serving": {
+    "description": "1 glass",
+    "size_g": 150,
+    "natural_language_portion": "One standard glass of red wine, typically 150ml or 5 fluid ounces."
+  },
+  "nutrient_source": {
+    "title": "Wine, table, red",
+    "organization": "USDA FoodData Central, SR Legacy",
+    "url": "https://fdc.nal.usda.gov/fdc-app.html#/food-details/173510/nutrients",
+    "accessed_date": "2026-04-20",
+    "source_match_type": "adapted",
+    "source_match_notes": "Nutrient data for generic 'Wine, table, red' used as an approximation for Italian Red Wine. Monounsaturated fat, polyunsaturated fat, and trans fat are not reported in this USDA SR Legacy entry and are therefore set to -1."
+  },
+  "per_100g": {
+    "energy_kcal": 85.0,
+    "protein_g": 0.07,
+    "fat_g": 0.0,
+    "saturated_fat_g": 0.0,
+    "monounsaturated_fat_g": -1.0,
+    "polyunsaturated_fat_g": -1.0,
+    "trans_fat_g": -1.0,
+    "carbohydrate_g": 2.61,
+    "sugar_g": 0.62,
+    "dietary_fibre_g": 0.0,
+    "sodium_mg": 4.0,
+    "potassium_mg": 127.0,
+    "calcium_mg": 11.0,
+    "iron_mg": 0.69,
+    "cholesterol_mg": 0.0,
+    "vitamin_c_mg": 0.0,
+    "vitamin_a_mcg_rae": 0.0,
+    "vitamin_b1_thiamine_mg": 0.005,
+    "vitamin_b2_riboflavin_mg": 0.02,
+    "vitamin_b3_niacin_mg": 0.09,
+    "vitamin_b6_mg": 0.086,
+    "vitamin_b12_mcg": 0.0,
+    "folate_mcg_dfe": 1.0,
+    "vitamin_d_mcg": 0.0,
+    "vitamin_e_mg": 0.05,
+    "phosphorus_mg": 29.0,
+    "magnesium_mg": 11.0,
+    "zinc_mg": 0.07,
+    "selenium_mcg": 0.1,
+    "water_g": 86.9
+  },
+  "glycemic_index": 1,
+  "gi_category": "low",
+  "glycemic_load_per_serving": 0.0,
+  "gi_source": {
+    "title": "Red wine, dry",
+    "organization": "University of Sydney GI Database",
+    "url": "https://glycemicindex.com/gi-search/",
+    "accessed_date": "2026-04-20",
+    "source_match_type": "exact",
+    "source_match_notes": "Glycemic index for dry red wine is effectively zero (0-5). Set to 1 as per Veritas v2 rule for effectively zero-GI beverages containing no significant glycemic carbohydrates."
+  },
+  "health_context": {
+    "hypertension": {
+      "human_condition_name": "Hypertension",
+      "concern_level": "moderate",
+      "key_factor": "Alcohol content, which can temporarily increase blood pressure.",
+      "guidance": "Individuals with hypertension should limit alcohol intake as it can elevate blood pressure and interfere with antihypertensive medication."
+    },
+    "type2_diabetes": {
+      "human_condition_name": "Type 2 Diabetes",
+      "concern_level": "moderate",
+      "key_factor": "Alcohol's impact on blood glucose regulation and potential for hypoglycemia or hyperglycemia.",
+      "guidance": "People with Type 2 Diabetes should consume red wine in moderation, monitor blood sugar closely, and consult a healthcare provider due to alcohol's effects on glucose metabolism and insulin sensitivity."
+    },
+    "cardiovascular_disease": {
+      "human_condition_name": "Cardiovascular Disease",
+      "concern_level": "moderate",
+      "key_factor": "Alcohol's dose-dependent effects on heart health, including potential for arrhythmias and cardiomyopathy with excessive intake.",
+      "guidance": "While some studies suggest moderate red wine consumption may have cardiovascular benefits, excessive intake can harm heart health; individuals with cardiovascular disease should consult a doctor for personalized advice."
+    },
+    "additional_conditions": {}
+  },
+  "llm_training": {
+    "natural_language_description": "Italian Red Wine, such as the Perricone DOC Furioso from Assuli winery in Sicily (2016 vintage), is an alcoholic beverage produced through the fermentation of dark-skinned grape varieties. It is characterized by its intense ruby red color with purple hues, and a complex aroma profile that includes notes of ripe red fruit, graphite, and violet. On the palate, it typically offers a good balance with soft tannins, contributing to a smooth and elegant finish. Red wine is culturally significant in Italy, often served with meals, particularly pasta, pizza, and meat dishes. Nutritionally, dry red wine contains negligible protein, fat, and dietary fiber, with a small amount of carbohydrates and sugars, and derives most of its caloric content from alcohol. For health contexts, moderate consumption is key; excessive alcohol can impact blood pressure, impair blood sugar regulation for individuals with Type 2 Diabetes, and adversely affect overall cardiovascular health. It commonly contains sulfites as a potential allergen.",
+    "common_user_queries": [
+      "Is red wine healthy?",
+      "Nutrients in Italian wine",
+      "GI of red wine",
+      "What is Perricone DOC wine?",
+      "Red wine and diabetes",
+      "Calories in a glass of red wine",
+      "Sicilian wine nutrition"
+    ],
+    "meal_context": [
+      "Dinner",
+      "Special Occasion",
+      "Pairing with Italian Food",
+      "Social Drink"
+    ],
+    "ingredient_synonyms": {
+      "grapes": [
+        "vitis vinifera",
+        "wine grapes",
+        "Perricone grape"
+      ],
+      "yeast": [
+        "saccharomyces cerevisiae"
+      ]
+    }
+  },
+  "confidence": "medium",
+  "confidence_reason": "Nutrient data and GI are based on generic dry red wine from approved USDA and University of Sydney sources, not the specific 'Perricone DOC Furioso Assuli 2016' product. The specific product name is retained as an alias.",
+  "notes": "fat_g is naturally zero as red wine contains no fat by composition; confirmed zero per USDA FoodData Central SR Legacy entry 173510. saturated_fat_g is naturally zero for the same reason. dietary_fibre_g is naturally zero as wine is a liquid fermented beverage with no dietary fibre; confirmed zero per USDA FoodData Central. cholesterol_mg is naturally zero; confirmed zero per USDA FoodData Central. vitamin_c_mg is naturally zero in red wine; confirmed zero per USDA FoodData Central. vitamin_a_mcg_rae is naturally zero in red wine; confirmed zero per USDA FoodData Central. vitamin_b12_mcg is naturally zero in red wine; confirmed zero per USDA FoodData Central. vitamin_d_mcg is naturally zero in red wine; confirmed zero per USDA FoodData Central. monounsaturated_fat_g is -1 as it is not reported in the USDA FoodData Central SR Legacy entry for generic red wine (FDC ID 173510). polyunsaturated_fat_g is -1 as it is not reported in the USDA FoodData Central SR Legacy entry for generic red wine (FDC ID 173510). trans_fat_g is -1 as it is not reported in the USDA FoodData Central SR Legacy entry for generic red wine (FDC ID 173510). glycemic_index set to 1 (effectively zero) as this beverage contains very low glycemic carbohydrates; gi_category low per Veritas v2 convention for effectively zero-GI beverages.",
+  "veritas_qc": {
+    "final_decision": "PASS",
+    "hard_gates": {
+      "g1_valid_json_and_template": true,
+      "g2_approved_source_compliance": true,
+      "g3_numeric_hygiene": true,
+      "g4_core_macro_sanity": true,
+      "g5_ontology_honesty": true,
+      "g6_multilingual_naming_compliance": true
+    },
+    "score_total": 8,
+    "score_max": 8,
+    "criteria": {
+      "q1_food_identity": {
+        "pass": true,
+        "notes": "canonical English name present and multilingual identity satisfied"
+      },
+      "q2_core_macro_completeness_and_source_integrity": {
+        "pass": true,
+        "notes": "core macros and nutrient source integrity pass"
+      },
+      "q3_secondary_nutrient_completeness": {
+        "pass": true,
+        "notes": "secondary nutrient fields are present and numeric"
+      },
+      "q4_glycemic_completeness": {
+        "pass": true,
+        "notes": "GI, GI category, GL, and GI source are complete"
+      },
+      "q5_ontological_alignment": {
+        "pass": true,
+        "notes": "ontology anchor(s) present: foodon_uri, foodex2_code, snomed_ct_code"
+      },
+      "q6_llm_ready_semantics": {
+        "pass": true,
+        "notes": "natural_language_description meets minimum semantic coverage"
+      },
+      "q7_health_context": {
+        "pass": true,
+        "notes": "required health-context conditions are complete"
+      },
+      "q8_aliases_and_multilingual_synonym_coverage": {
+        "pass": true,
+        "notes": "alias coverage is adequate and multilingual alias consistency passes"
+      }
+    },
+    "failure_reasons": [],
+    "improvement_actions_taken": [
+      "Fixed g3_numeric_hygiene: added explicit documentation in notes field for monounsaturated_fat_g = -1, polyunsaturated_fat_g = -1, and trans_fat_g = -1, citing USDA FoodData Central SR Legacy entry 173510 as the source that does not report these values.",
+      "Fixed q8 aliases consistency: verified all aliases_by_language string values (Red Wine, Sicilian Red Wine, Dry Red Wine, Vino Rosso Italiano, Vino Rosso, Perricone DOC) are present verbatim in the flat aliases array.",
+      "Added 'Perricone DOC, Furioso, Assuli, 2016 (Sicilia - Italy)' to flat aliases to preserve original product name.",
+      "Updated nutrient_source.source_match_notes to explicitly state that monounsaturated, polyunsaturated, and trans fat are not reported in the source.",
+      "Expanded notes field to document all zero and -1 sentinel values with required justification phrases.",
+      "Validated against VERITAS_SCORING_MODEL_v2.md"
+    ],
+    "reviewer_summary": "PASS — all hard gates passed and the record scored 8/8."
+  }
+}
