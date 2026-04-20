@@ -1,0 +1,336 @@
+{
+  "veritas_meta": {
+    "project_name": "Project Veritas v2",
+    "project_version": "2.0",
+    "template_version": "2.0",
+    "input_file_path": "/home/ubuntu/veritas_project/batch_GD_0054_input/GD002703_pho_beef_noodle_soup_ph_b.json",
+    "output_file_path": "/home/ubuntu/veritas_project/batch_GD_0054_output/GD002703_pho_beef_noodle_soup_ph_b_pass.json",
+    "output_status": "pass",
+    "processing_scope": "food database preparation only",
+    "images_in_scope": false,
+    "max_iterations_allowed": 5,
+    "iteration_count_used": 1,
+    "generated_at": "2026-04-20T01:59:27Z"
+  },
+  "food_name": "Pho Beef Noodle Soup",
+  "local_names": {
+    "chinese_simplified": "越南牛肉河粉",
+    "chinese_traditional": "越南牛肉河粉",
+    "malay": "Mi Pho Daging Lembu",
+    "tamil": "பீஃப் நூடுல் சூப் (ஃபோ)",
+    "hindi": "बीफ नूडल सूप (फो)",
+    "japanese": null,
+    "korean": null,
+    "indonesian": null,
+    "thai": null,
+    "vietnamese": "Phở Bò",
+    "romanized_local": "Pho Bo"
+  },
+  "aliases": [
+    "Pho Beef Noodle Soup",
+    "Phở Bò",
+    "Pho Bo",
+    "Vietnamese Beef Pho",
+    "Beef Pho",
+    "Pho beef soup",
+    "Vietnamese beef noodle soup",
+    "越南牛肉河粉",
+    "Mi Pho Daging Lembu",
+    "பீஃப் நூடுல் சூப் (ஃபோ)",
+    "बीफ नूडल सूप (फो)",
+    "Pho Bò",
+    "Beef rice noodle soup",
+    "Vietnamese pho",
+    "Pho noodle soup"
+  ],
+  "aliases_by_language": {
+    "english": [
+      "Pho Beef Noodle Soup",
+      "Vietnamese Beef Pho",
+      "Beef Pho",
+      "Pho beef soup",
+      "Vietnamese beef noodle soup",
+      "Beef rice noodle soup",
+      "Vietnamese pho",
+      "Pho noodle soup"
+    ],
+    "chinese": [
+      "越南牛肉河粉"
+    ],
+    "malay": [
+      "Mi Pho Daging Lembu"
+    ],
+    "tamil": [
+      "பீஃப் நூடுல் சூப் (ஃபோ)"
+    ],
+    "hindi": [
+      "बीफ नूडल सूप (फो)"
+    ],
+    "japanese": [],
+    "korean": [],
+    "indonesian": [],
+    "thai": [],
+    "vietnamese": [
+      "Phở Bò",
+      "Pho Bò"
+    ],
+    "romanized": [
+      "Pho Bo",
+      "Pho Bò"
+    ]
+  },
+  "cuisine": "Vietnamese",
+  "region_of_origin": "Vietnam (served in Singapore)",
+  "food_group": "Grains and staples",
+  "food_subgroup": "Noodle soups",
+  "ontology": {
+    "foodon_uri": "http://purl.obolibrary.org/obo/FOODON_00002700",
+    "foodon_label": "noodle soup food product",
+    "foodon_match_type": "closest_parent",
+    "foodon_gap_note": "No FoodOn term exists specifically for Vietnamese beef pho; closest parent 'noodle soup food product' (FOODON_00002700) used as the nearest defensible ancestor.",
+    "foodex2_code": "A0FKP",
+    "foodex2_description": "Soup, noodle-based",
+    "foodex2_match_type": "closest_parent",
+    "foodex2_gap_note": "FoodEx2 code A0FKP (Soup, noodle-based) is the closest parent category; no specific pho code exists in FoodEx2.",
+    "snomed_ct_code": null,
+    "snomed_ct_description": null,
+    "snomed_ct_match_type": "none",
+    "snomed_ct_gap_note": "No SNOMED CT concept found for pho beef noodle soup or Vietnamese noodle soup at time of processing."
+  },
+  "classification": {
+    "preparation_method": [
+      "slow-cooked",
+      "simmered",
+      "boiled",
+      "assembled"
+    ],
+    "processing_level": "minimally processed",
+    "main_ingredients": [
+      "rice noodles (bánh phở)",
+      "beef bone broth",
+      "beef slices (thinly sliced beef)",
+      "star anise",
+      "cinnamon",
+      "cloves",
+      "ginger",
+      "onion",
+      "fish sauce",
+      "bean sprouts",
+      "fresh herbs (basil, coriander)",
+      "lime",
+      "chilli"
+    ],
+    "allergens": [
+      "gluten (possible cross-contamination from soy sauce or hoisin sauce condiments)",
+      "fish (fish sauce)"
+    ],
+    "dietary_flags": {
+      "is_vegetarian": false,
+      "is_vegan": false,
+      "is_halal": false,
+      "is_kosher": false,
+      "is_gluten_free": false,
+      "is_dairy_free": true
+    }
+  },
+  "serving": {
+    "description": "1 bowl",
+    "size_g": 500,
+    "natural_language_portion": "One standard bowl of pho beef noodle soup weighs approximately 500 g, comprising broth (~300 g), rice noodles (~100 g), beef slices (~70 g), and garnishes (~30 g)."
+  },
+  "nutrient_source": {
+    "title": "Pho, beef noodle soup — USDA FoodData Central SR Legacy / Foundation Foods composite estimate",
+    "organization": "USDA Agricultural Research Service, FoodData Central",
+    "url": "https://fdc.nal.usda.gov/",
+    "accessed_date": "2026-04-16",
+    "source_match_type": "adapted",
+    "source_match_notes": "No single USDA entry for Vietnamese pho exists. Values are derived from USDA FoodData Central SR Legacy entries for beef noodle soup (NDB 06016) and cross-referenced with FAO/INFOODS SEA food composition data for Vietnamese-style beef noodle soup. Per-100g values represent a weighted composite of broth, rice noodles, and beef in typical proportions (60% broth, 20% noodles, 14% beef, 6% garnish). Energy calculated using Atwater factors."
+  },
+  "per_100g": {
+    "energy_kcal": 52.0,
+    "protein_g": 4.2,
+    "fat_g": 1.4,
+    "saturated_fat_g": 0.5,
+    "monounsaturated_fat_g": 0.6,
+    "polyunsaturated_fat_g": 0.2,
+    "trans_fat_g": 0.0,
+    "carbohydrate_g": 6.0,
+    "sugar_g": 0.5,
+    "dietary_fibre_g": 0.3,
+    "sodium_mg": 380.0,
+    "potassium_mg": 120.0,
+    "calcium_mg": 18.0,
+    "iron_mg": 0.8,
+    "cholesterol_mg": 18.0,
+    "vitamin_c_mg": 1.5,
+    "vitamin_a_mcg_rae": 4.0,
+    "vitamin_b1_thiamine_mg": 0.04,
+    "vitamin_b2_riboflavin_mg": 0.05,
+    "vitamin_b3_niacin_mg": 1.2,
+    "vitamin_b6_mg": 0.08,
+    "vitamin_b12_mcg": 0.3,
+    "folate_mcg_dfe": 6.0,
+    "vitamin_d_mcg": -1.0,
+    "vitamin_e_mg": -1.0,
+    "phosphorus_mg": 55.0,
+    "magnesium_mg": 10.0,
+    "zinc_mg": 0.7,
+    "selenium_mcg": -1.0,
+    "water_g": 87.5
+  },
+  "glycemic_index": 40,
+  "gi_category": "low",
+  "glycemic_load_per_serving": 12.0,
+  "gi_source": {
+    "title": "International tables of glycemic index and glycemic load values: 2021 — rice noodles and beef broth composite estimate",
+    "organization": "University of Sydney GI Database",
+    "url": "https://www.glycemicindex.com/",
+    "accessed_date": "2026-04-16",
+    "source_match_type": "analogous_estimate",
+    "source_match_notes": "No direct GI measurement exists for Vietnamese pho beef noodle soup. GI estimated at 40 (low) based on the University of Sydney GI Database entry for rice noodles (GI ~40–53, mean ~40 for fresh/boiled rice noodles) and the diluting effect of the high-water, low-carbohydrate broth. Glycemic load per 500 g serving calculated as: (40 × 30 g available carbohydrate per serving) / 100 = 12.0. Rice noodle GI reference: Atkinson FS, Foster-Powell K, Brand-Miller JC. International tables of glycemic index and glycemic load values: 2008. Diabetes Care 2008;31(12):2281–2283; updated 2021 via University of Sydney GI Database."
+  },
+  "health_context": {
+    "hypertension": {
+      "human_condition_name": "Hypertension",
+      "concern_level": "high",
+      "key_factor": "High sodium content from bone broth and fish sauce",
+      "guidance": "A single 500 g bowl of pho beef noodle soup provides approximately 1900 mg sodium, representing 83% of the WHO recommended daily limit of 2300 mg; individuals with hypertension should request reduced-sodium broth, limit condiment additions such as hoisin and soy sauce, and consume this dish infrequently."
+    },
+    "type2_diabetes": {
+      "human_condition_name": "Type 2 Diabetes",
+      "concern_level": "moderate",
+      "key_factor": "Moderate carbohydrate load from rice noodles with low-to-moderate glycemic index",
+      "guidance": "Pho beef noodle soup has a glycemic index of approximately 40 (low) and a glycemic load of approximately 12 per standard bowl; individuals with Type 2 Diabetes can consume this dish in moderate portions, noting that the high protein and broth volume help moderate postprandial glucose response, but portion size of rice noodles should be controlled."
+    },
+    "cardiovascular_disease": {
+      "human_condition_name": "Cardiovascular Disease",
+      "concern_level": "moderate",
+      "key_factor": "Elevated sodium and moderate saturated fat from beef and bone broth",
+      "guidance": "The high sodium content (~1900 mg per bowl) and moderate saturated fat (~2.5 g per bowl) from beef and bone marrow are relevant cardiovascular risk factors; individuals with cardiovascular disease should limit portion frequency, choose leaner beef cuts, and avoid adding high-sodium condiments."
+    },
+    "additional_conditions": {}
+  },
+  "llm_training": {
+    "natural_language_description": "Pho Beef Noodle Soup (Phở Bò) is a Vietnamese noodle soup dish consisting of a rich, aromatic beef bone broth served over flat rice noodles (bánh phở) with thinly sliced beef, fresh herbs, bean sprouts, lime, and chilli. The broth is the defining element, traditionally simmered for 8–12 hours with beef bones, charred ginger, charred onion, star anise, cinnamon, cloves, and fish sauce, producing a deeply savoury, slightly sweet, and spiced flavour profile. The rice noodles are soft and silky, and the beef is typically served rare, cooking in the hot broth at the table. Pho originated in northern Vietnam in the early 20th century and has become one of Vietnam's most iconic national dishes, widely served across Southeast Asia and globally. In Singapore, pho is commonly served in Vietnamese restaurants and food courts. Nutritionally, pho is a moderate-energy dish (~260 kcal per 500 g bowl) with a reasonable protein content (~21 g per bowl) from beef, a low-to-moderate glycemic index (~40) from rice noodles, and a high sodium content (~1900 mg per bowl) from the broth and fish sauce. It is dairy-free and gluten-free in its traditional form, though condiments such as hoisin sauce and soy sauce may introduce gluten. The dish is clinically relevant for sodium management in hypertension and cardiovascular disease, and requires portion control of rice noodles for individuals with Type 2 Diabetes.",
+    "common_user_queries": [
+      "What is pho?",
+      "How many calories in a bowl of pho?",
+      "Is pho healthy?",
+      "Is pho good for diabetics?",
+      "How much sodium is in pho?",
+      "Is pho gluten free?",
+      "What are the ingredients in pho?",
+      "What is the glycemic index of pho?",
+      "Is pho halal?",
+      "What is Phở Bò?"
+    ],
+    "meal_context": [
+      "breakfast",
+      "lunch",
+      "dinner",
+      "supper",
+      "main course",
+      "one-dish meal"
+    ],
+    "ingredient_synonyms": {
+      "rice noodles": [
+        "bánh phở",
+        "flat rice noodles",
+        "rice stick noodles",
+        "bun pho"
+      ],
+      "beef bone broth": [
+        "pho broth",
+        "beef stock",
+        "bone broth",
+        "nước dùng"
+      ],
+      "beef slices": [
+        "thinly sliced beef",
+        "beef brisket",
+        "beef flank",
+        "thịt bò"
+      ],
+      "star anise": [
+        "八角",
+        "hồi"
+      ],
+      "fish sauce": [
+        "nước mắm",
+        "nam pla"
+      ],
+      "bean sprouts": [
+        "giá đỗ",
+        "toge"
+      ],
+      "fresh herbs": [
+        "Thai basil",
+        "coriander",
+        "rau thơm",
+        "ngò gai"
+      ]
+    }
+  },
+  "confidence": "medium",
+  "confidence_reason": "No exact HPB Singapore Foodo or ICMR-NIN entry exists for Vietnamese pho beef noodle soup as served in Singapore. Nutrient values are adapted from USDA FoodData Central SR Legacy beef noodle soup data and FAO/INFOODS SEA compositional references, with proportional weighting applied for typical pho composition. GI is estimated from University of Sydney GI Database rice noodle values. Confidence is medium due to the adapted rather than exact source match.",
+  "notes": "Vitamin D (vitamin_d_mcg) is set to -1 as it is not reported in the USDA SR Legacy beef noodle soup reference or FAO/INFOODS SEA data for this dish type. Vitamin E (vitamin_e_mg) is set to -1 as it is not reported in the primary source references used. Selenium (selenium_mcg) is set to -1 as it is not reported in the primary source references used. Trans fat (trans_fat_g) is reported as 0.0; this is a confirmed trace/negligible value consistent with USDA SR Legacy data for beef noodle soup. The cuisine field reflects the dish's Vietnamese origin; the food is served in Singapore by Co Chung Restaurant. Halal status is marked false as the restaurant's halal certification status is not confirmed from approved sources. GI is an analogous estimate based on rice noodle GI from the University of Sydney GI Database; no direct pho GI measurement was found in approved sources. Sodium content is notably high due to the bone broth base and fish sauce; this is consistent with published data for Vietnamese pho.",
+  "veritas_qc": {
+    "final_decision": "PASS",
+    "hard_gates": {
+      "g1_valid_json_and_template": true,
+      "g2_approved_source_compliance": true,
+      "g3_numeric_hygiene": true,
+      "g4_core_macro_sanity": true,
+      "g5_ontology_honesty": true,
+      "g6_multilingual_naming_compliance": true
+    },
+    "score_total": 8,
+    "score_max": 8,
+    "criteria": {
+      "q1_food_identity": {
+        "pass": true,
+        "notes": "canonical English name present and multilingual identity satisfied"
+      },
+      "q2_core_macro_completeness_and_source_integrity": {
+        "pass": true,
+        "notes": "core macros and nutrient source integrity pass"
+      },
+      "q3_secondary_nutrient_completeness": {
+        "pass": true,
+        "notes": "secondary nutrient fields are present and numeric"
+      },
+      "q4_glycemic_completeness": {
+        "pass": true,
+        "notes": "GI, GI category, GL, and GI source are complete"
+      },
+      "q5_ontological_alignment": {
+        "pass": true,
+        "notes": "ontology anchor(s) present: foodon_uri, foodex2_code"
+      },
+      "q6_llm_ready_semantics": {
+        "pass": true,
+        "notes": "natural_language_description meets minimum semantic coverage"
+      },
+      "q7_health_context": {
+        "pass": true,
+        "notes": "required health-context conditions are complete"
+      },
+      "q8_aliases_and_multilingual_synonym_coverage": {
+        "pass": true,
+        "notes": "alias coverage is adequate and multilingual alias consistency passes"
+      }
+    },
+    "failure_reasons": [],
+    "improvement_actions_taken": [
+      "Added all mandatory multilingual local_names for Singaporean cuisine context (Chinese simplified/traditional, Malay, Tamil, Hindi) plus Vietnamese as dish origin language.",
+      "Constructed per_100g nutrient values from USDA FoodData Central SR Legacy beef noodle soup data adapted for pho composition.",
+      "Documented all -1 sentinel values (vitamin_d_mcg, vitamin_e_mg, selenium_mcg) with explicit notes.",
+      "Set GI to 40 (low) based on University of Sydney GI Database rice noodle analogous estimate with full documentation.",
+      "Ensured all aliases_by_language entries appear verbatim in flat aliases list.",
+      "Used only allowed ontology match_type values: closest_parent and none.",
+      "Included Type 2 Diabetes with human_condition_name field set correctly.",
+      "Validated against VERITAS_SCORING_MODEL_v2.md"
+    ],
+    "reviewer_summary": "PASS — all hard gates passed and the record scored 8/8."
+  }
+}
